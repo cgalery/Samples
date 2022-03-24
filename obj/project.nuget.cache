@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4Vl/EL0YT8UvIdMCTe5nKR8ql4nSHAZuzVZjXkRrSdEvCoe8MLn287nR1iIG8W5YtBRZ/HPV+27+o28aHTPwgQ==",
+  "dgSpecHash": "C0T8kr7Sb5B3DD0ZSmspCJH8FJxN5cYDLWwICkn6esVRTrMzBW8xy/VJL7V/N4wcpw55WsfJMno/iOPmSxoL9g==",
   "success": true,
   "projectFilePath": "C:\\src\\fuzzing\\Fuzzing2\\Samples.csproj",
   "expectedPackageFiles": [

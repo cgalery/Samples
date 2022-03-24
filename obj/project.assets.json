@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "dnlib/3.3.1": {
         "type": "package",
         "dependencies": {
@@ -619,7 +619,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "FlatSharp.Compiler >= 6.2.1",
       "Grpc >= 2.38.1",
       "SharpFuzz >= 1.6.2"
@@ -646,7 +646,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -655,8 +655,8 @@
         "https://skype.pkgs.visualstudio.com/_packaging/tps/nuget/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -667,8 +667,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "FlatSharp.Compiler": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
