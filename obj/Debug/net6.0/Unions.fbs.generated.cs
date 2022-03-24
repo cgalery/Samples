@@ -21,7 +21,7 @@ using FlatSharp.Internal;
 #nullable enable
 namespace FlatSharp.Compiler.Generated
 {
-    internal static class CloneHelpers_53281d5d72fc46b498bb819ad151f7ba
+    internal static class CloneHelpers_1e418ad233624c29bb959d6cd903755a
     {
         [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
         public static global::Samples.Unions.CatBreed Clone(global::Samples.Unions.CatBreed item)
@@ -66,9 +66,9 @@ namespace FlatSharp.Compiler.Generated
 
                 return item.Discriminator switch
                 {
-                    1 => new global::Samples.Unions.Pet(FlatSharp.Compiler.Generated.CloneHelpers_53281d5d72fc46b498bb819ad151f7ba.Clone(item.Item1)),
-                    2 => new global::Samples.Unions.Pet(FlatSharp.Compiler.Generated.CloneHelpers_53281d5d72fc46b498bb819ad151f7ba.Clone(item.Item2)),
-                    3 => new global::Samples.Unions.Pet(FlatSharp.Compiler.Generated.CloneHelpers_53281d5d72fc46b498bb819ad151f7ba.Clone(item.Item3)),
+                    1 => new global::Samples.Unions.Pet(FlatSharp.Compiler.Generated.CloneHelpers_1e418ad233624c29bb959d6cd903755a.Clone(item.Item1)),
+                    2 => new global::Samples.Unions.Pet(FlatSharp.Compiler.Generated.CloneHelpers_1e418ad233624c29bb959d6cd903755a.Clone(item.Item2)),
+                    3 => new global::Samples.Unions.Pet(FlatSharp.Compiler.Generated.CloneHelpers_1e418ad233624c29bb959d6cd903755a.Clone(item.Item3)),
                     _ => throw new InvalidOperationException("Unexpected union discriminator")
                 };
             }
@@ -150,7 +150,7 @@ namespace FlatSharp.Compiler.Generated
 
                 if (item.HasValue)
                 {
-                    return FlatSharp.Compiler.Generated.CloneHelpers_53281d5d72fc46b498bb819ad151f7ba.Clone(item.Value);
+                    return FlatSharp.Compiler.Generated.CloneHelpers_1e418ad233624c29bb959d6cd903755a.Clone(item.Value);
                 }
 
                 return null;
@@ -478,8 +478,8 @@ namespace Samples.Unions
         {
             checked
             {
-                this.Breed = FlatSharp.Compiler.Generated.CloneHelpers_53281d5d72fc46b498bb819ad151f7ba.Clone(source.Breed);
-                this.Name = FlatSharp.Compiler.Generated.CloneHelpers_53281d5d72fc46b498bb819ad151f7ba.Clone(source.Name);
+                this.Breed = FlatSharp.Compiler.Generated.CloneHelpers_1e418ad233624c29bb959d6cd903755a.Clone(source.Breed);
+                this.Name = FlatSharp.Compiler.Generated.CloneHelpers_1e418ad233624c29bb959d6cd903755a.Clone(source.Name);
                 this.OnInitialized(null);
             }
         }
@@ -529,8 +529,8 @@ namespace Samples.Unions
         {
             checked
             {
-                this.Breed = FlatSharp.Compiler.Generated.CloneHelpers_53281d5d72fc46b498bb819ad151f7ba.Clone(source.Breed);
-                this.Name = FlatSharp.Compiler.Generated.CloneHelpers_53281d5d72fc46b498bb819ad151f7ba.Clone(source.Name);
+                this.Breed = FlatSharp.Compiler.Generated.CloneHelpers_1e418ad233624c29bb959d6cd903755a.Clone(source.Breed);
+                this.Name = FlatSharp.Compiler.Generated.CloneHelpers_1e418ad233624c29bb959d6cd903755a.Clone(source.Name);
                 this.OnInitialized(null);
             }
         }
@@ -581,9 +581,9 @@ namespace Samples.Unions
         {
             checked
             {
-                this.Kind = FlatSharp.Compiler.Generated.CloneHelpers_53281d5d72fc46b498bb819ad151f7ba.Clone(source.Kind);
-                this.Weight = FlatSharp.Compiler.Generated.CloneHelpers_53281d5d72fc46b498bb819ad151f7ba.Clone(source.Weight);
-                this.Name = FlatSharp.Compiler.Generated.CloneHelpers_53281d5d72fc46b498bb819ad151f7ba.Clone(source.Name);
+                this.Kind = FlatSharp.Compiler.Generated.CloneHelpers_1e418ad233624c29bb959d6cd903755a.Clone(source.Kind);
+                this.Weight = FlatSharp.Compiler.Generated.CloneHelpers_1e418ad233624c29bb959d6cd903755a.Clone(source.Weight);
+                this.Name = FlatSharp.Compiler.Generated.CloneHelpers_1e418ad233624c29bb959d6cd903755a.Clone(source.Name);
                 this.OnInitialized(null);
             }
         }
@@ -635,7 +635,7 @@ namespace Samples.Unions
         {
             checked
             {
-                this.Pet = FlatSharp.Compiler.Generated.CloneHelpers_53281d5d72fc46b498bb819ad151f7ba.Clone(source.Pet);
+                this.Pet = FlatSharp.Compiler.Generated.CloneHelpers_1e418ad233624c29bb959d6cd903755a.Clone(source.Pet);
                 this.OnInitialized(null);
             }
         }

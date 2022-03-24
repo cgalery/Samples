@@ -21,7 +21,7 @@ using FlatSharp.Internal;
 #nullable enable
 namespace FlatSharp.Compiler.Generated
 {
-    internal static class CloneHelpers_302cd90bacd64b478edfeca5fb9402de
+    internal static class CloneHelpers_00c9d3a3069f40e4bc60e136644dd04e
     {
         [return: System.Diagnostics.CodeAnalysis.NotNullIfNotNull("item")]
         [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
@@ -77,7 +77,7 @@ namespace Samples.IncludesExample
         {
             checked
             {
-                this.String = FlatSharp.Compiler.Generated.CloneHelpers_302cd90bacd64b478edfeca5fb9402de.Clone(source.String);
+                this.String = FlatSharp.Compiler.Generated.CloneHelpers_00c9d3a3069f40e4bc60e136644dd04e.Clone(source.String);
                 this.OnInitialized(null);
             }
         }

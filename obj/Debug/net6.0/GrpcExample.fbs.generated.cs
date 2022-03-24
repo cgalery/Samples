@@ -21,7 +21,7 @@ using FlatSharp.Internal;
 #nullable enable
 namespace FlatSharp.Compiler.Generated
 {
-    internal static class CloneHelpers_df38544bff6941ccb60da02ab528f999
+    internal static class CloneHelpers_ecb8d87a3a894cac830aa9908b1ebfeb
     {
         [return: System.Diagnostics.CodeAnalysis.NotNullIfNotNull("item")]
         [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
@@ -39,7 +39,7 @@ namespace FlatSharp.Compiler.Generated
         {
             checked
             {
-                return VectorCloneHelpers.Clone<System.String>(item, FlatSharp.Compiler.Generated.CloneHelpers_df38544bff6941ccb60da02ab528f999.Clone);
+                return VectorCloneHelpers.Clone<System.String>(item, FlatSharp.Compiler.Generated.CloneHelpers_ecb8d87a3a894cac830aa9908b1ebfeb.Clone);
             }
         }
 
@@ -98,7 +98,7 @@ namespace Samples.GrpcExample
         {
             checked
             {
-                this.Message = FlatSharp.Compiler.Generated.CloneHelpers_df38544bff6941ccb60da02ab528f999.Clone(source.Message);
+                this.Message = FlatSharp.Compiler.Generated.CloneHelpers_ecb8d87a3a894cac830aa9908b1ebfeb.Clone(source.Message);
                 this.OnInitialized(null);
             }
         }
@@ -164,7 +164,7 @@ namespace Samples.GrpcExample
             {
                 checked
                 {
-                    WriteInlineValueOf_f9b9b33e6ef447998a9386db2806dc66(writer, target, root, offset, context);
+                    WriteInlineValueOf_202c7afc8c99427dbfad8040deaaf611(writer, target, root, offset, context);
                 }
             }
 
@@ -172,7 +172,7 @@ namespace Samples.GrpcExample
             {
                 checked
                 {
-                    return GetMaxSizeOf_f9b9b33e6ef447998a9386db2806dc66(root);
+                    return GetMaxSizeOf_202c7afc8c99427dbfad8040deaaf611(root);
                 }
             }
 
@@ -181,11 +181,11 @@ namespace Samples.GrpcExample
             {
                 checked
                 {
-                    return Read_f9b9b33e6ef447998a9386db2806dc66(buffer, offset);
+                    return Read_202c7afc8c99427dbfad8040deaaf611(buffer, offset);
                 }
             }
 
-            private static int GetMaxSizeOf_f9b9b33e6ef447998a9386db2806dc66(global::Samples.GrpcExample.MultiMessage value)
+            private static int GetMaxSizeOf_202c7afc8c99427dbfad8040deaaf611(global::Samples.GrpcExample.MultiMessage value)
             {
                 checked
                 {
@@ -195,25 +195,25 @@ namespace Samples.GrpcExample
 
                     if (!(index0Value is null))
                     {
-                        runningSum += GetMaxSizeOf_b51078350bc9410aad8005e4bc423e4d(index0Value);
+                        runningSum += GetMaxSizeOf_0d23c5ed491748df95ed57bbcd628884(index0Value);
                     }
                     return runningSum;
 
                 }
             }
 
-            private static global::Samples.GrpcExample.MultiMessage Read_f9b9b33e6ef447998a9386db2806dc66<TInputBuffer>(
+            private static global::Samples.GrpcExample.MultiMessage Read_202c7afc8c99427dbfad8040deaaf611<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return tableReader_12302f2c8dc041b2a9a1dd4ce55f2a30<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
+                    return tableReader_b6570bceaa7d47989f21fd2eff48641f<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
                 }
             }
 
-            private sealed class tableReader_12302f2c8dc041b2a9a1dd4ce55f2a30<TInputBuffer>
+            private sealed class tableReader_b6570bceaa7d47989f21fd2eff48641f<TInputBuffer>
                 : global::Samples.GrpcExample.MultiMessage
                 , global::FlatSharp.IFlatBufferDeserializedObject
                 where TInputBuffer : IInputBuffer
@@ -227,18 +227,18 @@ namespace Samples.GrpcExample
                 private int __offset;
                 private VTable4 __vtable;
 
-                public static tableReader_12302f2c8dc041b2a9a1dd4ce55f2a30<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
+                public static tableReader_b6570bceaa7d47989f21fd2eff48641f<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
                 {
                     checked
                     {
 
-                        var item = new tableReader_12302f2c8dc041b2a9a1dd4ce55f2a30<TInputBuffer>(buffer, offset);
+                        var item = new tableReader_b6570bceaa7d47989f21fd2eff48641f<TInputBuffer>(buffer, offset);
                         return item;
 
                     }
                 }
 
-                private tableReader_12302f2c8dc041b2a9a1dd4ce55f2a30(TInputBuffer buffer, int offset) : base(__CtorContext)
+                private tableReader_b6570bceaa7d47989f21fd2eff48641f(TInputBuffer buffer, int offset) : base(__CtorContext)
                 {
                     checked
                     {
@@ -295,14 +295,14 @@ namespace Samples.GrpcExample
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_b51078350bc9410aad8005e4bc423e4d(buffer, absoluteLocation, tableMetadata_03a64936258a46dcbe45f0d37cfd501e.Message);
+                        return Read_0d23c5ed491748df95ed57bbcd628884(buffer, absoluteLocation, tableMetadata_6af76c1e03c941228f4fe17ccad4f56d.Message);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_f9b9b33e6ef447998a9386db2806dc66<TSpanWriter>(
+            private static void WriteInlineValueOf_202c7afc8c99427dbfad8040deaaf611<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.GrpcExample.MultiMessage value,
@@ -349,14 +349,14 @@ namespace Samples.GrpcExample
                     {
 
 
-                        WriteInlineValueOf_b51078350bc9410aad8005e4bc423e4d(spanWriter, span, index0Value!, index0Offset, context, tableMetadata_03a64936258a46dcbe45f0d37cfd501e.Message);
+                        WriteInlineValueOf_0d23c5ed491748df95ed57bbcd628884(spanWriter, span, index0Value!, index0Offset, context, tableMetadata_6af76c1e03c941228f4fe17ccad4f56d.Message);
 
                     }
 
                 }
             }
 
-            private static class tableMetadata_03a64936258a46dcbe45f0d37cfd501e
+            private static class tableMetadata_6af76c1e03c941228f4fe17ccad4f56d
             {
 
                 public static readonly TableFieldContext Message = new TableFieldContext(
@@ -367,7 +367,7 @@ namespace Samples.GrpcExample
 
 
 
-            private static int GetMaxSizeOf_b51078350bc9410aad8005e4bc423e4d(global::System.Collections.Generic.IList<System.String> value)
+            private static int GetMaxSizeOf_0d23c5ed491748df95ed57bbcd628884(global::System.Collections.Generic.IList<System.String> value)
             {
                 checked
                 {
@@ -383,7 +383,7 @@ namespace Samples.GrpcExample
                             var current = array[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            runningSum += GetMaxSizeOf_8ac851873f684ba792d1a05d03ed68d8(current);
+                            runningSum += GetMaxSizeOf_7f6962f0f66a4d56a7837cbc1486b76e(current);
                         }
                     }
                     else if (value is List<System.String> realList)
@@ -395,7 +395,7 @@ namespace Samples.GrpcExample
                             var current = realList[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            runningSum += GetMaxSizeOf_8ac851873f684ba792d1a05d03ed68d8(current);
+                            runningSum += GetMaxSizeOf_7f6962f0f66a4d56a7837cbc1486b76e(current);
                         }
                     }
                     else
@@ -407,7 +407,7 @@ namespace Samples.GrpcExample
                             var current = value[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            runningSum += GetMaxSizeOf_8ac851873f684ba792d1a05d03ed68d8(current);
+                            runningSum += GetMaxSizeOf_7f6962f0f66a4d56a7837cbc1486b76e(current);
                         }
                     }
 
@@ -415,14 +415,14 @@ namespace Samples.GrpcExample
                 }
             }
 
-            private static global::System.Collections.Generic.IList<System.String> Read_b51078350bc9410aad8005e4bc423e4d<TInputBuffer>(
+            private static global::System.Collections.Generic.IList<System.String> Read_0d23c5ed491748df95ed57bbcd628884<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 , TableFieldContext fieldContext) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return new FlatBufferVector_9d215d822de94284a79004622aefe571<TInputBuffer>(
+                    return new FlatBufferVector_7a764c18e60f426cbd4f3c2247e9f3f0<TInputBuffer>(
                     buffer,
                     offset + buffer.ReadUOffset(offset),
                     4,
@@ -430,10 +430,10 @@ namespace Samples.GrpcExample
                 }
             }
 
-            public sealed class FlatBufferVector_9d215d822de94284a79004622aefe571<TInputBuffer> : FlatBufferVector<global::System.String, TInputBuffer>
+            public sealed class FlatBufferVector_7a764c18e60f426cbd4f3c2247e9f3f0<TInputBuffer> : FlatBufferVector<global::System.String, TInputBuffer>
                 where TInputBuffer : IInputBuffer
             {
-                public FlatBufferVector_9d215d822de94284a79004622aefe571(
+                public FlatBufferVector_7a764c18e60f426cbd4f3c2247e9f3f0(
                     TInputBuffer memory,
                     int offset,
                     int itemSize,
@@ -452,7 +452,7 @@ namespace Samples.GrpcExample
                 {
                     checked
                     {
-                        item = Read_8ac851873f684ba792d1a05d03ed68d8(memory, offset);
+                        item = Read_7f6962f0f66a4d56a7837cbc1486b76e(memory, offset);
                     }
                 }
 
@@ -467,7 +467,7 @@ namespace Samples.GrpcExample
 
 
 
-            private static void WriteInlineValueOf_b51078350bc9410aad8005e4bc423e4d<TSpanWriter>(
+            private static void WriteInlineValueOf_0d23c5ed491748df95ed57bbcd628884<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.Collections.Generic.IList<System.String> value,
@@ -493,7 +493,7 @@ namespace Samples.GrpcExample
                             var current = array[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            WriteInlineValueOf_8ac851873f684ba792d1a05d03ed68d8(spanWriter, span, current, vectorOffset, context, fieldContext);
+                            WriteInlineValueOf_7f6962f0f66a4d56a7837cbc1486b76e(spanWriter, span, current, vectorOffset, context, fieldContext);
                             vectorOffset += 4;
                         }
                     }
@@ -506,7 +506,7 @@ namespace Samples.GrpcExample
                             var current = realList[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            WriteInlineValueOf_8ac851873f684ba792d1a05d03ed68d8(spanWriter, span, current, vectorOffset, context, fieldContext);
+                            WriteInlineValueOf_7f6962f0f66a4d56a7837cbc1486b76e(spanWriter, span, current, vectorOffset, context, fieldContext);
                             vectorOffset += 4;
                         }
                     }
@@ -519,14 +519,14 @@ namespace Samples.GrpcExample
                             var current = value[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            WriteInlineValueOf_8ac851873f684ba792d1a05d03ed68d8(spanWriter, span, current, vectorOffset, context, fieldContext);
+                            WriteInlineValueOf_7f6962f0f66a4d56a7837cbc1486b76e(spanWriter, span, current, vectorOffset, context, fieldContext);
                             vectorOffset += 4;
                         }
                     }
                 }
             }
 
-            private static int GetMaxSizeOf_8ac851873f684ba792d1a05d03ed68d8(global::System.String value)
+            private static int GetMaxSizeOf_7f6962f0f66a4d56a7837cbc1486b76e(global::System.String value)
             {
                 checked
                 {
@@ -534,7 +534,7 @@ namespace Samples.GrpcExample
                 }
             }
 
-            private static global::System.String Read_8ac851873f684ba792d1a05d03ed68d8<TInputBuffer>(
+            private static global::System.String Read_7f6962f0f66a4d56a7837cbc1486b76e<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
@@ -545,7 +545,7 @@ namespace Samples.GrpcExample
                 }
             }
 
-            private static void WriteInlineValueOf_8ac851873f684ba792d1a05d03ed68d8<TSpanWriter>(
+            private static void WriteInlineValueOf_7f6962f0f66a4d56a7837cbc1486b76e<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.String value,
@@ -619,7 +619,7 @@ namespace Samples.GrpcExample
         {
             checked
             {
-                this.Message = FlatSharp.Compiler.Generated.CloneHelpers_df38544bff6941ccb60da02ab528f999.Clone(source.Message);
+                this.Message = FlatSharp.Compiler.Generated.CloneHelpers_ecb8d87a3a894cac830aa9908b1ebfeb.Clone(source.Message);
                 this.OnInitialized(null);
             }
         }
@@ -685,7 +685,7 @@ namespace Samples.GrpcExample
             {
                 checked
                 {
-                    WriteInlineValueOf_4de69950cd5a47a2bd0cd63c7055530a(writer, target, root, offset, context);
+                    WriteInlineValueOf_4489a8ffc8684524a29e92a1e8e669d7(writer, target, root, offset, context);
                 }
             }
 
@@ -693,7 +693,7 @@ namespace Samples.GrpcExample
             {
                 checked
                 {
-                    return GetMaxSizeOf_4de69950cd5a47a2bd0cd63c7055530a(root);
+                    return GetMaxSizeOf_4489a8ffc8684524a29e92a1e8e669d7(root);
                 }
             }
 
@@ -702,11 +702,11 @@ namespace Samples.GrpcExample
             {
                 checked
                 {
-                    return Read_4de69950cd5a47a2bd0cd63c7055530a(buffer, offset);
+                    return Read_4489a8ffc8684524a29e92a1e8e669d7(buffer, offset);
                 }
             }
 
-            private static int GetMaxSizeOf_4de69950cd5a47a2bd0cd63c7055530a(global::Samples.GrpcExample.SingleMessage value)
+            private static int GetMaxSizeOf_4489a8ffc8684524a29e92a1e8e669d7(global::Samples.GrpcExample.SingleMessage value)
             {
                 checked
                 {
@@ -716,25 +716,25 @@ namespace Samples.GrpcExample
 
                     if (!(index0Value is null))
                     {
-                        runningSum += GetMaxSizeOf_ac1f79b288ed4019b9e5dbdc98bc3400(index0Value);
+                        runningSum += GetMaxSizeOf_53c724ef809b4d12a91781fdf0923128(index0Value);
                     }
                     return runningSum;
 
                 }
             }
 
-            private static global::Samples.GrpcExample.SingleMessage Read_4de69950cd5a47a2bd0cd63c7055530a<TInputBuffer>(
+            private static global::Samples.GrpcExample.SingleMessage Read_4489a8ffc8684524a29e92a1e8e669d7<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return tableReader_cc1edd3cd7644f9191784d1a397b587b<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
+                    return tableReader_5e49202ae8404d8790d1d4d21ecd4093<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
                 }
             }
 
-            private sealed class tableReader_cc1edd3cd7644f9191784d1a397b587b<TInputBuffer>
+            private sealed class tableReader_5e49202ae8404d8790d1d4d21ecd4093<TInputBuffer>
                 : global::Samples.GrpcExample.SingleMessage
                 , global::FlatSharp.IFlatBufferDeserializedObject
                 where TInputBuffer : IInputBuffer
@@ -748,18 +748,18 @@ namespace Samples.GrpcExample
                 private int __offset;
                 private VTable4 __vtable;
 
-                public static tableReader_cc1edd3cd7644f9191784d1a397b587b<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
+                public static tableReader_5e49202ae8404d8790d1d4d21ecd4093<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
                 {
                     checked
                     {
 
-                        var item = new tableReader_cc1edd3cd7644f9191784d1a397b587b<TInputBuffer>(buffer, offset);
+                        var item = new tableReader_5e49202ae8404d8790d1d4d21ecd4093<TInputBuffer>(buffer, offset);
                         return item;
 
                     }
                 }
 
-                private tableReader_cc1edd3cd7644f9191784d1a397b587b(TInputBuffer buffer, int offset) : base(__CtorContext)
+                private tableReader_5e49202ae8404d8790d1d4d21ecd4093(TInputBuffer buffer, int offset) : base(__CtorContext)
                 {
                     checked
                     {
@@ -816,14 +816,14 @@ namespace Samples.GrpcExample
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_ac1f79b288ed4019b9e5dbdc98bc3400(buffer, absoluteLocation);
+                        return Read_53c724ef809b4d12a91781fdf0923128(buffer, absoluteLocation);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_4de69950cd5a47a2bd0cd63c7055530a<TSpanWriter>(
+            private static void WriteInlineValueOf_4489a8ffc8684524a29e92a1e8e669d7<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.GrpcExample.SingleMessage value,
@@ -870,14 +870,14 @@ namespace Samples.GrpcExample
                     {
 
 
-                        WriteInlineValueOf_ac1f79b288ed4019b9e5dbdc98bc3400(spanWriter, span, index0Value!, index0Offset, context, tableMetadata_0aa83ca2b3cf43f9b76fa6434c538441.Message);
+                        WriteInlineValueOf_53c724ef809b4d12a91781fdf0923128(spanWriter, span, index0Value!, index0Offset, context, tableMetadata_e6bf823ec61447d2bffa201f0643ea41.Message);
 
                     }
 
                 }
             }
 
-            private static class tableMetadata_0aa83ca2b3cf43f9b76fa6434c538441
+            private static class tableMetadata_e6bf823ec61447d2bffa201f0643ea41
             {
 
                 public static readonly TableFieldContext Message = new TableFieldContext(
@@ -888,7 +888,7 @@ namespace Samples.GrpcExample
 
 
 
-            private static int GetMaxSizeOf_ac1f79b288ed4019b9e5dbdc98bc3400(global::System.String value)
+            private static int GetMaxSizeOf_53c724ef809b4d12a91781fdf0923128(global::System.String value)
             {
                 checked
                 {
@@ -896,7 +896,7 @@ namespace Samples.GrpcExample
                 }
             }
 
-            private static global::System.String Read_ac1f79b288ed4019b9e5dbdc98bc3400<TInputBuffer>(
+            private static global::System.String Read_53c724ef809b4d12a91781fdf0923128<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
@@ -907,7 +907,7 @@ namespace Samples.GrpcExample
                 }
             }
 
-            private static void WriteInlineValueOf_ac1f79b288ed4019b9e5dbdc98bc3400<TSpanWriter>(
+            private static void WriteInlineValueOf_53c724ef809b4d12a91781fdf0923128<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.String value,
@@ -980,32 +980,32 @@ namespace Samples.GrpcExample
             }
         }
 
-        private static readonly Grpc.Core.Marshaller<Samples.GrpcExample.SingleMessage> __Marshaller_16f70ca5228549df9a14aabe287c26c2 = CreateMarshaller<Samples.GrpcExample.SingleMessage>();
-        private static readonly Grpc.Core.Marshaller<Samples.GrpcExample.MultiMessage> __Marshaller_eb38432b76ec4b30b3367c703bb6a34b = CreateMarshaller<Samples.GrpcExample.MultiMessage>();
-        private static readonly Grpc.Core.Method<Samples.GrpcExample.SingleMessage, Samples.GrpcExample.SingleMessage> __Method_2367f6e680fe447fa851fb9295a9135b = new Grpc.Core.Method<Samples.GrpcExample.SingleMessage, Samples.GrpcExample.SingleMessage>(
+        private static readonly Grpc.Core.Marshaller<Samples.GrpcExample.SingleMessage> __Marshaller_d3117f8b762643c684a40a0285f55268 = CreateMarshaller<Samples.GrpcExample.SingleMessage>();
+        private static readonly Grpc.Core.Marshaller<Samples.GrpcExample.MultiMessage> __Marshaller_d4f4fbaba9f94ebba7149d58cede1128 = CreateMarshaller<Samples.GrpcExample.MultiMessage>();
+        private static readonly Grpc.Core.Method<Samples.GrpcExample.SingleMessage, Samples.GrpcExample.SingleMessage> __Method_755b495a5f694b73b1d86927575664cc = new Grpc.Core.Method<Samples.GrpcExample.SingleMessage, Samples.GrpcExample.SingleMessage>(
             Grpc.Core.MethodType.Unary,
             "Samples.GrpcExample.EchoService",
             "EchoUnary",
-            __Marshaller_16f70ca5228549df9a14aabe287c26c2,
-            __Marshaller_16f70ca5228549df9a14aabe287c26c2);
-        private static readonly Grpc.Core.Method<Samples.GrpcExample.SingleMessage, Samples.GrpcExample.MultiMessage> __Method_738ba60ffb074817be9ebda0cdf30a21 = new Grpc.Core.Method<Samples.GrpcExample.SingleMessage, Samples.GrpcExample.MultiMessage>(
+            __Marshaller_d3117f8b762643c684a40a0285f55268,
+            __Marshaller_d3117f8b762643c684a40a0285f55268);
+        private static readonly Grpc.Core.Method<Samples.GrpcExample.SingleMessage, Samples.GrpcExample.MultiMessage> __Method_ada45b0f754249e49bc1bba2969fdfac = new Grpc.Core.Method<Samples.GrpcExample.SingleMessage, Samples.GrpcExample.MultiMessage>(
             Grpc.Core.MethodType.ClientStreaming,
             "Samples.GrpcExample.EchoService",
             "EchoClientStreaming",
-            __Marshaller_16f70ca5228549df9a14aabe287c26c2,
-            __Marshaller_eb38432b76ec4b30b3367c703bb6a34b);
-        private static readonly Grpc.Core.Method<Samples.GrpcExample.MultiMessage, Samples.GrpcExample.SingleMessage> __Method_95ffe304446d4c2a946a9eb76dc34349 = new Grpc.Core.Method<Samples.GrpcExample.MultiMessage, Samples.GrpcExample.SingleMessage>(
+            __Marshaller_d3117f8b762643c684a40a0285f55268,
+            __Marshaller_d4f4fbaba9f94ebba7149d58cede1128);
+        private static readonly Grpc.Core.Method<Samples.GrpcExample.MultiMessage, Samples.GrpcExample.SingleMessage> __Method_762241192a4a4f26be7ce9b6bc8aa865 = new Grpc.Core.Method<Samples.GrpcExample.MultiMessage, Samples.GrpcExample.SingleMessage>(
             Grpc.Core.MethodType.ServerStreaming,
             "Samples.GrpcExample.EchoService",
             "EchoServerStreaming",
-            __Marshaller_eb38432b76ec4b30b3367c703bb6a34b,
-            __Marshaller_16f70ca5228549df9a14aabe287c26c2);
-        private static readonly Grpc.Core.Method<Samples.GrpcExample.SingleMessage, Samples.GrpcExample.SingleMessage> __Method_b54a1fc9fc1c40dd87920cda084babd7 = new Grpc.Core.Method<Samples.GrpcExample.SingleMessage, Samples.GrpcExample.SingleMessage>(
+            __Marshaller_d4f4fbaba9f94ebba7149d58cede1128,
+            __Marshaller_d3117f8b762643c684a40a0285f55268);
+        private static readonly Grpc.Core.Method<Samples.GrpcExample.SingleMessage, Samples.GrpcExample.SingleMessage> __Method_3341f5fdfe6f4c5bae892c27a23cf841 = new Grpc.Core.Method<Samples.GrpcExample.SingleMessage, Samples.GrpcExample.SingleMessage>(
             Grpc.Core.MethodType.DuplexStreaming,
             "Samples.GrpcExample.EchoService",
             "EchoDuplex",
-            __Marshaller_16f70ca5228549df9a14aabe287c26c2,
-            __Marshaller_16f70ca5228549df9a14aabe287c26c2);
+            __Marshaller_d3117f8b762643c684a40a0285f55268,
+            __Marshaller_d3117f8b762643c684a40a0285f55268);
         static partial void OnStaticInitialization();
 
         static EchoService()
@@ -1032,10 +1032,10 @@ namespace Samples.GrpcExample
             checked
             {
                 return Grpc.Core.ServerServiceDefinition.CreateBuilder()
-                    .AddMethod(__Method_2367f6e680fe447fa851fb9295a9135b, serviceImpl.EchoUnary)
-                    .AddMethod(__Method_738ba60ffb074817be9ebda0cdf30a21, serviceImpl.EchoClientStreaming)
-                    .AddMethod(__Method_95ffe304446d4c2a946a9eb76dc34349, serviceImpl.EchoServerStreaming)
-                    .AddMethod(__Method_b54a1fc9fc1c40dd87920cda084babd7, serviceImpl.EchoDuplex)
+                    .AddMethod(__Method_755b495a5f694b73b1d86927575664cc, serviceImpl.EchoUnary)
+                    .AddMethod(__Method_ada45b0f754249e49bc1bba2969fdfac, serviceImpl.EchoClientStreaming)
+                    .AddMethod(__Method_762241192a4a4f26be7ce9b6bc8aa865, serviceImpl.EchoServerStreaming)
+                    .AddMethod(__Method_3341f5fdfe6f4c5bae892c27a23cf841, serviceImpl.EchoDuplex)
                     .Build();
             }
         }
@@ -1044,19 +1044,19 @@ namespace Samples.GrpcExample
         {
             checked
             {
-                serviceBinder.AddMethod(__Method_2367f6e680fe447fa851fb9295a9135b,
+                serviceBinder.AddMethod(__Method_755b495a5f694b73b1d86927575664cc,
                     serviceImpl == null
                         ? null
                         : new Grpc.Core.UnaryServerMethod<Samples.GrpcExample.SingleMessage, Samples.GrpcExample.SingleMessage>(serviceImpl.EchoUnary));
-                serviceBinder.AddMethod(__Method_738ba60ffb074817be9ebda0cdf30a21,
+                serviceBinder.AddMethod(__Method_ada45b0f754249e49bc1bba2969fdfac,
                     serviceImpl == null
                         ? null
                         : new Grpc.Core.ClientStreamingServerMethod<Samples.GrpcExample.SingleMessage, Samples.GrpcExample.MultiMessage>(serviceImpl.EchoClientStreaming));
-                serviceBinder.AddMethod(__Method_95ffe304446d4c2a946a9eb76dc34349,
+                serviceBinder.AddMethod(__Method_762241192a4a4f26be7ce9b6bc8aa865,
                     serviceImpl == null
                         ? null
                         : new Grpc.Core.ServerStreamingServerMethod<Samples.GrpcExample.MultiMessage, Samples.GrpcExample.SingleMessage>(serviceImpl.EchoServerStreaming));
-                serviceBinder.AddMethod(__Method_b54a1fc9fc1c40dd87920cda084babd7,
+                serviceBinder.AddMethod(__Method_3341f5fdfe6f4c5bae892c27a23cf841,
                     serviceImpl == null
                         ? null
                         : new Grpc.Core.DuplexStreamingServerMethod<Samples.GrpcExample.SingleMessage, Samples.GrpcExample.SingleMessage>(serviceImpl.EchoDuplex));
@@ -1109,7 +1109,7 @@ namespace Samples.GrpcExample
             {
                 checked
                 {
-                    return CallInvoker.AsyncUnaryCall(__Method_2367f6e680fe447fa851fb9295a9135b, null, options, request);
+                    return CallInvoker.AsyncUnaryCall(__Method_755b495a5f694b73b1d86927575664cc, null, options, request);
                 }
             }
 
@@ -1125,7 +1125,7 @@ namespace Samples.GrpcExample
             {
                 checked
                 {
-                    return CallInvoker.AsyncClientStreamingCall(__Method_738ba60ffb074817be9ebda0cdf30a21, null, options);
+                    return CallInvoker.AsyncClientStreamingCall(__Method_ada45b0f754249e49bc1bba2969fdfac, null, options);
                 }
             }
 
@@ -1141,7 +1141,7 @@ namespace Samples.GrpcExample
             {
                 checked
                 {
-                    return CallInvoker.AsyncServerStreamingCall(__Method_95ffe304446d4c2a946a9eb76dc34349, null, options, request);
+                    return CallInvoker.AsyncServerStreamingCall(__Method_762241192a4a4f26be7ce9b6bc8aa865, null, options, request);
                 }
             }
 
@@ -1157,7 +1157,7 @@ namespace Samples.GrpcExample
             {
                 checked
                 {
-                    return CallInvoker.AsyncDuplexStreamingCall(__Method_b54a1fc9fc1c40dd87920cda084babd7, null, options);
+                    return CallInvoker.AsyncDuplexStreamingCall(__Method_3341f5fdfe6f4c5bae892c27a23cf841, null, options);
                 }
             }
 

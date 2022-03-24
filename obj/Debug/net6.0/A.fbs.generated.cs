@@ -21,7 +21,7 @@ using FlatSharp.Internal;
 #nullable enable
 namespace FlatSharp.Compiler.Generated
 {
-    internal static class CloneHelpers_8e55d070470f4da695ff7788a488ee43
+    internal static class CloneHelpers_e2ff7cb13cd74158b5df5be3f0d94aec
     {
         [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
         public static global::Samples.IncludesExample.EnumFromB Clone(global::Samples.IncludesExample.EnumFromB item)
@@ -152,8 +152,8 @@ namespace Samples.IncludesExample
         {
             checked
             {
-                this.NestedStruct = FlatSharp.Compiler.Generated.CloneHelpers_8e55d070470f4da695ff7788a488ee43.Clone(source.NestedStruct);
-                this.Value = FlatSharp.Compiler.Generated.CloneHelpers_8e55d070470f4da695ff7788a488ee43.Clone(source.Value);
+                this.NestedStruct = FlatSharp.Compiler.Generated.CloneHelpers_e2ff7cb13cd74158b5df5be3f0d94aec.Clone(source.NestedStruct);
+                this.Value = FlatSharp.Compiler.Generated.CloneHelpers_e2ff7cb13cd74158b5df5be3f0d94aec.Clone(source.Value);
                 this.OnInitialized(null);
             }
         }
@@ -206,11 +206,11 @@ namespace Samples.IncludesExample
         {
             checked
             {
-                this.NestedTableB = FlatSharp.Compiler.Generated.CloneHelpers_8e55d070470f4da695ff7788a488ee43.Clone(source.NestedTableB);
-                this.NestedTableC = FlatSharp.Compiler.Generated.CloneHelpers_8e55d070470f4da695ff7788a488ee43.Clone(source.NestedTableC);
-                this.NestedEnum = FlatSharp.Compiler.Generated.CloneHelpers_8e55d070470f4da695ff7788a488ee43.Clone(source.NestedEnum);
-                this.NestedStruct1 = FlatSharp.Compiler.Generated.CloneHelpers_8e55d070470f4da695ff7788a488ee43.Clone(source.NestedStruct1);
-                this.NestedStruct2 = FlatSharp.Compiler.Generated.CloneHelpers_8e55d070470f4da695ff7788a488ee43.Clone(source.NestedStruct2);
+                this.NestedTableB = FlatSharp.Compiler.Generated.CloneHelpers_e2ff7cb13cd74158b5df5be3f0d94aec.Clone(source.NestedTableB);
+                this.NestedTableC = FlatSharp.Compiler.Generated.CloneHelpers_e2ff7cb13cd74158b5df5be3f0d94aec.Clone(source.NestedTableC);
+                this.NestedEnum = FlatSharp.Compiler.Generated.CloneHelpers_e2ff7cb13cd74158b5df5be3f0d94aec.Clone(source.NestedEnum);
+                this.NestedStruct1 = FlatSharp.Compiler.Generated.CloneHelpers_e2ff7cb13cd74158b5df5be3f0d94aec.Clone(source.NestedStruct1);
+                this.NestedStruct2 = FlatSharp.Compiler.Generated.CloneHelpers_e2ff7cb13cd74158b5df5be3f0d94aec.Clone(source.NestedStruct2);
                 this.OnInitialized(null);
             }
         }

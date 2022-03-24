@@ -21,7 +21,7 @@ using FlatSharp.Internal;
 #nullable enable
 namespace FlatSharp.Compiler.Generated
 {
-    internal static class CloneHelpers_4bc393f62ccd41e3882c597ea0f95085
+    internal static class CloneHelpers_70f1966c16c54ced8754446da373e5ce
     {
         [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
         public static global::Samples.IncludesExample.EnumFromB Clone(global::Samples.IncludesExample.EnumFromB item)
@@ -143,8 +143,8 @@ namespace Samples.IncludesExample
         {
             checked
             {
-                this.IntValue = FlatSharp.Compiler.Generated.CloneHelpers_4bc393f62ccd41e3882c597ea0f95085.Clone(source.IntValue);
-                this.LongValue = FlatSharp.Compiler.Generated.CloneHelpers_4bc393f62ccd41e3882c597ea0f95085.Clone(source.LongValue);
+                this.IntValue = FlatSharp.Compiler.Generated.CloneHelpers_70f1966c16c54ced8754446da373e5ce.Clone(source.IntValue);
+                this.LongValue = FlatSharp.Compiler.Generated.CloneHelpers_70f1966c16c54ced8754446da373e5ce.Clone(source.LongValue);
                 this.OnInitialized(null);
             }
         }
@@ -194,8 +194,8 @@ namespace Samples.IncludesExample
         {
             checked
             {
-                this.NestedTableC = FlatSharp.Compiler.Generated.CloneHelpers_4bc393f62ccd41e3882c597ea0f95085.Clone(source.NestedTableC);
-                this.String = FlatSharp.Compiler.Generated.CloneHelpers_4bc393f62ccd41e3882c597ea0f95085.Clone(source.String);
+                this.NestedTableC = FlatSharp.Compiler.Generated.CloneHelpers_70f1966c16c54ced8754446da373e5ce.Clone(source.NestedTableC);
+                this.String = FlatSharp.Compiler.Generated.CloneHelpers_70f1966c16c54ced8754446da373e5ce.Clone(source.String);
                 this.OnInitialized(null);
             }
         }

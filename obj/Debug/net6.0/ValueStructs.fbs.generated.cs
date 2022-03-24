@@ -21,7 +21,7 @@ using FlatSharp.Internal;
 #nullable enable
 namespace FlatSharp.Compiler.Generated
 {
-    internal static class CloneHelpers_9970c64b9cb34d84b3b9f9b7bba9866f
+    internal static class CloneHelpers_56adae656ca04e6080669850f6e2cb6e
     {
         [return: System.Diagnostics.CodeAnalysis.NotNullIfNotNull("item")]
         [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
@@ -96,7 +96,7 @@ namespace Samples.ValueStructs
         {
             checked
             {
-                this.Points = FlatSharp.Compiler.Generated.CloneHelpers_9970c64b9cb34d84b3b9f9b7bba9866f.Clone(source.Points);
+                this.Points = FlatSharp.Compiler.Generated.CloneHelpers_56adae656ca04e6080669850f6e2cb6e.Clone(source.Points);
                 this.OnInitialized(null);
             }
         }
@@ -162,7 +162,7 @@ namespace Samples.ValueStructs
             {
                 checked
                 {
-                    WriteInlineValueOf_b3a72d88201349d49adda2eafa9ccf6d(writer, target, root, offset, context);
+                    WriteInlineValueOf_a161c429a23a4180a5229437b5da169a(writer, target, root, offset, context);
                 }
             }
 
@@ -170,7 +170,7 @@ namespace Samples.ValueStructs
             {
                 checked
                 {
-                    return GetMaxSizeOf_b3a72d88201349d49adda2eafa9ccf6d(root);
+                    return GetMaxSizeOf_a161c429a23a4180a5229437b5da169a(root);
                 }
             }
 
@@ -179,11 +179,11 @@ namespace Samples.ValueStructs
             {
                 checked
                 {
-                    return Read_b3a72d88201349d49adda2eafa9ccf6d(buffer, offset);
+                    return Read_a161c429a23a4180a5229437b5da169a(buffer, offset);
                 }
             }
 
-            private static int GetMaxSizeOf_b3a72d88201349d49adda2eafa9ccf6d(global::Samples.ValueStructs.Path value)
+            private static int GetMaxSizeOf_a161c429a23a4180a5229437b5da169a(global::Samples.ValueStructs.Path value)
             {
                 checked
                 {
@@ -193,25 +193,25 @@ namespace Samples.ValueStructs
 
                     if (!(index0Value is null))
                     {
-                        runningSum += GetMaxSizeOf_0d5375c18de0405fb108cefa3b4bbc2f(index0Value);
+                        runningSum += GetMaxSizeOf_1a89404d24794c6c980e070d4a7ff590(index0Value);
                     }
                     return runningSum;
 
                 }
             }
 
-            private static global::Samples.ValueStructs.Path Read_b3a72d88201349d49adda2eafa9ccf6d<TInputBuffer>(
+            private static global::Samples.ValueStructs.Path Read_a161c429a23a4180a5229437b5da169a<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return tableReader_0c1cab49f1064f52b501f80d70c61123<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
+                    return tableReader_3c77f889df7c4481b92c299a2a08d102<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
                 }
             }
 
-            private sealed class tableReader_0c1cab49f1064f52b501f80d70c61123<TInputBuffer>
+            private sealed class tableReader_3c77f889df7c4481b92c299a2a08d102<TInputBuffer>
                 : global::Samples.ValueStructs.Path
                 , global::FlatSharp.IFlatBufferDeserializedObject
                 where TInputBuffer : IInputBuffer
@@ -225,18 +225,18 @@ namespace Samples.ValueStructs
                 private int __offset;
                 private VTable4 __vtable;
 
-                public static tableReader_0c1cab49f1064f52b501f80d70c61123<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
+                public static tableReader_3c77f889df7c4481b92c299a2a08d102<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
                 {
                     checked
                     {
 
-                        var item = new tableReader_0c1cab49f1064f52b501f80d70c61123<TInputBuffer>(buffer, offset);
+                        var item = new tableReader_3c77f889df7c4481b92c299a2a08d102<TInputBuffer>(buffer, offset);
                         return item;
 
                     }
                 }
 
-                private tableReader_0c1cab49f1064f52b501f80d70c61123(TInputBuffer buffer, int offset) : base(__CtorContext)
+                private tableReader_3c77f889df7c4481b92c299a2a08d102(TInputBuffer buffer, int offset) : base(__CtorContext)
                 {
                     checked
                     {
@@ -293,14 +293,14 @@ namespace Samples.ValueStructs
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_0d5375c18de0405fb108cefa3b4bbc2f(buffer, absoluteLocation, tableMetadata_672490b56c63450ca6fe6d1192ff836c.Points);
+                        return Read_1a89404d24794c6c980e070d4a7ff590(buffer, absoluteLocation, tableMetadata_9b95e06ee42d4c48a11cbcb3560d46da.Points);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_b3a72d88201349d49adda2eafa9ccf6d<TSpanWriter>(
+            private static void WriteInlineValueOf_a161c429a23a4180a5229437b5da169a<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.ValueStructs.Path value,
@@ -343,14 +343,14 @@ namespace Samples.ValueStructs
                     {
 
 
-                        WriteInlineValueOf_0d5375c18de0405fb108cefa3b4bbc2f(spanWriter, span, index0Value!, index0Offset, context);
+                        WriteInlineValueOf_1a89404d24794c6c980e070d4a7ff590(spanWriter, span, index0Value!, index0Offset, context);
 
                     }
 
                 }
             }
 
-            private static class tableMetadata_672490b56c63450ca6fe6d1192ff836c
+            private static class tableMetadata_9b95e06ee42d4c48a11cbcb3560d46da
             {
 
                 public static readonly TableFieldContext Points = new TableFieldContext(
@@ -361,7 +361,7 @@ namespace Samples.ValueStructs
 
 
 
-            private static int GetMaxSizeOf_0d5375c18de0405fb108cefa3b4bbc2f(global::System.Collections.Generic.IList<Samples.ValueStructs.Point> value)
+            private static int GetMaxSizeOf_1a89404d24794c6c980e070d4a7ff590(global::System.Collections.Generic.IList<Samples.ValueStructs.Point> value)
             {
                 checked
                 {
@@ -369,14 +369,14 @@ namespace Samples.ValueStructs
                 }
             }
 
-            private static global::System.Collections.Generic.IList<Samples.ValueStructs.Point> Read_0d5375c18de0405fb108cefa3b4bbc2f<TInputBuffer>(
+            private static global::System.Collections.Generic.IList<Samples.ValueStructs.Point> Read_1a89404d24794c6c980e070d4a7ff590<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 , TableFieldContext fieldContext) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return new FlatBufferVector_bd7355cdbe7a42329fd8c5b4b5363c66<TInputBuffer>(
+                    return new FlatBufferVector_ccc88ef463cf4d73a5882dd037719bf4<TInputBuffer>(
                     buffer,
                     offset + buffer.ReadUOffset(offset),
                     12,
@@ -384,10 +384,10 @@ namespace Samples.ValueStructs
                 }
             }
 
-            public sealed class FlatBufferVector_bd7355cdbe7a42329fd8c5b4b5363c66<TInputBuffer> : FlatBufferVector<global::Samples.ValueStructs.Point, TInputBuffer>
+            public sealed class FlatBufferVector_ccc88ef463cf4d73a5882dd037719bf4<TInputBuffer> : FlatBufferVector<global::Samples.ValueStructs.Point, TInputBuffer>
                 where TInputBuffer : IInputBuffer
             {
-                public FlatBufferVector_bd7355cdbe7a42329fd8c5b4b5363c66(
+                public FlatBufferVector_ccc88ef463cf4d73a5882dd037719bf4(
                     TInputBuffer memory,
                     int offset,
                     int itemSize,
@@ -406,7 +406,7 @@ namespace Samples.ValueStructs
                 {
                     checked
                     {
-                        item = Read_c5c39cc7b3ee474b8d4bdf8af940d87c(memory, offset);
+                        item = Read_ec90bf4663ab42e4841dd8031d07a30e(memory, offset);
                     }
                 }
 
@@ -414,14 +414,14 @@ namespace Samples.ValueStructs
                 {
                     checked
                     {
-                        WriteInlineValueOf_c5c39cc7b3ee474b8d4bdf8af940d87c(default(SpanWriter), data, item, 0);
+                        WriteInlineValueOf_ec90bf4663ab42e4841dd8031d07a30e(default(SpanWriter), data, item, 0);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_0d5375c18de0405fb108cefa3b4bbc2f<TSpanWriter>(
+            private static void WriteInlineValueOf_1a89404d24794c6c980e070d4a7ff590<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.Collections.Generic.IList<Samples.ValueStructs.Point> value,
@@ -447,7 +447,7 @@ namespace Samples.ValueStructs
                             var current = array[i];
 
 
-                            WriteInlineValueOf_c5c39cc7b3ee474b8d4bdf8af940d87c(spanWriter, span, current, vectorOffset);
+                            WriteInlineValueOf_ec90bf4663ab42e4841dd8031d07a30e(spanWriter, span, current, vectorOffset);
                             vectorOffset += 12;
                         }
                     }
@@ -460,7 +460,7 @@ namespace Samples.ValueStructs
                             var current = realList[i];
 
 
-                            WriteInlineValueOf_c5c39cc7b3ee474b8d4bdf8af940d87c(spanWriter, span, current, vectorOffset);
+                            WriteInlineValueOf_ec90bf4663ab42e4841dd8031d07a30e(spanWriter, span, current, vectorOffset);
                             vectorOffset += 12;
                         }
                     }
@@ -473,14 +473,14 @@ namespace Samples.ValueStructs
                             var current = value[i];
 
 
-                            WriteInlineValueOf_c5c39cc7b3ee474b8d4bdf8af940d87c(spanWriter, span, current, vectorOffset);
+                            WriteInlineValueOf_ec90bf4663ab42e4841dd8031d07a30e(spanWriter, span, current, vectorOffset);
                             vectorOffset += 12;
                         }
                     }
                 }
             }
 
-            private static int GetMaxSizeOf_c5c39cc7b3ee474b8d4bdf8af940d87c(global::Samples.ValueStructs.Point value)
+            private static int GetMaxSizeOf_ec90bf4663ab42e4841dd8031d07a30e(global::Samples.ValueStructs.Point value)
             {
                 checked
                 {
@@ -488,7 +488,7 @@ namespace Samples.ValueStructs
                 }
             }
 
-            private static global::Samples.ValueStructs.Point Read_c5c39cc7b3ee474b8d4bdf8af940d87c<TInputBuffer>(
+            private static global::Samples.ValueStructs.Point Read_ec90bf4663ab42e4841dd8031d07a30e<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
@@ -498,15 +498,15 @@ namespace Samples.ValueStructs
 
                     var item = default(global::Samples.ValueStructs.Point);
 
-                    item.X = Read_7d68804567014e81bc42e6fae33aa5a6<TInputBuffer>(
+                    item.X = Read_5f0f5dad55544d6c81629d9b7a0000d3<TInputBuffer>(
                         buffer,
                         offset + 0);
 
-                    item.Y = Read_7d68804567014e81bc42e6fae33aa5a6<TInputBuffer>(
+                    item.Y = Read_5f0f5dad55544d6c81629d9b7a0000d3<TInputBuffer>(
                         buffer,
                         offset + 4);
 
-                    item.Z = Read_7d68804567014e81bc42e6fae33aa5a6<TInputBuffer>(
+                    item.Z = Read_5f0f5dad55544d6c81629d9b7a0000d3<TInputBuffer>(
                         buffer,
                         offset + 8);
                     return item;
@@ -514,7 +514,7 @@ namespace Samples.ValueStructs
                 }
             }
 
-            private static void WriteInlineValueOf_c5c39cc7b3ee474b8d4bdf8af940d87c<TSpanWriter>(
+            private static void WriteInlineValueOf_ec90bf4663ab42e4841dd8031d07a30e<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.ValueStructs.Point value,
@@ -526,14 +526,14 @@ namespace Samples.ValueStructs
                 {
 
                     Span<byte> sizedSpan = span.Slice(offset, 12);
-                    WriteInlineValueOf_7d68804567014e81bc42e6fae33aa5a6(spanWriter, sizedSpan, value.X, 0);
-                    WriteInlineValueOf_7d68804567014e81bc42e6fae33aa5a6(spanWriter, sizedSpan, value.Y, 4);
-                    WriteInlineValueOf_7d68804567014e81bc42e6fae33aa5a6(spanWriter, sizedSpan, value.Z, 8);
+                    WriteInlineValueOf_5f0f5dad55544d6c81629d9b7a0000d3(spanWriter, sizedSpan, value.X, 0);
+                    WriteInlineValueOf_5f0f5dad55544d6c81629d9b7a0000d3(spanWriter, sizedSpan, value.Y, 4);
+                    WriteInlineValueOf_5f0f5dad55544d6c81629d9b7a0000d3(spanWriter, sizedSpan, value.Z, 8);
                 }
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static int GetMaxSizeOf_7d68804567014e81bc42e6fae33aa5a6(global::System.Single value)
+            private static int GetMaxSizeOf_5f0f5dad55544d6c81629d9b7a0000d3(global::System.Single value)
             {
                 checked
                 {
@@ -542,7 +542,7 @@ namespace Samples.ValueStructs
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static global::System.Single Read_7d68804567014e81bc42e6fae33aa5a6<TInputBuffer>(
+            private static global::System.Single Read_5f0f5dad55544d6c81629d9b7a0000d3<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
@@ -554,7 +554,7 @@ namespace Samples.ValueStructs
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static void WriteInlineValueOf_7d68804567014e81bc42e6fae33aa5a6<TSpanWriter>(
+            private static void WriteInlineValueOf_5f0f5dad55544d6c81629d9b7a0000d3<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.Single value,

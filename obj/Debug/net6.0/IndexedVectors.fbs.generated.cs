@@ -21,7 +21,7 @@ using FlatSharp.Internal;
 #nullable enable
 namespace FlatSharp.Compiler.Generated
 {
-    internal static class CloneHelpers_a9fe71282f284bbc8cebdc4decaac498
+    internal static class CloneHelpers_5d0e73f3b14b424c86c0c357c78f12be
     {
         [return: System.Diagnostics.CodeAnalysis.NotNullIfNotNull("item")]
         [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
@@ -39,7 +39,7 @@ namespace FlatSharp.Compiler.Generated
         {
             checked
             {
-                return VectorCloneHelpers.Clone<System.String, Samples.IndexedVectors.UserFbs>(item, FlatSharp.Compiler.Generated.CloneHelpers_a9fe71282f284bbc8cebdc4decaac498.Clone);
+                return VectorCloneHelpers.Clone<System.String, Samples.IndexedVectors.UserFbs>(item, FlatSharp.Compiler.Generated.CloneHelpers_5d0e73f3b14b424c86c0c357c78f12be.Clone);
             }
         }
 
@@ -97,7 +97,7 @@ namespace Samples.IndexedVectors
         {
             checked
             {
-                this.Users = FlatSharp.Compiler.Generated.CloneHelpers_a9fe71282f284bbc8cebdc4decaac498.Clone(source.Users);
+                this.Users = FlatSharp.Compiler.Generated.CloneHelpers_5d0e73f3b14b424c86c0c357c78f12be.Clone(source.Users);
                 this.OnInitialized(null);
             }
         }
@@ -132,9 +132,9 @@ namespace Samples.IndexedVectors
         {
             checked
             {
-                this.Id = FlatSharp.Compiler.Generated.CloneHelpers_a9fe71282f284bbc8cebdc4decaac498.Clone(source.Id);
-                this.FirstName = FlatSharp.Compiler.Generated.CloneHelpers_a9fe71282f284bbc8cebdc4decaac498.Clone(source.FirstName);
-                this.LastName = FlatSharp.Compiler.Generated.CloneHelpers_a9fe71282f284bbc8cebdc4decaac498.Clone(source.LastName);
+                this.Id = FlatSharp.Compiler.Generated.CloneHelpers_5d0e73f3b14b424c86c0c357c78f12be.Clone(source.Id);
+                this.FirstName = FlatSharp.Compiler.Generated.CloneHelpers_5d0e73f3b14b424c86c0c357c78f12be.Clone(source.FirstName);
+                this.LastName = FlatSharp.Compiler.Generated.CloneHelpers_5d0e73f3b14b424c86c0c357c78f12be.Clone(source.LastName);
                 this.OnInitialized(null);
             }
         }

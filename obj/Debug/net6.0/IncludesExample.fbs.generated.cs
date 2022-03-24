@@ -21,7 +21,7 @@ using FlatSharp.Internal;
 #nullable enable
 namespace FlatSharp.Compiler.Generated
 {
-    internal static class CloneHelpers_7a6cc3861c2e4b92a90ddaf678ff8ef7
+    internal static class CloneHelpers_13ed10120f4d409abfdce0507a2d35b3
     {
         [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
         public static global::Samples.IncludesExample.EnumFromB Clone(global::Samples.IncludesExample.EnumFromB item)
@@ -164,7 +164,7 @@ namespace Samples.IncludesExample
         {
             checked
             {
-                this.Table = FlatSharp.Compiler.Generated.CloneHelpers_7a6cc3861c2e4b92a90ddaf678ff8ef7.Clone(source.Table);
+                this.Table = FlatSharp.Compiler.Generated.CloneHelpers_13ed10120f4d409abfdce0507a2d35b3.Clone(source.Table);
                 this.OnInitialized(null);
             }
         }
@@ -230,7 +230,7 @@ namespace Samples.IncludesExample
             {
                 checked
                 {
-                    WriteInlineValueOf_c72f2fedcf1145e68532f77b33a62d0e(writer, target, root, offset, context);
+                    WriteInlineValueOf_f72a972bc6454884819a85ff8ab43f8e(writer, target, root, offset, context);
                 }
             }
 
@@ -238,7 +238,7 @@ namespace Samples.IncludesExample
             {
                 checked
                 {
-                    return GetMaxSizeOf_c72f2fedcf1145e68532f77b33a62d0e(root);
+                    return GetMaxSizeOf_f72a972bc6454884819a85ff8ab43f8e(root);
                 }
             }
 
@@ -247,11 +247,11 @@ namespace Samples.IncludesExample
             {
                 checked
                 {
-                    return Read_c72f2fedcf1145e68532f77b33a62d0e(buffer, offset);
+                    return Read_f72a972bc6454884819a85ff8ab43f8e(buffer, offset);
                 }
             }
 
-            private static int GetMaxSizeOf_c72f2fedcf1145e68532f77b33a62d0e(global::Samples.IncludesExample.Request value)
+            private static int GetMaxSizeOf_f72a972bc6454884819a85ff8ab43f8e(global::Samples.IncludesExample.Request value)
             {
                 checked
                 {
@@ -261,25 +261,25 @@ namespace Samples.IncludesExample
 
                     if (!(index0Value is null))
                     {
-                        runningSum += GetMaxSizeOf_f4044f43ee024eec9dea6449b3632953(index0Value);
+                        runningSum += GetMaxSizeOf_321250b0c6ba4bb8b71dfdabe5e13360(index0Value);
                     }
                     return runningSum;
 
                 }
             }
 
-            private static global::Samples.IncludesExample.Request Read_c72f2fedcf1145e68532f77b33a62d0e<TInputBuffer>(
+            private static global::Samples.IncludesExample.Request Read_f72a972bc6454884819a85ff8ab43f8e<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return tableReader_ebcdc0ca623b42b083554b9b5ebe7691<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
+                    return tableReader_e8953ddd46fa4a999c95911e2fbc6d8a<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
                 }
             }
 
-            private sealed class tableReader_ebcdc0ca623b42b083554b9b5ebe7691<TInputBuffer>
+            private sealed class tableReader_e8953ddd46fa4a999c95911e2fbc6d8a<TInputBuffer>
                 : global::Samples.IncludesExample.Request
                 , global::FlatSharp.IFlatBufferDeserializedObject
                 where TInputBuffer : IInputBuffer
@@ -291,18 +291,18 @@ namespace Samples.IncludesExample
 
                 private Samples.IncludesExample.TableFromA? __index0Value;
 
-                public static tableReader_ebcdc0ca623b42b083554b9b5ebe7691<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
+                public static tableReader_e8953ddd46fa4a999c95911e2fbc6d8a<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
                 {
                     checked
                     {
 
-                        var item = new tableReader_ebcdc0ca623b42b083554b9b5ebe7691<TInputBuffer>(buffer, offset);
+                        var item = new tableReader_e8953ddd46fa4a999c95911e2fbc6d8a<TInputBuffer>(buffer, offset);
                         return item;
 
                     }
                 }
 
-                private tableReader_ebcdc0ca623b42b083554b9b5ebe7691(TInputBuffer buffer, int offset) : base(__CtorContext)
+                private tableReader_e8953ddd46fa4a999c95911e2fbc6d8a(TInputBuffer buffer, int offset) : base(__CtorContext)
                 {
                     checked
                     {
@@ -358,14 +358,14 @@ namespace Samples.IncludesExample
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_f4044f43ee024eec9dea6449b3632953(buffer, absoluteLocation);
+                        return Read_321250b0c6ba4bb8b71dfdabe5e13360(buffer, absoluteLocation);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_c72f2fedcf1145e68532f77b33a62d0e<TSpanWriter>(
+            private static void WriteInlineValueOf_f72a972bc6454884819a85ff8ab43f8e<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.IncludesExample.Request value,
@@ -408,14 +408,14 @@ namespace Samples.IncludesExample
                     {
 
 
-                        WriteInlineValueOf_f4044f43ee024eec9dea6449b3632953(spanWriter, span, index0Value!, index0Offset, context);
+                        WriteInlineValueOf_321250b0c6ba4bb8b71dfdabe5e13360(spanWriter, span, index0Value!, index0Offset, context);
 
                     }
 
                 }
             }
 
-            private static class tableMetadata_2161aa59e3c94126909cdc618ab21e77
+            private static class tableMetadata_5a075b2dd61a4375b74c3a2de26fe268
             {
 
                 public static readonly TableFieldContext Table = new TableFieldContext(
@@ -426,7 +426,7 @@ namespace Samples.IncludesExample
 
 
 
-            private static int GetMaxSizeOf_f4044f43ee024eec9dea6449b3632953(global::Samples.IncludesExample.TableFromA value)
+            private static int GetMaxSizeOf_321250b0c6ba4bb8b71dfdabe5e13360(global::Samples.IncludesExample.TableFromA value)
             {
                 checked
                 {
@@ -436,31 +436,31 @@ namespace Samples.IncludesExample
 
                     if (!(index0Value is null))
                     {
-                        runningSum += GetMaxSizeOf_ed0321fba0f7404b9a5f4314ae53b8c0(index0Value);
+                        runningSum += GetMaxSizeOf_38234580b85e481caed043b6d441c710(index0Value);
                     }
                     var index1Value = value.NestedTableC;
 
                     if (!(index1Value is null))
                     {
-                        runningSum += GetMaxSizeOf_b255004948d54dae874df1fc0b32c982(index1Value);
+                        runningSum += GetMaxSizeOf_7612d8686b1c4434bdc3618bee376238(index1Value);
                     }
                     return runningSum;
 
                 }
             }
 
-            private static global::Samples.IncludesExample.TableFromA Read_f4044f43ee024eec9dea6449b3632953<TInputBuffer>(
+            private static global::Samples.IncludesExample.TableFromA Read_321250b0c6ba4bb8b71dfdabe5e13360<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return tableReader_56de7b5e3425486fa5312b0b533d15a6<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
+                    return tableReader_2902bc27f78f427f8c8183e0bf095e4e<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
                 }
             }
 
-            private sealed class tableReader_56de7b5e3425486fa5312b0b533d15a6<TInputBuffer>
+            private sealed class tableReader_2902bc27f78f427f8c8183e0bf095e4e<TInputBuffer>
                 : global::Samples.IncludesExample.TableFromA
                 , global::FlatSharp.IFlatBufferDeserializedObject
                 where TInputBuffer : IInputBuffer
@@ -476,18 +476,18 @@ namespace Samples.IncludesExample
                 private Samples.IncludesExample.StructFromA? __index3Value;
                 private Samples.IncludesExample.StructFromB? __index4Value;
 
-                public static tableReader_56de7b5e3425486fa5312b0b533d15a6<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
+                public static tableReader_2902bc27f78f427f8c8183e0bf095e4e<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
                 {
                     checked
                     {
 
-                        var item = new tableReader_56de7b5e3425486fa5312b0b533d15a6<TInputBuffer>(buffer, offset);
+                        var item = new tableReader_2902bc27f78f427f8c8183e0bf095e4e<TInputBuffer>(buffer, offset);
                         return item;
 
                     }
                 }
 
-                private tableReader_56de7b5e3425486fa5312b0b533d15a6(TInputBuffer buffer, int offset) : base(__CtorContext)
+                private tableReader_2902bc27f78f427f8c8183e0bf095e4e(TInputBuffer buffer, int offset) : base(__CtorContext)
                 {
                     checked
                     {
@@ -623,7 +623,7 @@ namespace Samples.IncludesExample
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_ed0321fba0f7404b9a5f4314ae53b8c0(buffer, absoluteLocation);
+                        return Read_38234580b85e481caed043b6d441c710(buffer, absoluteLocation);
                     }
                 }
 
@@ -648,7 +648,7 @@ namespace Samples.IncludesExample
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_b255004948d54dae874df1fc0b32c982(buffer, absoluteLocation);
+                        return Read_7612d8686b1c4434bdc3618bee376238(buffer, absoluteLocation);
                     }
                 }
 
@@ -673,7 +673,7 @@ namespace Samples.IncludesExample
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_66754f170eda47fd99ffebc4986fe2eb(buffer, absoluteLocation);
+                        return Read_5f980733286547dd8d9aa35735891b3e(buffer, absoluteLocation);
                     }
                 }
 
@@ -698,7 +698,7 @@ namespace Samples.IncludesExample
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_999aa122b5054a97b9ac2911d90aea7d(buffer, absoluteLocation);
+                        return Read_4ff9d870fbf34f88b3dd1aec59be10fc(buffer, absoluteLocation);
                     }
                 }
 
@@ -723,14 +723,14 @@ namespace Samples.IncludesExample
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_e82f1ecacde344f084b523acfed9d8b0(buffer, absoluteLocation);
+                        return Read_785dadcdf1eb451d91ac1e8cf5be243e(buffer, absoluteLocation);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_f4044f43ee024eec9dea6449b3632953<TSpanWriter>(
+            private static void WriteInlineValueOf_321250b0c6ba4bb8b71dfdabe5e13360<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.IncludesExample.TableFromA value,
@@ -763,7 +763,7 @@ namespace Samples.IncludesExample
                         currentOffset += 16;
 
 
-                        WriteInlineValueOf_e82f1ecacde344f084b523acfed9d8b0(spanWriter, span, index4Value!, index4Offset);
+                        WriteInlineValueOf_785dadcdf1eb451d91ac1e8cf5be243e(spanWriter, span, index4Value!, index4Offset);
 
                         vtableLength = 14;
                     }
@@ -779,7 +779,7 @@ namespace Samples.IncludesExample
                         currentOffset += 20;
 
 
-                        WriteInlineValueOf_999aa122b5054a97b9ac2911d90aea7d(spanWriter, span, index3Value!, index3Offset);
+                        WriteInlineValueOf_4ff9d870fbf34f88b3dd1aec59be10fc(spanWriter, span, index3Value!, index3Offset);
 
 
                         if (12 > vtableLength)
@@ -833,7 +833,7 @@ namespace Samples.IncludesExample
                         currentOffset += 1;
 
 
-                        WriteInlineValueOf_66754f170eda47fd99ffebc4986fe2eb(spanWriter, span, index2Value, index2Offset);
+                        WriteInlineValueOf_5f980733286547dd8d9aa35735891b3e(spanWriter, span, index2Value, index2Offset);
 
 
                         if (10 > vtableLength)
@@ -854,7 +854,7 @@ namespace Samples.IncludesExample
                     {
 
 
-                        WriteInlineValueOf_b255004948d54dae874df1fc0b32c982(spanWriter, span, index1Value!, index1Offset, context);
+                        WriteInlineValueOf_7612d8686b1c4434bdc3618bee376238(spanWriter, span, index1Value!, index1Offset, context);
 
                     }
 
@@ -863,14 +863,14 @@ namespace Samples.IncludesExample
                     {
 
 
-                        WriteInlineValueOf_ed0321fba0f7404b9a5f4314ae53b8c0(spanWriter, span, index0Value!, index0Offset, context);
+                        WriteInlineValueOf_38234580b85e481caed043b6d441c710(spanWriter, span, index0Value!, index0Offset, context);
 
                     }
 
                 }
             }
 
-            private static class tableMetadata_673a5ae5d6804153827767975fc3d27a
+            private static class tableMetadata_3d502ac9dad346a08da21398ddab289f
             {
 
                 public static readonly TableFieldContext NestedTableB = new TableFieldContext(
@@ -901,7 +901,7 @@ namespace Samples.IncludesExample
 
 
 
-            private static int GetMaxSizeOf_ed0321fba0f7404b9a5f4314ae53b8c0(global::Samples.IncludesExample.TableFromB value)
+            private static int GetMaxSizeOf_38234580b85e481caed043b6d441c710(global::Samples.IncludesExample.TableFromB value)
             {
                 checked
                 {
@@ -911,31 +911,31 @@ namespace Samples.IncludesExample
 
                     if (!(index0Value is null))
                     {
-                        runningSum += GetMaxSizeOf_b255004948d54dae874df1fc0b32c982(index0Value);
+                        runningSum += GetMaxSizeOf_7612d8686b1c4434bdc3618bee376238(index0Value);
                     }
                     var index1Value = value.String;
 
                     if (!(index1Value is null))
                     {
-                        runningSum += GetMaxSizeOf_a55e5f5acaf041a897499465a1d8b3ed(index1Value);
+                        runningSum += GetMaxSizeOf_ef5170d23e2e4793848fb8757cc94916(index1Value);
                     }
                     return runningSum;
 
                 }
             }
 
-            private static global::Samples.IncludesExample.TableFromB Read_ed0321fba0f7404b9a5f4314ae53b8c0<TInputBuffer>(
+            private static global::Samples.IncludesExample.TableFromB Read_38234580b85e481caed043b6d441c710<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return tableReader_15914f3aea084e1d8309598761ae7993<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
+                    return tableReader_2ffa4b9cbd4c4a30b8d7768e2ee0cc28<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
                 }
             }
 
-            private sealed class tableReader_15914f3aea084e1d8309598761ae7993<TInputBuffer>
+            private sealed class tableReader_2ffa4b9cbd4c4a30b8d7768e2ee0cc28<TInputBuffer>
                 : global::Samples.IncludesExample.TableFromB
                 , global::FlatSharp.IFlatBufferDeserializedObject
                 where TInputBuffer : IInputBuffer
@@ -948,18 +948,18 @@ namespace Samples.IncludesExample
                 private Samples.IncludesExample.TableFromC? __index0Value;
                 private System.String? __index1Value;
 
-                public static tableReader_15914f3aea084e1d8309598761ae7993<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
+                public static tableReader_2ffa4b9cbd4c4a30b8d7768e2ee0cc28<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
                 {
                     checked
                     {
 
-                        var item = new tableReader_15914f3aea084e1d8309598761ae7993<TInputBuffer>(buffer, offset);
+                        var item = new tableReader_2ffa4b9cbd4c4a30b8d7768e2ee0cc28<TInputBuffer>(buffer, offset);
                         return item;
 
                     }
                 }
 
-                private tableReader_15914f3aea084e1d8309598761ae7993(TInputBuffer buffer, int offset) : base(__CtorContext)
+                private tableReader_2ffa4b9cbd4c4a30b8d7768e2ee0cc28(TInputBuffer buffer, int offset) : base(__CtorContext)
                 {
                     checked
                     {
@@ -1035,7 +1035,7 @@ namespace Samples.IncludesExample
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_b255004948d54dae874df1fc0b32c982(buffer, absoluteLocation);
+                        return Read_7612d8686b1c4434bdc3618bee376238(buffer, absoluteLocation);
                     }
                 }
 
@@ -1060,14 +1060,14 @@ namespace Samples.IncludesExample
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_a55e5f5acaf041a897499465a1d8b3ed(buffer, absoluteLocation);
+                        return Read_ef5170d23e2e4793848fb8757cc94916(buffer, absoluteLocation);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_ed0321fba0f7404b9a5f4314ae53b8c0<TSpanWriter>(
+            private static void WriteInlineValueOf_38234580b85e481caed043b6d441c710<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.IncludesExample.TableFromB value,
@@ -1128,7 +1128,7 @@ namespace Samples.IncludesExample
                     {
 
 
-                        WriteInlineValueOf_a55e5f5acaf041a897499465a1d8b3ed(spanWriter, span, index1Value!, index1Offset, context, tableMetadata_2d609215e45641fcabdcbcc1f3fda0c8.String);
+                        WriteInlineValueOf_ef5170d23e2e4793848fb8757cc94916(spanWriter, span, index1Value!, index1Offset, context, tableMetadata_b3c6c4476890438c9483a633eebed842.String);
 
                     }
 
@@ -1137,14 +1137,14 @@ namespace Samples.IncludesExample
                     {
 
 
-                        WriteInlineValueOf_b255004948d54dae874df1fc0b32c982(spanWriter, span, index0Value!, index0Offset, context);
+                        WriteInlineValueOf_7612d8686b1c4434bdc3618bee376238(spanWriter, span, index0Value!, index0Offset, context);
 
                     }
 
                 }
             }
 
-            private static class tableMetadata_2d609215e45641fcabdcbcc1f3fda0c8
+            private static class tableMetadata_b3c6c4476890438c9483a633eebed842
             {
 
                 public static readonly TableFieldContext NestedTableC = new TableFieldContext(
@@ -1160,7 +1160,7 @@ namespace Samples.IncludesExample
 
 
 
-            private static int GetMaxSizeOf_b255004948d54dae874df1fc0b32c982(global::Samples.IncludesExample.TableFromC value)
+            private static int GetMaxSizeOf_7612d8686b1c4434bdc3618bee376238(global::Samples.IncludesExample.TableFromC value)
             {
                 checked
                 {
@@ -1170,25 +1170,25 @@ namespace Samples.IncludesExample
 
                     if (!(index0Value is null))
                     {
-                        runningSum += GetMaxSizeOf_a55e5f5acaf041a897499465a1d8b3ed(index0Value);
+                        runningSum += GetMaxSizeOf_ef5170d23e2e4793848fb8757cc94916(index0Value);
                     }
                     return runningSum;
 
                 }
             }
 
-            private static global::Samples.IncludesExample.TableFromC Read_b255004948d54dae874df1fc0b32c982<TInputBuffer>(
+            private static global::Samples.IncludesExample.TableFromC Read_7612d8686b1c4434bdc3618bee376238<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return tableReader_c0e895a601804247bf363cab0296bac6<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
+                    return tableReader_97a2ea689f284b0c9ce182e109292ddc<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
                 }
             }
 
-            private sealed class tableReader_c0e895a601804247bf363cab0296bac6<TInputBuffer>
+            private sealed class tableReader_97a2ea689f284b0c9ce182e109292ddc<TInputBuffer>
                 : global::Samples.IncludesExample.TableFromC
                 , global::FlatSharp.IFlatBufferDeserializedObject
                 where TInputBuffer : IInputBuffer
@@ -1200,18 +1200,18 @@ namespace Samples.IncludesExample
 
                 private System.String? __index0Value;
 
-                public static tableReader_c0e895a601804247bf363cab0296bac6<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
+                public static tableReader_97a2ea689f284b0c9ce182e109292ddc<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
                 {
                     checked
                     {
 
-                        var item = new tableReader_c0e895a601804247bf363cab0296bac6<TInputBuffer>(buffer, offset);
+                        var item = new tableReader_97a2ea689f284b0c9ce182e109292ddc<TInputBuffer>(buffer, offset);
                         return item;
 
                     }
                 }
 
-                private tableReader_c0e895a601804247bf363cab0296bac6(TInputBuffer buffer, int offset) : base(__CtorContext)
+                private tableReader_97a2ea689f284b0c9ce182e109292ddc(TInputBuffer buffer, int offset) : base(__CtorContext)
                 {
                     checked
                     {
@@ -1267,14 +1267,14 @@ namespace Samples.IncludesExample
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_a55e5f5acaf041a897499465a1d8b3ed(buffer, absoluteLocation);
+                        return Read_ef5170d23e2e4793848fb8757cc94916(buffer, absoluteLocation);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_b255004948d54dae874df1fc0b32c982<TSpanWriter>(
+            private static void WriteInlineValueOf_7612d8686b1c4434bdc3618bee376238<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.IncludesExample.TableFromC value,
@@ -1317,14 +1317,14 @@ namespace Samples.IncludesExample
                     {
 
 
-                        WriteInlineValueOf_a55e5f5acaf041a897499465a1d8b3ed(spanWriter, span, index0Value!, index0Offset, context, tableMetadata_9d77cfa8df9d4fdc8d399fee469a84cf.String);
+                        WriteInlineValueOf_ef5170d23e2e4793848fb8757cc94916(spanWriter, span, index0Value!, index0Offset, context, tableMetadata_01a9d18df4a3428dafd77886353154ab.String);
 
                     }
 
                 }
             }
 
-            private static class tableMetadata_9d77cfa8df9d4fdc8d399fee469a84cf
+            private static class tableMetadata_01a9d18df4a3428dafd77886353154ab
             {
 
                 public static readonly TableFieldContext String = new TableFieldContext(
@@ -1335,7 +1335,7 @@ namespace Samples.IncludesExample
 
 
 
-            private static int GetMaxSizeOf_a55e5f5acaf041a897499465a1d8b3ed(global::System.String value)
+            private static int GetMaxSizeOf_ef5170d23e2e4793848fb8757cc94916(global::System.String value)
             {
                 checked
                 {
@@ -1343,7 +1343,7 @@ namespace Samples.IncludesExample
                 }
             }
 
-            private static global::System.String Read_a55e5f5acaf041a897499465a1d8b3ed<TInputBuffer>(
+            private static global::System.String Read_ef5170d23e2e4793848fb8757cc94916<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
@@ -1354,7 +1354,7 @@ namespace Samples.IncludesExample
                 }
             }
 
-            private static void WriteInlineValueOf_a55e5f5acaf041a897499465a1d8b3ed<TSpanWriter>(
+            private static void WriteInlineValueOf_ef5170d23e2e4793848fb8757cc94916<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.String value,
@@ -1375,28 +1375,28 @@ namespace Samples.IncludesExample
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static int GetMaxSizeOf_66754f170eda47fd99ffebc4986fe2eb(global::Samples.IncludesExample.EnumFromB value)
+            private static int GetMaxSizeOf_5f980733286547dd8d9aa35735891b3e(global::Samples.IncludesExample.EnumFromB value)
             {
                 checked
                 {
-                    return GetMaxSizeOf_af7ed3af79774e898a7d96aad32eb0e3((global::System.Byte)value);
+                    return GetMaxSizeOf_51ae46742b6f4bcbb43356bb4f7cd09e((global::System.Byte)value);
                 }
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static global::Samples.IncludesExample.EnumFromB Read_66754f170eda47fd99ffebc4986fe2eb<TInputBuffer>(
+            private static global::Samples.IncludesExample.EnumFromB Read_5f980733286547dd8d9aa35735891b3e<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return (Samples.IncludesExample.EnumFromB)Read_af7ed3af79774e898a7d96aad32eb0e3(buffer, offset);
+                    return (Samples.IncludesExample.EnumFromB)Read_51ae46742b6f4bcbb43356bb4f7cd09e(buffer, offset);
                 }
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static void WriteInlineValueOf_66754f170eda47fd99ffebc4986fe2eb<TSpanWriter>(
+            private static void WriteInlineValueOf_5f980733286547dd8d9aa35735891b3e<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.IncludesExample.EnumFromB value,
@@ -1406,12 +1406,12 @@ namespace Samples.IncludesExample
             {
                 checked
                 {
-                    WriteInlineValueOf_af7ed3af79774e898a7d96aad32eb0e3(spanWriter, span, (global::System.Byte)value, offset);
+                    WriteInlineValueOf_51ae46742b6f4bcbb43356bb4f7cd09e(spanWriter, span, (global::System.Byte)value, offset);
                 }
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static int GetMaxSizeOf_af7ed3af79774e898a7d96aad32eb0e3(global::System.Byte value)
+            private static int GetMaxSizeOf_51ae46742b6f4bcbb43356bb4f7cd09e(global::System.Byte value)
             {
                 checked
                 {
@@ -1420,7 +1420,7 @@ namespace Samples.IncludesExample
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static global::System.Byte Read_af7ed3af79774e898a7d96aad32eb0e3<TInputBuffer>(
+            private static global::System.Byte Read_51ae46742b6f4bcbb43356bb4f7cd09e<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
@@ -1432,7 +1432,7 @@ namespace Samples.IncludesExample
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static void WriteInlineValueOf_af7ed3af79774e898a7d96aad32eb0e3<TSpanWriter>(
+            private static void WriteInlineValueOf_51ae46742b6f4bcbb43356bb4f7cd09e<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.Byte value,
@@ -1447,7 +1447,7 @@ namespace Samples.IncludesExample
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static int GetMaxSizeOf_999aa122b5054a97b9ac2911d90aea7d(global::Samples.IncludesExample.StructFromA value)
+            private static int GetMaxSizeOf_4ff9d870fbf34f88b3dd1aec59be10fc(global::Samples.IncludesExample.StructFromA value)
             {
                 checked
                 {
@@ -1455,18 +1455,18 @@ namespace Samples.IncludesExample
                 }
             }
 
-            private static global::Samples.IncludesExample.StructFromA Read_999aa122b5054a97b9ac2911d90aea7d<TInputBuffer>(
+            private static global::Samples.IncludesExample.StructFromA Read_4ff9d870fbf34f88b3dd1aec59be10fc<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return structReader_226b75acc39e4193a466aa6992b67346<TInputBuffer>.GetOrCreate(buffer, offset);
+                    return structReader_72b3e1a1c8ce4383bc8b3eb4e5a61179<TInputBuffer>.GetOrCreate(buffer, offset);
                 }
             }
 
-            private sealed class structReader_226b75acc39e4193a466aa6992b67346<TInputBuffer>
+            private sealed class structReader_72b3e1a1c8ce4383bc8b3eb4e5a61179<TInputBuffer>
                 : global::Samples.IncludesExample.StructFromA
                 , global::FlatSharp.IFlatBufferDeserializedObject
                 where TInputBuffer : IInputBuffer
@@ -1479,18 +1479,18 @@ namespace Samples.IncludesExample
                 private Samples.IncludesExample.StructFromB __index0Value;
                 private System.Int32 __index1Value;
 
-                public static structReader_226b75acc39e4193a466aa6992b67346<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
+                public static structReader_72b3e1a1c8ce4383bc8b3eb4e5a61179<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
                 {
                     checked
                     {
 
-                        var item = new structReader_226b75acc39e4193a466aa6992b67346<TInputBuffer>(buffer, offset);
+                        var item = new structReader_72b3e1a1c8ce4383bc8b3eb4e5a61179<TInputBuffer>(buffer, offset);
                         return item;
 
                     }
                 }
 
-                private structReader_226b75acc39e4193a466aa6992b67346(TInputBuffer buffer, int offset) : base(__CtorContext)
+                private structReader_72b3e1a1c8ce4383bc8b3eb4e5a61179(TInputBuffer buffer, int offset) : base(__CtorContext)
                 {
                     checked
                     {
@@ -1552,7 +1552,7 @@ namespace Samples.IncludesExample
                 {
                     checked
                     {
-                        return Read_e82f1ecacde344f084b523acfed9d8b0(buffer, offset + 0);
+                        return Read_785dadcdf1eb451d91ac1e8cf5be243e(buffer, offset + 0);
                     }
                 }
 
@@ -1564,14 +1564,14 @@ namespace Samples.IncludesExample
                 {
                     checked
                     {
-                        return Read_bc87f771a2d34655b1177386c982166c(buffer, offset + 16);
+                        return Read_a1bcef497279474d8b638753adbc2c7b(buffer, offset + 16);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_999aa122b5054a97b9ac2911d90aea7d<TSpanWriter>(
+            private static void WriteInlineValueOf_4ff9d870fbf34f88b3dd1aec59be10fc<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.IncludesExample.StructFromA value,
@@ -1589,13 +1589,13 @@ namespace Samples.IncludesExample
                         return;
                     }
 
-                    WriteInlineValueOf_e82f1ecacde344f084b523acfed9d8b0(spanWriter, scopedSpan, value.NestedStruct, 0);
-                    WriteInlineValueOf_bc87f771a2d34655b1177386c982166c(spanWriter, scopedSpan, value.Value, 16);
+                    WriteInlineValueOf_785dadcdf1eb451d91ac1e8cf5be243e(spanWriter, scopedSpan, value.NestedStruct, 0);
+                    WriteInlineValueOf_a1bcef497279474d8b638753adbc2c7b(spanWriter, scopedSpan, value.Value, 16);
                 }
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static int GetMaxSizeOf_e82f1ecacde344f084b523acfed9d8b0(global::Samples.IncludesExample.StructFromB value)
+            private static int GetMaxSizeOf_785dadcdf1eb451d91ac1e8cf5be243e(global::Samples.IncludesExample.StructFromB value)
             {
                 checked
                 {
@@ -1603,18 +1603,18 @@ namespace Samples.IncludesExample
                 }
             }
 
-            private static global::Samples.IncludesExample.StructFromB Read_e82f1ecacde344f084b523acfed9d8b0<TInputBuffer>(
+            private static global::Samples.IncludesExample.StructFromB Read_785dadcdf1eb451d91ac1e8cf5be243e<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return structReader_cded034695584a78a357821c9fb2d83c<TInputBuffer>.GetOrCreate(buffer, offset);
+                    return structReader_5943cbb07c884ec8ae8fbfff1cad0921<TInputBuffer>.GetOrCreate(buffer, offset);
                 }
             }
 
-            private sealed class structReader_cded034695584a78a357821c9fb2d83c<TInputBuffer>
+            private sealed class structReader_5943cbb07c884ec8ae8fbfff1cad0921<TInputBuffer>
                 : global::Samples.IncludesExample.StructFromB
                 , global::FlatSharp.IFlatBufferDeserializedObject
                 where TInputBuffer : IInputBuffer
@@ -1627,18 +1627,18 @@ namespace Samples.IncludesExample
                 private System.Int32 __index0Value;
                 private System.Int64 __index1Value;
 
-                public static structReader_cded034695584a78a357821c9fb2d83c<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
+                public static structReader_5943cbb07c884ec8ae8fbfff1cad0921<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
                 {
                     checked
                     {
 
-                        var item = new structReader_cded034695584a78a357821c9fb2d83c<TInputBuffer>(buffer, offset);
+                        var item = new structReader_5943cbb07c884ec8ae8fbfff1cad0921<TInputBuffer>(buffer, offset);
                         return item;
 
                     }
                 }
 
-                private structReader_cded034695584a78a357821c9fb2d83c(TInputBuffer buffer, int offset) : base(__CtorContext)
+                private structReader_5943cbb07c884ec8ae8fbfff1cad0921(TInputBuffer buffer, int offset) : base(__CtorContext)
                 {
                     checked
                     {
@@ -1700,7 +1700,7 @@ namespace Samples.IncludesExample
                 {
                     checked
                     {
-                        return Read_bc87f771a2d34655b1177386c982166c(buffer, offset + 0);
+                        return Read_a1bcef497279474d8b638753adbc2c7b(buffer, offset + 0);
                     }
                 }
 
@@ -1712,14 +1712,14 @@ namespace Samples.IncludesExample
                 {
                     checked
                     {
-                        return Read_8f6322dbf18f4a30925cd058157607c7(buffer, offset + 8);
+                        return Read_5d066066b62548c6be14d45e699e5d18(buffer, offset + 8);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_e82f1ecacde344f084b523acfed9d8b0<TSpanWriter>(
+            private static void WriteInlineValueOf_785dadcdf1eb451d91ac1e8cf5be243e<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.IncludesExample.StructFromB value,
@@ -1737,13 +1737,13 @@ namespace Samples.IncludesExample
                         return;
                     }
 
-                    WriteInlineValueOf_bc87f771a2d34655b1177386c982166c(spanWriter, scopedSpan, value.IntValue, 0);
-                    WriteInlineValueOf_8f6322dbf18f4a30925cd058157607c7(spanWriter, scopedSpan, value.LongValue, 8);
+                    WriteInlineValueOf_a1bcef497279474d8b638753adbc2c7b(spanWriter, scopedSpan, value.IntValue, 0);
+                    WriteInlineValueOf_5d066066b62548c6be14d45e699e5d18(spanWriter, scopedSpan, value.LongValue, 8);
                 }
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static int GetMaxSizeOf_bc87f771a2d34655b1177386c982166c(global::System.Int32 value)
+            private static int GetMaxSizeOf_a1bcef497279474d8b638753adbc2c7b(global::System.Int32 value)
             {
                 checked
                 {
@@ -1752,7 +1752,7 @@ namespace Samples.IncludesExample
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static global::System.Int32 Read_bc87f771a2d34655b1177386c982166c<TInputBuffer>(
+            private static global::System.Int32 Read_a1bcef497279474d8b638753adbc2c7b<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
@@ -1764,7 +1764,7 @@ namespace Samples.IncludesExample
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static void WriteInlineValueOf_bc87f771a2d34655b1177386c982166c<TSpanWriter>(
+            private static void WriteInlineValueOf_a1bcef497279474d8b638753adbc2c7b<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.Int32 value,
@@ -1779,7 +1779,7 @@ namespace Samples.IncludesExample
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static int GetMaxSizeOf_8f6322dbf18f4a30925cd058157607c7(global::System.Int64 value)
+            private static int GetMaxSizeOf_5d066066b62548c6be14d45e699e5d18(global::System.Int64 value)
             {
                 checked
                 {
@@ -1788,7 +1788,7 @@ namespace Samples.IncludesExample
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static global::System.Int64 Read_8f6322dbf18f4a30925cd058157607c7<TInputBuffer>(
+            private static global::System.Int64 Read_5d066066b62548c6be14d45e699e5d18<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
@@ -1800,7 +1800,7 @@ namespace Samples.IncludesExample
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static void WriteInlineValueOf_8f6322dbf18f4a30925cd058157607c7<TSpanWriter>(
+            private static void WriteInlineValueOf_5d066066b62548c6be14d45e699e5d18<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.Int64 value,
@@ -1859,13 +1859,13 @@ namespace Samples.IncludesExample
             }
         }
 
-        private static readonly Grpc.Core.Marshaller<Samples.IncludesExample.Request> __Marshaller_4266a86f5ce84152a9122c45333a6392 = CreateMarshaller<Samples.IncludesExample.Request>();
-        private static readonly Grpc.Core.Method<Samples.IncludesExample.Request, Samples.IncludesExample.Request> __Method_80b982e509f1400b926f6d49ee8730c7 = new Grpc.Core.Method<Samples.IncludesExample.Request, Samples.IncludesExample.Request>(
+        private static readonly Grpc.Core.Marshaller<Samples.IncludesExample.Request> __Marshaller_f23219d487d14317a5c5732b3db8abb7 = CreateMarshaller<Samples.IncludesExample.Request>();
+        private static readonly Grpc.Core.Method<Samples.IncludesExample.Request, Samples.IncludesExample.Request> __Method_89bb65ed20b0416a9df32803f6f2e19d = new Grpc.Core.Method<Samples.IncludesExample.Request, Samples.IncludesExample.Request>(
             Grpc.Core.MethodType.Unary,
             "Samples.IncludesExample.Service",
             "SingleOperation",
-            __Marshaller_4266a86f5ce84152a9122c45333a6392,
-            __Marshaller_4266a86f5ce84152a9122c45333a6392);
+            __Marshaller_f23219d487d14317a5c5732b3db8abb7,
+            __Marshaller_f23219d487d14317a5c5732b3db8abb7);
         static partial void OnStaticInitialization();
 
         static Service()
@@ -1888,7 +1888,7 @@ namespace Samples.IncludesExample
             checked
             {
                 return Grpc.Core.ServerServiceDefinition.CreateBuilder()
-                    .AddMethod(__Method_80b982e509f1400b926f6d49ee8730c7, serviceImpl.SingleOperation)
+                    .AddMethod(__Method_89bb65ed20b0416a9df32803f6f2e19d, serviceImpl.SingleOperation)
                     .Build();
             }
         }
@@ -1897,7 +1897,7 @@ namespace Samples.IncludesExample
         {
             checked
             {
-                serviceBinder.AddMethod(__Method_80b982e509f1400b926f6d49ee8730c7,
+                serviceBinder.AddMethod(__Method_89bb65ed20b0416a9df32803f6f2e19d,
                     serviceImpl == null
                         ? null
                         : new Grpc.Core.UnaryServerMethod<Samples.IncludesExample.Request, Samples.IncludesExample.Request>(serviceImpl.SingleOperation));
@@ -1950,7 +1950,7 @@ namespace Samples.IncludesExample
             {
                 checked
                 {
-                    return CallInvoker.AsyncUnaryCall(__Method_80b982e509f1400b926f6d49ee8730c7, null, options, request);
+                    return CallInvoker.AsyncUnaryCall(__Method_89bb65ed20b0416a9df32803f6f2e19d, null, options, request);
                 }
             }
         }

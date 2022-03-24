@@ -21,7 +21,7 @@ using FlatSharp.Internal;
 #nullable enable
 namespace FlatSharp.Compiler.Generated
 {
-    internal static class CloneHelpers_134f8a8ddb924f6aba7fb7b6d9083be0
+    internal static class CloneHelpers_4fafe46991f24f53b55077d336fcd2a0
     {
         [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
         public static global::Samples.CopyConstructorsExample.Fruit Clone(global::Samples.CopyConstructorsExample.Fruit item)
@@ -169,7 +169,7 @@ namespace FlatSharp.Compiler.Generated
         {
             checked
             {
-                return VectorCloneHelpers.Clone<Samples.CopyConstructorsExample.FooBar>(item, FlatSharp.Compiler.Generated.CloneHelpers_134f8a8ddb924f6aba7fb7b6d9083be0.Clone);
+                return VectorCloneHelpers.Clone<Samples.CopyConstructorsExample.FooBar>(item, FlatSharp.Compiler.Generated.CloneHelpers_4fafe46991f24f53b55077d336fcd2a0.Clone);
             }
         }
 
@@ -227,10 +227,10 @@ namespace Samples.CopyConstructorsExample
         {
             checked
             {
-                this.parent = FlatSharp.Compiler.Generated.CloneHelpers_134f8a8ddb924f6aba7fb7b6d9083be0.Clone(source.parent);
-                this.time = FlatSharp.Compiler.Generated.CloneHelpers_134f8a8ddb924f6aba7fb7b6d9083be0.Clone(source.time);
-                this.ratio = FlatSharp.Compiler.Generated.CloneHelpers_134f8a8ddb924f6aba7fb7b6d9083be0.Clone(source.ratio);
-                this.size = FlatSharp.Compiler.Generated.CloneHelpers_134f8a8ddb924f6aba7fb7b6d9083be0.Clone(source.size);
+                this.parent = FlatSharp.Compiler.Generated.CloneHelpers_4fafe46991f24f53b55077d336fcd2a0.Clone(source.parent);
+                this.time = FlatSharp.Compiler.Generated.CloneHelpers_4fafe46991f24f53b55077d336fcd2a0.Clone(source.time);
+                this.ratio = FlatSharp.Compiler.Generated.CloneHelpers_4fafe46991f24f53b55077d336fcd2a0.Clone(source.ratio);
+                this.size = FlatSharp.Compiler.Generated.CloneHelpers_4fafe46991f24f53b55077d336fcd2a0.Clone(source.size);
                 this.OnInitialized(null);
             }
         }
@@ -283,10 +283,10 @@ namespace Samples.CopyConstructorsExample
         {
             checked
             {
-                this.id = FlatSharp.Compiler.Generated.CloneHelpers_134f8a8ddb924f6aba7fb7b6d9083be0.Clone(source.id);
-                this.count = FlatSharp.Compiler.Generated.CloneHelpers_134f8a8ddb924f6aba7fb7b6d9083be0.Clone(source.count);
-                this.prefix = FlatSharp.Compiler.Generated.CloneHelpers_134f8a8ddb924f6aba7fb7b6d9083be0.Clone(source.prefix);
-                this.length = FlatSharp.Compiler.Generated.CloneHelpers_134f8a8ddb924f6aba7fb7b6d9083be0.Clone(source.length);
+                this.id = FlatSharp.Compiler.Generated.CloneHelpers_4fafe46991f24f53b55077d336fcd2a0.Clone(source.id);
+                this.count = FlatSharp.Compiler.Generated.CloneHelpers_4fafe46991f24f53b55077d336fcd2a0.Clone(source.count);
+                this.prefix = FlatSharp.Compiler.Generated.CloneHelpers_4fafe46991f24f53b55077d336fcd2a0.Clone(source.prefix);
+                this.length = FlatSharp.Compiler.Generated.CloneHelpers_4fafe46991f24f53b55077d336fcd2a0.Clone(source.length);
                 this.OnInitialized(null);
             }
         }
@@ -344,10 +344,10 @@ namespace Samples.CopyConstructorsExample
         {
             checked
             {
-                this.sibling = FlatSharp.Compiler.Generated.CloneHelpers_134f8a8ddb924f6aba7fb7b6d9083be0.Clone(source.sibling);
-                this.name = FlatSharp.Compiler.Generated.CloneHelpers_134f8a8ddb924f6aba7fb7b6d9083be0.Clone(source.name);
-                this.rating = FlatSharp.Compiler.Generated.CloneHelpers_134f8a8ddb924f6aba7fb7b6d9083be0.Clone(source.rating);
-                this.postfix = FlatSharp.Compiler.Generated.CloneHelpers_134f8a8ddb924f6aba7fb7b6d9083be0.Clone(source.postfix);
+                this.sibling = FlatSharp.Compiler.Generated.CloneHelpers_4fafe46991f24f53b55077d336fcd2a0.Clone(source.sibling);
+                this.name = FlatSharp.Compiler.Generated.CloneHelpers_4fafe46991f24f53b55077d336fcd2a0.Clone(source.name);
+                this.rating = FlatSharp.Compiler.Generated.CloneHelpers_4fafe46991f24f53b55077d336fcd2a0.Clone(source.rating);
+                this.postfix = FlatSharp.Compiler.Generated.CloneHelpers_4fafe46991f24f53b55077d336fcd2a0.Clone(source.postfix);
                 this.OnInitialized(null);
             }
         }
@@ -405,10 +405,10 @@ namespace Samples.CopyConstructorsExample
         {
             checked
             {
-                this.list = FlatSharp.Compiler.Generated.CloneHelpers_134f8a8ddb924f6aba7fb7b6d9083be0.Clone(source.list);
-                this.initialized = FlatSharp.Compiler.Generated.CloneHelpers_134f8a8ddb924f6aba7fb7b6d9083be0.Clone(source.initialized);
-                this.fruit = FlatSharp.Compiler.Generated.CloneHelpers_134f8a8ddb924f6aba7fb7b6d9083be0.Clone(source.fruit);
-                this.location = FlatSharp.Compiler.Generated.CloneHelpers_134f8a8ddb924f6aba7fb7b6d9083be0.Clone(source.location);
+                this.list = FlatSharp.Compiler.Generated.CloneHelpers_4fafe46991f24f53b55077d336fcd2a0.Clone(source.list);
+                this.initialized = FlatSharp.Compiler.Generated.CloneHelpers_4fafe46991f24f53b55077d336fcd2a0.Clone(source.initialized);
+                this.fruit = FlatSharp.Compiler.Generated.CloneHelpers_4fafe46991f24f53b55077d336fcd2a0.Clone(source.fruit);
+                this.location = FlatSharp.Compiler.Generated.CloneHelpers_4fafe46991f24f53b55077d336fcd2a0.Clone(source.location);
                 this.OnInitialized(null);
             }
         }

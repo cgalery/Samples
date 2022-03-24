@@ -21,7 +21,7 @@ using FlatSharp.Internal;
 #nullable enable
 namespace FlatSharp.Compiler.Generated
 {
-    internal static class CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a
+    internal static class CloneHelpers_ba12309b69c346e6967cd8960e60fc42
     {
         [return: System.Diagnostics.CodeAnalysis.NotNullIfNotNull("item")]
         [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
@@ -58,7 +58,7 @@ namespace FlatSharp.Compiler.Generated
         {
             checked
             {
-                return VectorCloneHelpers.Clone<Samples.WriteThrough.Block>(item, FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone);
+                return VectorCloneHelpers.Clone<Samples.WriteThrough.Block>(item, FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone);
             }
         }
 
@@ -150,22 +150,22 @@ namespace Samples.WriteThrough
         {
             checked
             {
-                this.__flatsharp__Data_0 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(source.__flatsharp__Data_0);
-                this.__flatsharp__Data_1 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(source.__flatsharp__Data_1);
-                this.__flatsharp__Data_2 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(source.__flatsharp__Data_2);
-                this.__flatsharp__Data_3 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(source.__flatsharp__Data_3);
-                this.__flatsharp__Data_4 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(source.__flatsharp__Data_4);
-                this.__flatsharp__Data_5 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(source.__flatsharp__Data_5);
-                this.__flatsharp__Data_6 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(source.__flatsharp__Data_6);
-                this.__flatsharp__Data_7 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(source.__flatsharp__Data_7);
-                this.__flatsharp__Data_8 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(source.__flatsharp__Data_8);
-                this.__flatsharp__Data_9 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(source.__flatsharp__Data_9);
-                this.__flatsharp__Data_10 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(source.__flatsharp__Data_10);
-                this.__flatsharp__Data_11 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(source.__flatsharp__Data_11);
-                this.__flatsharp__Data_12 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(source.__flatsharp__Data_12);
-                this.__flatsharp__Data_13 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(source.__flatsharp__Data_13);
-                this.__flatsharp__Data_14 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(source.__flatsharp__Data_14);
-                this.__flatsharp__Data_15 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(source.__flatsharp__Data_15);
+                this.__flatsharp__Data_0 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(source.__flatsharp__Data_0);
+                this.__flatsharp__Data_1 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(source.__flatsharp__Data_1);
+                this.__flatsharp__Data_2 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(source.__flatsharp__Data_2);
+                this.__flatsharp__Data_3 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(source.__flatsharp__Data_3);
+                this.__flatsharp__Data_4 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(source.__flatsharp__Data_4);
+                this.__flatsharp__Data_5 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(source.__flatsharp__Data_5);
+                this.__flatsharp__Data_6 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(source.__flatsharp__Data_6);
+                this.__flatsharp__Data_7 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(source.__flatsharp__Data_7);
+                this.__flatsharp__Data_8 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(source.__flatsharp__Data_8);
+                this.__flatsharp__Data_9 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(source.__flatsharp__Data_9);
+                this.__flatsharp__Data_10 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(source.__flatsharp__Data_10);
+                this.__flatsharp__Data_11 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(source.__flatsharp__Data_11);
+                this.__flatsharp__Data_12 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(source.__flatsharp__Data_12);
+                this.__flatsharp__Data_13 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(source.__flatsharp__Data_13);
+                this.__flatsharp__Data_14 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(source.__flatsharp__Data_14);
+                this.__flatsharp__Data_15 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(source.__flatsharp__Data_15);
                 this.OnInitialized(null);
             }
         }
@@ -351,22 +351,22 @@ namespace Samples.WriteThrough
                 {
                     var thisItem = this.item;
                     var s = source;
-                    thisItem.__flatsharp__Data_15 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[15]);
-                    thisItem.__flatsharp__Data_14 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[14]);
-                    thisItem.__flatsharp__Data_13 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[13]);
-                    thisItem.__flatsharp__Data_12 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[12]);
-                    thisItem.__flatsharp__Data_11 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[11]);
-                    thisItem.__flatsharp__Data_10 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[10]);
-                    thisItem.__flatsharp__Data_9 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[9]);
-                    thisItem.__flatsharp__Data_8 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[8]);
-                    thisItem.__flatsharp__Data_7 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[7]);
-                    thisItem.__flatsharp__Data_6 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[6]);
-                    thisItem.__flatsharp__Data_5 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[5]);
-                    thisItem.__flatsharp__Data_4 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[4]);
-                    thisItem.__flatsharp__Data_3 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[3]);
-                    thisItem.__flatsharp__Data_2 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[2]);
-                    thisItem.__flatsharp__Data_1 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[1]);
-                    thisItem.__flatsharp__Data_0 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[0]);
+                    thisItem.__flatsharp__Data_15 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[15]);
+                    thisItem.__flatsharp__Data_14 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[14]);
+                    thisItem.__flatsharp__Data_13 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[13]);
+                    thisItem.__flatsharp__Data_12 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[12]);
+                    thisItem.__flatsharp__Data_11 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[11]);
+                    thisItem.__flatsharp__Data_10 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[10]);
+                    thisItem.__flatsharp__Data_9 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[9]);
+                    thisItem.__flatsharp__Data_8 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[8]);
+                    thisItem.__flatsharp__Data_7 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[7]);
+                    thisItem.__flatsharp__Data_6 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[6]);
+                    thisItem.__flatsharp__Data_5 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[5]);
+                    thisItem.__flatsharp__Data_4 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[4]);
+                    thisItem.__flatsharp__Data_3 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[3]);
+                    thisItem.__flatsharp__Data_2 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[2]);
+                    thisItem.__flatsharp__Data_1 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[1]);
+                    thisItem.__flatsharp__Data_0 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[0]);
                 }
             }
 
@@ -379,22 +379,22 @@ namespace Samples.WriteThrough
                 {
                     var thisItem = this.item;
                     var s = source;
-                    thisItem.__flatsharp__Data_15 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[15]);
-                    thisItem.__flatsharp__Data_14 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[14]);
-                    thisItem.__flatsharp__Data_13 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[13]);
-                    thisItem.__flatsharp__Data_12 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[12]);
-                    thisItem.__flatsharp__Data_11 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[11]);
-                    thisItem.__flatsharp__Data_10 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[10]);
-                    thisItem.__flatsharp__Data_9 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[9]);
-                    thisItem.__flatsharp__Data_8 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[8]);
-                    thisItem.__flatsharp__Data_7 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[7]);
-                    thisItem.__flatsharp__Data_6 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[6]);
-                    thisItem.__flatsharp__Data_5 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[5]);
-                    thisItem.__flatsharp__Data_4 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[4]);
-                    thisItem.__flatsharp__Data_3 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[3]);
-                    thisItem.__flatsharp__Data_2 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[2]);
-                    thisItem.__flatsharp__Data_1 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[1]);
-                    thisItem.__flatsharp__Data_0 = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(s[0]);
+                    thisItem.__flatsharp__Data_15 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[15]);
+                    thisItem.__flatsharp__Data_14 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[14]);
+                    thisItem.__flatsharp__Data_13 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[13]);
+                    thisItem.__flatsharp__Data_12 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[12]);
+                    thisItem.__flatsharp__Data_11 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[11]);
+                    thisItem.__flatsharp__Data_10 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[10]);
+                    thisItem.__flatsharp__Data_9 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[9]);
+                    thisItem.__flatsharp__Data_8 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[8]);
+                    thisItem.__flatsharp__Data_7 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[7]);
+                    thisItem.__flatsharp__Data_6 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[6]);
+                    thisItem.__flatsharp__Data_5 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[5]);
+                    thisItem.__flatsharp__Data_4 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[4]);
+                    thisItem.__flatsharp__Data_3 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[3]);
+                    thisItem.__flatsharp__Data_2 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[2]);
+                    thisItem.__flatsharp__Data_1 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[1]);
+                    thisItem.__flatsharp__Data_0 = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(s[0]);
                 }
             }
         }
@@ -424,7 +424,7 @@ namespace Samples.WriteThrough
         {
             checked
             {
-                this.Blocks = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(source.Blocks);
+                this.Blocks = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(source.Blocks);
                 this.OnInitialized(null);
             }
         }
@@ -490,7 +490,7 @@ namespace Samples.WriteThrough
             {
                 checked
                 {
-                    WriteInlineValueOf_9247ca13d8fc4d729cdc71b3f027de32(writer, target, root, offset, context);
+                    WriteInlineValueOf_5a9600ddec8b4fc29aa9623fc0a56478(writer, target, root, offset, context);
                 }
             }
 
@@ -498,7 +498,7 @@ namespace Samples.WriteThrough
             {
                 checked
                 {
-                    return GetMaxSizeOf_9247ca13d8fc4d729cdc71b3f027de32(root);
+                    return GetMaxSizeOf_5a9600ddec8b4fc29aa9623fc0a56478(root);
                 }
             }
 
@@ -507,11 +507,11 @@ namespace Samples.WriteThrough
             {
                 checked
                 {
-                    return Read_9247ca13d8fc4d729cdc71b3f027de32(buffer, offset);
+                    return Read_5a9600ddec8b4fc29aa9623fc0a56478(buffer, offset);
                 }
             }
 
-            private static int GetMaxSizeOf_9247ca13d8fc4d729cdc71b3f027de32(global::Samples.WriteThrough.BloomFilter value)
+            private static int GetMaxSizeOf_5a9600ddec8b4fc29aa9623fc0a56478(global::Samples.WriteThrough.BloomFilter value)
             {
                 checked
                 {
@@ -521,25 +521,25 @@ namespace Samples.WriteThrough
 
                     if (!(index0Value is null))
                     {
-                        runningSum += GetMaxSizeOf_6c670417067f4798bcdb439803413036(index0Value);
+                        runningSum += GetMaxSizeOf_fa4cbfc599674a7aa072f25304bf325d(index0Value);
                     }
                     return runningSum;
 
                 }
             }
 
-            private static global::Samples.WriteThrough.BloomFilter Read_9247ca13d8fc4d729cdc71b3f027de32<TInputBuffer>(
+            private static global::Samples.WriteThrough.BloomFilter Read_5a9600ddec8b4fc29aa9623fc0a56478<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return tableReader_0a6b4c9bddd940b7b41b22603ced60ab<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
+                    return tableReader_58042552fa0b4874ac717aad92e13d67<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
                 }
             }
 
-            private sealed class tableReader_0a6b4c9bddd940b7b41b22603ced60ab<TInputBuffer>
+            private sealed class tableReader_58042552fa0b4874ac717aad92e13d67<TInputBuffer>
                 : global::Samples.WriteThrough.BloomFilter
                 , global::FlatSharp.IFlatBufferDeserializedObject
                 where TInputBuffer : IInputBuffer
@@ -553,18 +553,18 @@ namespace Samples.WriteThrough
                 private int __offset;
                 private VTable4 __vtable;
 
-                public static tableReader_0a6b4c9bddd940b7b41b22603ced60ab<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
+                public static tableReader_58042552fa0b4874ac717aad92e13d67<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
                 {
                     checked
                     {
 
-                        var item = new tableReader_0a6b4c9bddd940b7b41b22603ced60ab<TInputBuffer>(buffer, offset);
+                        var item = new tableReader_58042552fa0b4874ac717aad92e13d67<TInputBuffer>(buffer, offset);
                         return item;
 
                     }
                 }
 
-                private tableReader_0a6b4c9bddd940b7b41b22603ced60ab(TInputBuffer buffer, int offset) : base(__CtorContext)
+                private tableReader_58042552fa0b4874ac717aad92e13d67(TInputBuffer buffer, int offset) : base(__CtorContext)
                 {
                     checked
                     {
@@ -621,14 +621,14 @@ namespace Samples.WriteThrough
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_6c670417067f4798bcdb439803413036(buffer, absoluteLocation, tableMetadata_ed62678b6576422e990fc61880603977.Blocks);
+                        return Read_fa4cbfc599674a7aa072f25304bf325d(buffer, absoluteLocation, tableMetadata_29ebb6fbcdac468981c9b1468bac8152.Blocks);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_9247ca13d8fc4d729cdc71b3f027de32<TSpanWriter>(
+            private static void WriteInlineValueOf_5a9600ddec8b4fc29aa9623fc0a56478<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.WriteThrough.BloomFilter value,
@@ -675,14 +675,14 @@ namespace Samples.WriteThrough
                     {
 
 
-                        WriteInlineValueOf_6c670417067f4798bcdb439803413036(spanWriter, span, index0Value!, index0Offset, context);
+                        WriteInlineValueOf_fa4cbfc599674a7aa072f25304bf325d(spanWriter, span, index0Value!, index0Offset, context);
 
                     }
 
                 }
             }
 
-            private static class tableMetadata_ed62678b6576422e990fc61880603977
+            private static class tableMetadata_29ebb6fbcdac468981c9b1468bac8152
             {
 
                 public static readonly TableFieldContext Blocks = new TableFieldContext(
@@ -693,7 +693,7 @@ namespace Samples.WriteThrough
 
 
 
-            private static int GetMaxSizeOf_6c670417067f4798bcdb439803413036(global::System.Collections.Generic.IList<Samples.WriteThrough.Block> value)
+            private static int GetMaxSizeOf_fa4cbfc599674a7aa072f25304bf325d(global::System.Collections.Generic.IList<Samples.WriteThrough.Block> value)
             {
                 checked
                 {
@@ -701,14 +701,14 @@ namespace Samples.WriteThrough
                 }
             }
 
-            private static global::System.Collections.Generic.IList<Samples.WriteThrough.Block> Read_6c670417067f4798bcdb439803413036<TInputBuffer>(
+            private static global::System.Collections.Generic.IList<Samples.WriteThrough.Block> Read_fa4cbfc599674a7aa072f25304bf325d<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 , TableFieldContext fieldContext) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return new FlatBufferVector_4e5526e9d8464e27be7b61c23d3d9f30<TInputBuffer>(
+                    return new FlatBufferVector_bdfd703c3ce74ab09e1b76a128b23827<TInputBuffer>(
                     buffer,
                     offset + buffer.ReadUOffset(offset),
                     128,
@@ -716,10 +716,10 @@ namespace Samples.WriteThrough
                 }
             }
 
-            public sealed class FlatBufferVector_4e5526e9d8464e27be7b61c23d3d9f30<TInputBuffer> : FlatBufferVector<global::Samples.WriteThrough.Block, TInputBuffer>
+            public sealed class FlatBufferVector_bdfd703c3ce74ab09e1b76a128b23827<TInputBuffer> : FlatBufferVector<global::Samples.WriteThrough.Block, TInputBuffer>
                 where TInputBuffer : IInputBuffer
             {
-                public FlatBufferVector_4e5526e9d8464e27be7b61c23d3d9f30(
+                public FlatBufferVector_bdfd703c3ce74ab09e1b76a128b23827(
                     TInputBuffer memory,
                     int offset,
                     int itemSize,
@@ -738,7 +738,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        item = Read_a4cfd46b6b0d496eb72fb26414143d85(memory, offset);
+                        item = Read_842a43fd6f80430db07b99faa0703713(memory, offset);
                     }
                 }
 
@@ -746,14 +746,14 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        WriteInlineValueOf_a4cfd46b6b0d496eb72fb26414143d85(default(SpanWriter), data, item, 0);
+                        WriteInlineValueOf_842a43fd6f80430db07b99faa0703713(default(SpanWriter), data, item, 0);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_6c670417067f4798bcdb439803413036<TSpanWriter>(
+            private static void WriteInlineValueOf_fa4cbfc599674a7aa072f25304bf325d<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.Collections.Generic.IList<Samples.WriteThrough.Block> value,
@@ -779,7 +779,7 @@ namespace Samples.WriteThrough
                             var current = array[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            WriteInlineValueOf_a4cfd46b6b0d496eb72fb26414143d85(spanWriter, span, current, vectorOffset);
+                            WriteInlineValueOf_842a43fd6f80430db07b99faa0703713(spanWriter, span, current, vectorOffset);
                             vectorOffset += 128;
                         }
                     }
@@ -792,7 +792,7 @@ namespace Samples.WriteThrough
                             var current = realList[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            WriteInlineValueOf_a4cfd46b6b0d496eb72fb26414143d85(spanWriter, span, current, vectorOffset);
+                            WriteInlineValueOf_842a43fd6f80430db07b99faa0703713(spanWriter, span, current, vectorOffset);
                             vectorOffset += 128;
                         }
                     }
@@ -805,7 +805,7 @@ namespace Samples.WriteThrough
                             var current = value[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            WriteInlineValueOf_a4cfd46b6b0d496eb72fb26414143d85(spanWriter, span, current, vectorOffset);
+                            WriteInlineValueOf_842a43fd6f80430db07b99faa0703713(spanWriter, span, current, vectorOffset);
                             vectorOffset += 128;
                         }
                     }
@@ -813,7 +813,7 @@ namespace Samples.WriteThrough
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static int GetMaxSizeOf_a4cfd46b6b0d496eb72fb26414143d85(global::Samples.WriteThrough.Block value)
+            private static int GetMaxSizeOf_842a43fd6f80430db07b99faa0703713(global::Samples.WriteThrough.Block value)
             {
                 checked
                 {
@@ -821,18 +821,18 @@ namespace Samples.WriteThrough
                 }
             }
 
-            private static global::Samples.WriteThrough.Block Read_a4cfd46b6b0d496eb72fb26414143d85<TInputBuffer>(
+            private static global::Samples.WriteThrough.Block Read_842a43fd6f80430db07b99faa0703713<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return structReader_74258ff97a054782aa0600479e6c8911<TInputBuffer>.GetOrCreate(buffer, offset);
+                    return structReader_0c622a6c7bfe46428b9d1580cfd7294d<TInputBuffer>.GetOrCreate(buffer, offset);
                 }
             }
 
-            private sealed class structReader_74258ff97a054782aa0600479e6c8911<TInputBuffer>
+            private sealed class structReader_0c622a6c7bfe46428b9d1580cfd7294d<TInputBuffer>
                 : global::Samples.WriteThrough.Block
                 , global::FlatSharp.IFlatBufferDeserializedObject
                 where TInputBuffer : IInputBuffer
@@ -845,18 +845,18 @@ namespace Samples.WriteThrough
                 private TInputBuffer __buffer;
                 private int __offset;
 
-                public static structReader_74258ff97a054782aa0600479e6c8911<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
+                public static structReader_0c622a6c7bfe46428b9d1580cfd7294d<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
                 {
                     checked
                     {
 
-                        var item = new structReader_74258ff97a054782aa0600479e6c8911<TInputBuffer>(buffer, offset);
+                        var item = new structReader_0c622a6c7bfe46428b9d1580cfd7294d<TInputBuffer>(buffer, offset);
                         return item;
 
                     }
                 }
 
-                private structReader_74258ff97a054782aa0600479e6c8911(TInputBuffer buffer, int offset) : base(__CtorContext)
+                private structReader_0c622a6c7bfe46428b9d1580cfd7294d(TInputBuffer buffer, int offset) : base(__CtorContext)
                 {
                     checked
                     {
@@ -1184,7 +1184,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        return Read_eb46fe4b97064947b5fd25ea23ab1448(buffer, offset + 0);
+                        return Read_e36c5387802d41e18da2c79d8abaecfc(buffer, offset + 0);
                     }
                 }
 
@@ -1197,7 +1197,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(default(SpanWriter), buffer.AsSpan(), value, offset + 0);
+                        WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(default(SpanWriter), buffer.AsSpan(), value, offset + 0);
                     }
                 }
 
@@ -1209,7 +1209,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        return Read_eb46fe4b97064947b5fd25ea23ab1448(buffer, offset + 8);
+                        return Read_e36c5387802d41e18da2c79d8abaecfc(buffer, offset + 8);
                     }
                 }
 
@@ -1222,7 +1222,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(default(SpanWriter), buffer.AsSpan(), value, offset + 8);
+                        WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(default(SpanWriter), buffer.AsSpan(), value, offset + 8);
                     }
                 }
 
@@ -1234,7 +1234,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        return Read_eb46fe4b97064947b5fd25ea23ab1448(buffer, offset + 16);
+                        return Read_e36c5387802d41e18da2c79d8abaecfc(buffer, offset + 16);
                     }
                 }
 
@@ -1247,7 +1247,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(default(SpanWriter), buffer.AsSpan(), value, offset + 16);
+                        WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(default(SpanWriter), buffer.AsSpan(), value, offset + 16);
                     }
                 }
 
@@ -1259,7 +1259,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        return Read_eb46fe4b97064947b5fd25ea23ab1448(buffer, offset + 24);
+                        return Read_e36c5387802d41e18da2c79d8abaecfc(buffer, offset + 24);
                     }
                 }
 
@@ -1272,7 +1272,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(default(SpanWriter), buffer.AsSpan(), value, offset + 24);
+                        WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(default(SpanWriter), buffer.AsSpan(), value, offset + 24);
                     }
                 }
 
@@ -1284,7 +1284,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        return Read_eb46fe4b97064947b5fd25ea23ab1448(buffer, offset + 32);
+                        return Read_e36c5387802d41e18da2c79d8abaecfc(buffer, offset + 32);
                     }
                 }
 
@@ -1297,7 +1297,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(default(SpanWriter), buffer.AsSpan(), value, offset + 32);
+                        WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(default(SpanWriter), buffer.AsSpan(), value, offset + 32);
                     }
                 }
 
@@ -1309,7 +1309,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        return Read_eb46fe4b97064947b5fd25ea23ab1448(buffer, offset + 40);
+                        return Read_e36c5387802d41e18da2c79d8abaecfc(buffer, offset + 40);
                     }
                 }
 
@@ -1322,7 +1322,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(default(SpanWriter), buffer.AsSpan(), value, offset + 40);
+                        WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(default(SpanWriter), buffer.AsSpan(), value, offset + 40);
                     }
                 }
 
@@ -1334,7 +1334,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        return Read_eb46fe4b97064947b5fd25ea23ab1448(buffer, offset + 48);
+                        return Read_e36c5387802d41e18da2c79d8abaecfc(buffer, offset + 48);
                     }
                 }
 
@@ -1347,7 +1347,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(default(SpanWriter), buffer.AsSpan(), value, offset + 48);
+                        WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(default(SpanWriter), buffer.AsSpan(), value, offset + 48);
                     }
                 }
 
@@ -1359,7 +1359,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        return Read_eb46fe4b97064947b5fd25ea23ab1448(buffer, offset + 56);
+                        return Read_e36c5387802d41e18da2c79d8abaecfc(buffer, offset + 56);
                     }
                 }
 
@@ -1372,7 +1372,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(default(SpanWriter), buffer.AsSpan(), value, offset + 56);
+                        WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(default(SpanWriter), buffer.AsSpan(), value, offset + 56);
                     }
                 }
 
@@ -1384,7 +1384,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        return Read_eb46fe4b97064947b5fd25ea23ab1448(buffer, offset + 64);
+                        return Read_e36c5387802d41e18da2c79d8abaecfc(buffer, offset + 64);
                     }
                 }
 
@@ -1397,7 +1397,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(default(SpanWriter), buffer.AsSpan(), value, offset + 64);
+                        WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(default(SpanWriter), buffer.AsSpan(), value, offset + 64);
                     }
                 }
 
@@ -1409,7 +1409,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        return Read_eb46fe4b97064947b5fd25ea23ab1448(buffer, offset + 72);
+                        return Read_e36c5387802d41e18da2c79d8abaecfc(buffer, offset + 72);
                     }
                 }
 
@@ -1422,7 +1422,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(default(SpanWriter), buffer.AsSpan(), value, offset + 72);
+                        WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(default(SpanWriter), buffer.AsSpan(), value, offset + 72);
                     }
                 }
 
@@ -1434,7 +1434,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        return Read_eb46fe4b97064947b5fd25ea23ab1448(buffer, offset + 80);
+                        return Read_e36c5387802d41e18da2c79d8abaecfc(buffer, offset + 80);
                     }
                 }
 
@@ -1447,7 +1447,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(default(SpanWriter), buffer.AsSpan(), value, offset + 80);
+                        WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(default(SpanWriter), buffer.AsSpan(), value, offset + 80);
                     }
                 }
 
@@ -1459,7 +1459,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        return Read_eb46fe4b97064947b5fd25ea23ab1448(buffer, offset + 88);
+                        return Read_e36c5387802d41e18da2c79d8abaecfc(buffer, offset + 88);
                     }
                 }
 
@@ -1472,7 +1472,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(default(SpanWriter), buffer.AsSpan(), value, offset + 88);
+                        WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(default(SpanWriter), buffer.AsSpan(), value, offset + 88);
                     }
                 }
 
@@ -1484,7 +1484,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        return Read_eb46fe4b97064947b5fd25ea23ab1448(buffer, offset + 96);
+                        return Read_e36c5387802d41e18da2c79d8abaecfc(buffer, offset + 96);
                     }
                 }
 
@@ -1497,7 +1497,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(default(SpanWriter), buffer.AsSpan(), value, offset + 96);
+                        WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(default(SpanWriter), buffer.AsSpan(), value, offset + 96);
                     }
                 }
 
@@ -1509,7 +1509,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        return Read_eb46fe4b97064947b5fd25ea23ab1448(buffer, offset + 104);
+                        return Read_e36c5387802d41e18da2c79d8abaecfc(buffer, offset + 104);
                     }
                 }
 
@@ -1522,7 +1522,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(default(SpanWriter), buffer.AsSpan(), value, offset + 104);
+                        WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(default(SpanWriter), buffer.AsSpan(), value, offset + 104);
                     }
                 }
 
@@ -1534,7 +1534,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        return Read_eb46fe4b97064947b5fd25ea23ab1448(buffer, offset + 112);
+                        return Read_e36c5387802d41e18da2c79d8abaecfc(buffer, offset + 112);
                     }
                 }
 
@@ -1547,7 +1547,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(default(SpanWriter), buffer.AsSpan(), value, offset + 112);
+                        WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(default(SpanWriter), buffer.AsSpan(), value, offset + 112);
                     }
                 }
 
@@ -1559,7 +1559,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        return Read_eb46fe4b97064947b5fd25ea23ab1448(buffer, offset + 120);
+                        return Read_e36c5387802d41e18da2c79d8abaecfc(buffer, offset + 120);
                     }
                 }
 
@@ -1572,14 +1572,14 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(default(SpanWriter), buffer.AsSpan(), value, offset + 120);
+                        WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(default(SpanWriter), buffer.AsSpan(), value, offset + 120);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_a4cfd46b6b0d496eb72fb26414143d85<TSpanWriter>(
+            private static void WriteInlineValueOf_842a43fd6f80430db07b99faa0703713<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.WriteThrough.Block value,
@@ -1597,27 +1597,27 @@ namespace Samples.WriteThrough
                         return;
                     }
 
-                    WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(spanWriter, scopedSpan, value.Data[0], 0);
-                    WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(spanWriter, scopedSpan, value.Data[1], 8);
-                    WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(spanWriter, scopedSpan, value.Data[2], 16);
-                    WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(spanWriter, scopedSpan, value.Data[3], 24);
-                    WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(spanWriter, scopedSpan, value.Data[4], 32);
-                    WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(spanWriter, scopedSpan, value.Data[5], 40);
-                    WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(spanWriter, scopedSpan, value.Data[6], 48);
-                    WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(spanWriter, scopedSpan, value.Data[7], 56);
-                    WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(spanWriter, scopedSpan, value.Data[8], 64);
-                    WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(spanWriter, scopedSpan, value.Data[9], 72);
-                    WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(spanWriter, scopedSpan, value.Data[10], 80);
-                    WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(spanWriter, scopedSpan, value.Data[11], 88);
-                    WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(spanWriter, scopedSpan, value.Data[12], 96);
-                    WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(spanWriter, scopedSpan, value.Data[13], 104);
-                    WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(spanWriter, scopedSpan, value.Data[14], 112);
-                    WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448(spanWriter, scopedSpan, value.Data[15], 120);
+                    WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(spanWriter, scopedSpan, value.Data[0], 0);
+                    WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(spanWriter, scopedSpan, value.Data[1], 8);
+                    WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(spanWriter, scopedSpan, value.Data[2], 16);
+                    WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(spanWriter, scopedSpan, value.Data[3], 24);
+                    WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(spanWriter, scopedSpan, value.Data[4], 32);
+                    WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(spanWriter, scopedSpan, value.Data[5], 40);
+                    WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(spanWriter, scopedSpan, value.Data[6], 48);
+                    WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(spanWriter, scopedSpan, value.Data[7], 56);
+                    WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(spanWriter, scopedSpan, value.Data[8], 64);
+                    WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(spanWriter, scopedSpan, value.Data[9], 72);
+                    WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(spanWriter, scopedSpan, value.Data[10], 80);
+                    WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(spanWriter, scopedSpan, value.Data[11], 88);
+                    WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(spanWriter, scopedSpan, value.Data[12], 96);
+                    WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(spanWriter, scopedSpan, value.Data[13], 104);
+                    WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(spanWriter, scopedSpan, value.Data[14], 112);
+                    WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc(spanWriter, scopedSpan, value.Data[15], 120);
                 }
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static int GetMaxSizeOf_eb46fe4b97064947b5fd25ea23ab1448(global::System.UInt64 value)
+            private static int GetMaxSizeOf_e36c5387802d41e18da2c79d8abaecfc(global::System.UInt64 value)
             {
                 checked
                 {
@@ -1626,7 +1626,7 @@ namespace Samples.WriteThrough
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static global::System.UInt64 Read_eb46fe4b97064947b5fd25ea23ab1448<TInputBuffer>(
+            private static global::System.UInt64 Read_e36c5387802d41e18da2c79d8abaecfc<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
@@ -1638,7 +1638,7 @@ namespace Samples.WriteThrough
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static void WriteInlineValueOf_eb46fe4b97064947b5fd25ea23ab1448<TSpanWriter>(
+            private static void WriteInlineValueOf_e36c5387802d41e18da2c79d8abaecfc<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.UInt64 value,
@@ -1705,8 +1705,8 @@ namespace Samples.WriteThrough
         {
             checked
             {
-                this.Points = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(source.Points);
-                this.NumPoints = FlatSharp.Compiler.Generated.CloneHelpers_683ce76fb5a94bd8aaeb455cd356014a.Clone(source.NumPoints);
+                this.Points = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(source.Points);
+                this.NumPoints = FlatSharp.Compiler.Generated.CloneHelpers_ba12309b69c346e6967cd8960e60fc42.Clone(source.NumPoints);
                 this.OnInitialized(null);
             }
         }
@@ -1775,7 +1775,7 @@ namespace Samples.WriteThrough
             {
                 checked
                 {
-                    WriteInlineValueOf_dcf3628f91624341ac3099c2a89a857b(writer, target, root, offset, context);
+                    WriteInlineValueOf_3bb5b8f68d544392be5d4d9280751d88(writer, target, root, offset, context);
                 }
             }
 
@@ -1783,7 +1783,7 @@ namespace Samples.WriteThrough
             {
                 checked
                 {
-                    return GetMaxSizeOf_dcf3628f91624341ac3099c2a89a857b(root);
+                    return GetMaxSizeOf_3bb5b8f68d544392be5d4d9280751d88(root);
                 }
             }
 
@@ -1792,11 +1792,11 @@ namespace Samples.WriteThrough
             {
                 checked
                 {
-                    return Read_dcf3628f91624341ac3099c2a89a857b(buffer, offset);
+                    return Read_3bb5b8f68d544392be5d4d9280751d88(buffer, offset);
                 }
             }
 
-            private static int GetMaxSizeOf_dcf3628f91624341ac3099c2a89a857b(global::Samples.WriteThrough.Path value)
+            private static int GetMaxSizeOf_3bb5b8f68d544392be5d4d9280751d88(global::Samples.WriteThrough.Path value)
             {
                 checked
                 {
@@ -1806,25 +1806,25 @@ namespace Samples.WriteThrough
 
                     if (!(index0Value is null))
                     {
-                        runningSum += GetMaxSizeOf_01b56d5fb9f14efeb09f5d364ab30a2a(index0Value);
+                        runningSum += GetMaxSizeOf_e8c3d6f2664e455697b0234d93c4ca80(index0Value);
                     }
                     return runningSum;
 
                 }
             }
 
-            private static global::Samples.WriteThrough.Path Read_dcf3628f91624341ac3099c2a89a857b<TInputBuffer>(
+            private static global::Samples.WriteThrough.Path Read_3bb5b8f68d544392be5d4d9280751d88<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return tableReader_44486347a5b14c649383ac9b8c71855f<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
+                    return tableReader_aeead46175b9415487cf0f19bafa781c<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
                 }
             }
 
-            private sealed class tableReader_44486347a5b14c649383ac9b8c71855f<TInputBuffer>
+            private sealed class tableReader_aeead46175b9415487cf0f19bafa781c<TInputBuffer>
                 : global::Samples.WriteThrough.Path
                 , global::FlatSharp.IFlatBufferDeserializedObject
                 where TInputBuffer : IInputBuffer
@@ -1841,18 +1841,18 @@ namespace Samples.WriteThrough
                 private System.Collections.Generic.IList<Samples.WriteThrough.Point>? __index0Value;
                 private Samples.WriteThrough.MutableInt __index1Value;
 
-                public static tableReader_44486347a5b14c649383ac9b8c71855f<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
+                public static tableReader_aeead46175b9415487cf0f19bafa781c<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
                 {
                     checked
                     {
 
-                        var item = new tableReader_44486347a5b14c649383ac9b8c71855f<TInputBuffer>(buffer, offset);
+                        var item = new tableReader_aeead46175b9415487cf0f19bafa781c<TInputBuffer>(buffer, offset);
                         return item;
 
                     }
                 }
 
-                private tableReader_44486347a5b14c649383ac9b8c71855f(TInputBuffer buffer, int offset) : base(__CtorContext)
+                private tableReader_aeead46175b9415487cf0f19bafa781c(TInputBuffer buffer, int offset) : base(__CtorContext)
                 {
                     checked
                     {
@@ -1944,7 +1944,7 @@ namespace Samples.WriteThrough
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_01b56d5fb9f14efeb09f5d364ab30a2a(buffer, absoluteLocation, tableMetadata_e565db6089bf4d0abd1527998cc0fd34.Points);
+                        return Read_e8c3d6f2664e455697b0234d93c4ca80(buffer, absoluteLocation, tableMetadata_1beb9db779b64a059929c3ac5bee2442.Points);
                     }
                 }
 
@@ -1969,7 +1969,7 @@ namespace Samples.WriteThrough
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_8c0e1f8193d145099d59409000456849(buffer, absoluteLocation);
+                        return Read_118368c929654d4dbc4d046af2c72989(buffer, absoluteLocation);
                     }
                 }
 
@@ -1995,14 +1995,14 @@ namespace Samples.WriteThrough
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        WriteInlineValueOf_8c0e1f8193d145099d59409000456849(default(SpanWriter), buffer.AsSpan(), value, absoluteLocation);
+                        WriteInlineValueOf_118368c929654d4dbc4d046af2c72989(default(SpanWriter), buffer.AsSpan(), value, absoluteLocation);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_dcf3628f91624341ac3099c2a89a857b<TSpanWriter>(
+            private static void WriteInlineValueOf_3bb5b8f68d544392be5d4d9280751d88<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.WriteThrough.Path value,
@@ -2032,7 +2032,7 @@ namespace Samples.WriteThrough
                         currentOffset += 4;
 
 
-                        WriteInlineValueOf_8c0e1f8193d145099d59409000456849(spanWriter, span, index1Value, index1Offset);
+                        WriteInlineValueOf_118368c929654d4dbc4d046af2c72989(spanWriter, span, index1Value, index1Offset);
 
 
                     }
@@ -2066,14 +2066,14 @@ namespace Samples.WriteThrough
                     {
 
 
-                        WriteInlineValueOf_01b56d5fb9f14efeb09f5d364ab30a2a(spanWriter, span, index0Value!, index0Offset, context);
+                        WriteInlineValueOf_e8c3d6f2664e455697b0234d93c4ca80(spanWriter, span, index0Value!, index0Offset, context);
 
                     }
 
                 }
             }
 
-            private static class tableMetadata_e565db6089bf4d0abd1527998cc0fd34
+            private static class tableMetadata_1beb9db779b64a059929c3ac5bee2442
             {
 
                 public static readonly TableFieldContext Points = new TableFieldContext(
@@ -2089,7 +2089,7 @@ namespace Samples.WriteThrough
 
 
 
-            private static int GetMaxSizeOf_01b56d5fb9f14efeb09f5d364ab30a2a(global::System.Collections.Generic.IList<Samples.WriteThrough.Point> value)
+            private static int GetMaxSizeOf_e8c3d6f2664e455697b0234d93c4ca80(global::System.Collections.Generic.IList<Samples.WriteThrough.Point> value)
             {
                 checked
                 {
@@ -2097,14 +2097,14 @@ namespace Samples.WriteThrough
                 }
             }
 
-            private static global::System.Collections.Generic.IList<Samples.WriteThrough.Point> Read_01b56d5fb9f14efeb09f5d364ab30a2a<TInputBuffer>(
+            private static global::System.Collections.Generic.IList<Samples.WriteThrough.Point> Read_e8c3d6f2664e455697b0234d93c4ca80<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 , TableFieldContext fieldContext) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return new FlatBufferProgressiveVector<global::Samples.WriteThrough.Point, TInputBuffer>(new FlatBufferVector_ab2ce50e30ef40de9e2413475e2b4a16<TInputBuffer>(
+                    return new FlatBufferProgressiveVector<global::Samples.WriteThrough.Point, TInputBuffer>(new FlatBufferVector_57cdd243f5b343bca647804a972a8e65<TInputBuffer>(
                     buffer,
                     offset + buffer.ReadUOffset(offset),
                     12,
@@ -2112,10 +2112,10 @@ namespace Samples.WriteThrough
                 }
             }
 
-            public sealed class FlatBufferVector_ab2ce50e30ef40de9e2413475e2b4a16<TInputBuffer> : FlatBufferVector<global::Samples.WriteThrough.Point, TInputBuffer>
+            public sealed class FlatBufferVector_57cdd243f5b343bca647804a972a8e65<TInputBuffer> : FlatBufferVector<global::Samples.WriteThrough.Point, TInputBuffer>
                 where TInputBuffer : IInputBuffer
             {
-                public FlatBufferVector_ab2ce50e30ef40de9e2413475e2b4a16(
+                public FlatBufferVector_57cdd243f5b343bca647804a972a8e65(
                     TInputBuffer memory,
                     int offset,
                     int itemSize,
@@ -2134,7 +2134,7 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        item = Read_efdef1eda1a347128b48defd472403ad(memory, offset);
+                        item = Read_9e2cbc81f4b5491dab865247b73dd5c0(memory, offset);
                     }
                 }
 
@@ -2142,14 +2142,14 @@ namespace Samples.WriteThrough
                 {
                     checked
                     {
-                        WriteInlineValueOf_efdef1eda1a347128b48defd472403ad(default(SpanWriter), data, item, 0);
+                        WriteInlineValueOf_9e2cbc81f4b5491dab865247b73dd5c0(default(SpanWriter), data, item, 0);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_01b56d5fb9f14efeb09f5d364ab30a2a<TSpanWriter>(
+            private static void WriteInlineValueOf_e8c3d6f2664e455697b0234d93c4ca80<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.Collections.Generic.IList<Samples.WriteThrough.Point> value,
@@ -2175,7 +2175,7 @@ namespace Samples.WriteThrough
                             var current = array[i];
 
 
-                            WriteInlineValueOf_efdef1eda1a347128b48defd472403ad(spanWriter, span, current, vectorOffset);
+                            WriteInlineValueOf_9e2cbc81f4b5491dab865247b73dd5c0(spanWriter, span, current, vectorOffset);
                             vectorOffset += 12;
                         }
                     }
@@ -2188,7 +2188,7 @@ namespace Samples.WriteThrough
                             var current = realList[i];
 
 
-                            WriteInlineValueOf_efdef1eda1a347128b48defd472403ad(spanWriter, span, current, vectorOffset);
+                            WriteInlineValueOf_9e2cbc81f4b5491dab865247b73dd5c0(spanWriter, span, current, vectorOffset);
                             vectorOffset += 12;
                         }
                     }
@@ -2201,14 +2201,14 @@ namespace Samples.WriteThrough
                             var current = value[i];
 
 
-                            WriteInlineValueOf_efdef1eda1a347128b48defd472403ad(spanWriter, span, current, vectorOffset);
+                            WriteInlineValueOf_9e2cbc81f4b5491dab865247b73dd5c0(spanWriter, span, current, vectorOffset);
                             vectorOffset += 12;
                         }
                     }
                 }
             }
 
-            private static int GetMaxSizeOf_efdef1eda1a347128b48defd472403ad(global::Samples.WriteThrough.Point value)
+            private static int GetMaxSizeOf_9e2cbc81f4b5491dab865247b73dd5c0(global::Samples.WriteThrough.Point value)
             {
                 checked
                 {
@@ -2216,7 +2216,7 @@ namespace Samples.WriteThrough
                 }
             }
 
-            private static global::Samples.WriteThrough.Point Read_efdef1eda1a347128b48defd472403ad<TInputBuffer>(
+            private static global::Samples.WriteThrough.Point Read_9e2cbc81f4b5491dab865247b73dd5c0<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
@@ -2226,15 +2226,15 @@ namespace Samples.WriteThrough
 
                     var item = default(global::Samples.WriteThrough.Point);
 
-                    item.X = Read_8b7e87fa58854cfa87e64451da0c88a0<TInputBuffer>(
+                    item.X = Read_1d2ac73d72a549e2b3506bd1953cda9c<TInputBuffer>(
                         buffer,
                         offset + 0);
 
-                    item.Y = Read_8b7e87fa58854cfa87e64451da0c88a0<TInputBuffer>(
+                    item.Y = Read_1d2ac73d72a549e2b3506bd1953cda9c<TInputBuffer>(
                         buffer,
                         offset + 4);
 
-                    item.Z = Read_8b7e87fa58854cfa87e64451da0c88a0<TInputBuffer>(
+                    item.Z = Read_1d2ac73d72a549e2b3506bd1953cda9c<TInputBuffer>(
                         buffer,
                         offset + 8);
                     return item;
@@ -2242,7 +2242,7 @@ namespace Samples.WriteThrough
                 }
             }
 
-            private static void WriteInlineValueOf_efdef1eda1a347128b48defd472403ad<TSpanWriter>(
+            private static void WriteInlineValueOf_9e2cbc81f4b5491dab865247b73dd5c0<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.WriteThrough.Point value,
@@ -2254,14 +2254,14 @@ namespace Samples.WriteThrough
                 {
 
                     Span<byte> sizedSpan = span.Slice(offset, 12);
-                    WriteInlineValueOf_8b7e87fa58854cfa87e64451da0c88a0(spanWriter, sizedSpan, value.X, 0);
-                    WriteInlineValueOf_8b7e87fa58854cfa87e64451da0c88a0(spanWriter, sizedSpan, value.Y, 4);
-                    WriteInlineValueOf_8b7e87fa58854cfa87e64451da0c88a0(spanWriter, sizedSpan, value.Z, 8);
+                    WriteInlineValueOf_1d2ac73d72a549e2b3506bd1953cda9c(spanWriter, sizedSpan, value.X, 0);
+                    WriteInlineValueOf_1d2ac73d72a549e2b3506bd1953cda9c(spanWriter, sizedSpan, value.Y, 4);
+                    WriteInlineValueOf_1d2ac73d72a549e2b3506bd1953cda9c(spanWriter, sizedSpan, value.Z, 8);
                 }
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static int GetMaxSizeOf_8b7e87fa58854cfa87e64451da0c88a0(global::System.Single value)
+            private static int GetMaxSizeOf_1d2ac73d72a549e2b3506bd1953cda9c(global::System.Single value)
             {
                 checked
                 {
@@ -2270,7 +2270,7 @@ namespace Samples.WriteThrough
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static global::System.Single Read_8b7e87fa58854cfa87e64451da0c88a0<TInputBuffer>(
+            private static global::System.Single Read_1d2ac73d72a549e2b3506bd1953cda9c<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
@@ -2282,7 +2282,7 @@ namespace Samples.WriteThrough
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static void WriteInlineValueOf_8b7e87fa58854cfa87e64451da0c88a0<TSpanWriter>(
+            private static void WriteInlineValueOf_1d2ac73d72a549e2b3506bd1953cda9c<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.Single value,
@@ -2296,7 +2296,7 @@ namespace Samples.WriteThrough
                 }
             }
 
-            private static int GetMaxSizeOf_8c0e1f8193d145099d59409000456849(global::Samples.WriteThrough.MutableInt value)
+            private static int GetMaxSizeOf_118368c929654d4dbc4d046af2c72989(global::Samples.WriteThrough.MutableInt value)
             {
                 checked
                 {
@@ -2304,7 +2304,7 @@ namespace Samples.WriteThrough
                 }
             }
 
-            private static global::Samples.WriteThrough.MutableInt Read_8c0e1f8193d145099d59409000456849<TInputBuffer>(
+            private static global::Samples.WriteThrough.MutableInt Read_118368c929654d4dbc4d046af2c72989<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
@@ -2314,7 +2314,7 @@ namespace Samples.WriteThrough
 
                     var item = default(global::Samples.WriteThrough.MutableInt);
 
-                    item.Value = Read_bf9dd1a2fe414c8ea0498acb592336f2<TInputBuffer>(
+                    item.Value = Read_da06aa456499435b83351148af17db36<TInputBuffer>(
                         buffer,
                         offset + 0);
                     return item;
@@ -2322,7 +2322,7 @@ namespace Samples.WriteThrough
                 }
             }
 
-            private static void WriteInlineValueOf_8c0e1f8193d145099d59409000456849<TSpanWriter>(
+            private static void WriteInlineValueOf_118368c929654d4dbc4d046af2c72989<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.WriteThrough.MutableInt value,
@@ -2334,12 +2334,12 @@ namespace Samples.WriteThrough
                 {
 
                     Span<byte> sizedSpan = span.Slice(offset, 4);
-                    WriteInlineValueOf_bf9dd1a2fe414c8ea0498acb592336f2(spanWriter, sizedSpan, value.Value, 0);
+                    WriteInlineValueOf_da06aa456499435b83351148af17db36(spanWriter, sizedSpan, value.Value, 0);
                 }
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static int GetMaxSizeOf_bf9dd1a2fe414c8ea0498acb592336f2(global::System.Int32 value)
+            private static int GetMaxSizeOf_da06aa456499435b83351148af17db36(global::System.Int32 value)
             {
                 checked
                 {
@@ -2348,7 +2348,7 @@ namespace Samples.WriteThrough
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static global::System.Int32 Read_bf9dd1a2fe414c8ea0498acb592336f2<TInputBuffer>(
+            private static global::System.Int32 Read_da06aa456499435b83351148af17db36<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
@@ -2360,7 +2360,7 @@ namespace Samples.WriteThrough
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static void WriteInlineValueOf_bf9dd1a2fe414c8ea0498acb592336f2<TSpanWriter>(
+            private static void WriteInlineValueOf_da06aa456499435b83351148af17db36<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.Int32 value,

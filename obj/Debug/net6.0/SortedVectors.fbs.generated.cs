@@ -21,7 +21,7 @@ using FlatSharp.Internal;
 #nullable enable
 namespace FlatSharp.Compiler.Generated
 {
-    internal static class CloneHelpers_4876f99b95cc4929a9c4fbde496c08af
+    internal static class CloneHelpers_1c0922197bc746b2b9f5cd1167ac21e9
     {
         [return: System.Diagnostics.CodeAnalysis.NotNullIfNotNull("item")]
         [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
@@ -59,7 +59,7 @@ namespace FlatSharp.Compiler.Generated
         {
             checked
             {
-                return VectorCloneHelpers.Clone<Samples.SortedVectors.Fbs.User>(item, FlatSharp.Compiler.Generated.CloneHelpers_4876f99b95cc4929a9c4fbde496c08af.Clone);
+                return VectorCloneHelpers.Clone<Samples.SortedVectors.Fbs.User>(item, FlatSharp.Compiler.Generated.CloneHelpers_1c0922197bc746b2b9f5cd1167ac21e9.Clone);
             }
         }
     }
@@ -99,9 +99,9 @@ namespace Samples.SortedVectors.Fbs
         {
             checked
             {
-                this.FirstName = FlatSharp.Compiler.Generated.CloneHelpers_4876f99b95cc4929a9c4fbde496c08af.Clone(source.FirstName);
-                this.LastName = FlatSharp.Compiler.Generated.CloneHelpers_4876f99b95cc4929a9c4fbde496c08af.Clone(source.LastName);
-                this.SSN = FlatSharp.Compiler.Generated.CloneHelpers_4876f99b95cc4929a9c4fbde496c08af.Clone(source.SSN);
+                this.FirstName = FlatSharp.Compiler.Generated.CloneHelpers_1c0922197bc746b2b9f5cd1167ac21e9.Clone(source.FirstName);
+                this.LastName = FlatSharp.Compiler.Generated.CloneHelpers_1c0922197bc746b2b9f5cd1167ac21e9.Clone(source.LastName);
+                this.SSN = FlatSharp.Compiler.Generated.CloneHelpers_1c0922197bc746b2b9f5cd1167ac21e9.Clone(source.SSN);
                 this.OnInitialized(null);
             }
         }
@@ -154,7 +154,7 @@ namespace Samples.SortedVectors.Fbs
         {
             checked
             {
-                this.Users = FlatSharp.Compiler.Generated.CloneHelpers_4876f99b95cc4929a9c4fbde496c08af.Clone(source.Users);
+                this.Users = FlatSharp.Compiler.Generated.CloneHelpers_1c0922197bc746b2b9f5cd1167ac21e9.Clone(source.Users);
                 this.OnInitialized(null);
             }
         }
@@ -220,7 +220,7 @@ namespace Samples.SortedVectors.Fbs
             {
                 checked
                 {
-                    WriteInlineValueOf_ffaca22c3a7942eeb00d84ef3eced2f1(writer, target, root, offset, context);
+                    WriteInlineValueOf_90270c54198649b3b554692f140c78a3(writer, target, root, offset, context);
                 }
             }
 
@@ -228,7 +228,7 @@ namespace Samples.SortedVectors.Fbs
             {
                 checked
                 {
-                    return GetMaxSizeOf_ffaca22c3a7942eeb00d84ef3eced2f1(root);
+                    return GetMaxSizeOf_90270c54198649b3b554692f140c78a3(root);
                 }
             }
 
@@ -237,11 +237,11 @@ namespace Samples.SortedVectors.Fbs
             {
                 checked
                 {
-                    return Read_ffaca22c3a7942eeb00d84ef3eced2f1(buffer, offset);
+                    return Read_90270c54198649b3b554692f140c78a3(buffer, offset);
                 }
             }
 
-            private static int GetMaxSizeOf_ffaca22c3a7942eeb00d84ef3eced2f1(global::Samples.SortedVectors.Fbs.UserList value)
+            private static int GetMaxSizeOf_90270c54198649b3b554692f140c78a3(global::Samples.SortedVectors.Fbs.UserList value)
             {
                 checked
                 {
@@ -251,25 +251,25 @@ namespace Samples.SortedVectors.Fbs
 
                     if (!(index0Value is null))
                     {
-                        runningSum += GetMaxSizeOf_ed0becb42dff40d787285c894967e133(index0Value);
+                        runningSum += GetMaxSizeOf_7384324332bc4eff87e2f15ca124b525(index0Value);
                     }
                     return runningSum;
 
                 }
             }
 
-            private static global::Samples.SortedVectors.Fbs.UserList Read_ffaca22c3a7942eeb00d84ef3eced2f1<TInputBuffer>(
+            private static global::Samples.SortedVectors.Fbs.UserList Read_90270c54198649b3b554692f140c78a3<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return tableReader_835c286e10574f72a4b6005e9445dd47<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
+                    return tableReader_b042e1acc4854cb5a939ed2c2d53fbc7<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
                 }
             }
 
-            private sealed class tableReader_835c286e10574f72a4b6005e9445dd47<TInputBuffer>
+            private sealed class tableReader_b042e1acc4854cb5a939ed2c2d53fbc7<TInputBuffer>
                 : global::Samples.SortedVectors.Fbs.UserList
                 , global::FlatSharp.IFlatBufferDeserializedObject
                 where TInputBuffer : IInputBuffer
@@ -281,18 +281,18 @@ namespace Samples.SortedVectors.Fbs
 
                 private System.Collections.Generic.IList<Samples.SortedVectors.Fbs.User>? __index0Value;
 
-                public static tableReader_835c286e10574f72a4b6005e9445dd47<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
+                public static tableReader_b042e1acc4854cb5a939ed2c2d53fbc7<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
                 {
                     checked
                     {
 
-                        var item = new tableReader_835c286e10574f72a4b6005e9445dd47<TInputBuffer>(buffer, offset);
+                        var item = new tableReader_b042e1acc4854cb5a939ed2c2d53fbc7<TInputBuffer>(buffer, offset);
                         return item;
 
                     }
                 }
 
-                private tableReader_835c286e10574f72a4b6005e9445dd47(TInputBuffer buffer, int offset) : base(__CtorContext)
+                private tableReader_b042e1acc4854cb5a939ed2c2d53fbc7(TInputBuffer buffer, int offset) : base(__CtorContext)
                 {
                     checked
                     {
@@ -348,14 +348,14 @@ namespace Samples.SortedVectors.Fbs
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_ed0becb42dff40d787285c894967e133(buffer, absoluteLocation, tableMetadata_b8bbbb353f3e44658df92e42da2144d5.Users);
+                        return Read_7384324332bc4eff87e2f15ca124b525(buffer, absoluteLocation, tableMetadata_9f1508c1ff99453280d52a18624ee1ae.Users);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_ffaca22c3a7942eeb00d84ef3eced2f1<TSpanWriter>(
+            private static void WriteInlineValueOf_90270c54198649b3b554692f140c78a3<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.SortedVectors.Fbs.UserList value,
@@ -398,7 +398,7 @@ namespace Samples.SortedVectors.Fbs
                     {
 
 
-                        WriteInlineValueOf_ed0becb42dff40d787285c894967e133(spanWriter, span, index0Value!, index0Offset, context);
+                        WriteInlineValueOf_7384324332bc4eff87e2f15ca124b525(spanWriter, span, index0Value!, index0Offset, context);
 
                         context.AddPostSerializeAction(
                             (tempSpan, ctx) =>
@@ -413,7 +413,7 @@ namespace Samples.SortedVectors.Fbs
                 }
             }
 
-            private static class tableMetadata_b8bbbb353f3e44658df92e42da2144d5
+            private static class tableMetadata_9f1508c1ff99453280d52a18624ee1ae
             {
 
                 public static readonly TableFieldContext Users = new TableFieldContext(
@@ -424,7 +424,7 @@ namespace Samples.SortedVectors.Fbs
 
 
 
-            private static int GetMaxSizeOf_ed0becb42dff40d787285c894967e133(global::System.Collections.Generic.IList<Samples.SortedVectors.Fbs.User> value)
+            private static int GetMaxSizeOf_7384324332bc4eff87e2f15ca124b525(global::System.Collections.Generic.IList<Samples.SortedVectors.Fbs.User> value)
             {
                 checked
                 {
@@ -440,7 +440,7 @@ namespace Samples.SortedVectors.Fbs
                             var current = array[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            runningSum += GetMaxSizeOf_5628e6061ef046d8a757eff60087bd82(current);
+                            runningSum += GetMaxSizeOf_0c9a16e166f14721bbd6a4c4b646619b(current);
                         }
                     }
                     else if (value is List<Samples.SortedVectors.Fbs.User> realList)
@@ -452,7 +452,7 @@ namespace Samples.SortedVectors.Fbs
                             var current = realList[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            runningSum += GetMaxSizeOf_5628e6061ef046d8a757eff60087bd82(current);
+                            runningSum += GetMaxSizeOf_0c9a16e166f14721bbd6a4c4b646619b(current);
                         }
                     }
                     else
@@ -464,7 +464,7 @@ namespace Samples.SortedVectors.Fbs
                             var current = value[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            runningSum += GetMaxSizeOf_5628e6061ef046d8a757eff60087bd82(current);
+                            runningSum += GetMaxSizeOf_0c9a16e166f14721bbd6a4c4b646619b(current);
                         }
                     }
 
@@ -472,14 +472,14 @@ namespace Samples.SortedVectors.Fbs
                 }
             }
 
-            private static global::System.Collections.Generic.IList<Samples.SortedVectors.Fbs.User> Read_ed0becb42dff40d787285c894967e133<TInputBuffer>(
+            private static global::System.Collections.Generic.IList<Samples.SortedVectors.Fbs.User> Read_7384324332bc4eff87e2f15ca124b525<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 , TableFieldContext fieldContext) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return (new FlatBufferVector_0f3711fa9a1a4efe932250fdeaeb465f<TInputBuffer>(
+                    return (new FlatBufferVector_4490b52f2c3242b19c8d5a928bdecb31<TInputBuffer>(
                     buffer,
                     offset + buffer.ReadUOffset(offset),
                     4,
@@ -487,10 +487,10 @@ namespace Samples.SortedVectors.Fbs
                 }
             }
 
-            public sealed class FlatBufferVector_0f3711fa9a1a4efe932250fdeaeb465f<TInputBuffer> : FlatBufferVector<global::Samples.SortedVectors.Fbs.User, TInputBuffer>
+            public sealed class FlatBufferVector_4490b52f2c3242b19c8d5a928bdecb31<TInputBuffer> : FlatBufferVector<global::Samples.SortedVectors.Fbs.User, TInputBuffer>
                 where TInputBuffer : IInputBuffer
             {
-                public FlatBufferVector_0f3711fa9a1a4efe932250fdeaeb465f(
+                public FlatBufferVector_4490b52f2c3242b19c8d5a928bdecb31(
                     TInputBuffer memory,
                     int offset,
                     int itemSize,
@@ -509,7 +509,7 @@ namespace Samples.SortedVectors.Fbs
                 {
                     checked
                     {
-                        item = Read_5628e6061ef046d8a757eff60087bd82(memory, offset);
+                        item = Read_0c9a16e166f14721bbd6a4c4b646619b(memory, offset);
                     }
                 }
 
@@ -524,7 +524,7 @@ namespace Samples.SortedVectors.Fbs
 
 
 
-            private static void WriteInlineValueOf_ed0becb42dff40d787285c894967e133<TSpanWriter>(
+            private static void WriteInlineValueOf_7384324332bc4eff87e2f15ca124b525<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.Collections.Generic.IList<Samples.SortedVectors.Fbs.User> value,
@@ -550,7 +550,7 @@ namespace Samples.SortedVectors.Fbs
                             var current = array[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            WriteInlineValueOf_5628e6061ef046d8a757eff60087bd82(spanWriter, span, current, vectorOffset, context);
+                            WriteInlineValueOf_0c9a16e166f14721bbd6a4c4b646619b(spanWriter, span, current, vectorOffset, context);
                             vectorOffset += 4;
                         }
                     }
@@ -563,7 +563,7 @@ namespace Samples.SortedVectors.Fbs
                             var current = realList[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            WriteInlineValueOf_5628e6061ef046d8a757eff60087bd82(spanWriter, span, current, vectorOffset, context);
+                            WriteInlineValueOf_0c9a16e166f14721bbd6a4c4b646619b(spanWriter, span, current, vectorOffset, context);
                             vectorOffset += 4;
                         }
                     }
@@ -576,14 +576,14 @@ namespace Samples.SortedVectors.Fbs
                             var current = value[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            WriteInlineValueOf_5628e6061ef046d8a757eff60087bd82(spanWriter, span, current, vectorOffset, context);
+                            WriteInlineValueOf_0c9a16e166f14721bbd6a4c4b646619b(spanWriter, span, current, vectorOffset, context);
                             vectorOffset += 4;
                         }
                     }
                 }
             }
 
-            private static int GetMaxSizeOf_5628e6061ef046d8a757eff60087bd82(global::Samples.SortedVectors.Fbs.User value)
+            private static int GetMaxSizeOf_0c9a16e166f14721bbd6a4c4b646619b(global::Samples.SortedVectors.Fbs.User value)
             {
                 checked
                 {
@@ -593,37 +593,37 @@ namespace Samples.SortedVectors.Fbs
 
                     if (!(index0Value is null))
                     {
-                        runningSum += GetMaxSizeOf_52f72ade1e564812bccd487f0f6f0c15(index0Value);
+                        runningSum += GetMaxSizeOf_fda87ba852c8412fab19e1cd7390a4eb(index0Value);
                     }
                     var index1Value = value.LastName;
 
                     if (!(index1Value is null))
                     {
-                        runningSum += GetMaxSizeOf_52f72ade1e564812bccd487f0f6f0c15(index1Value);
+                        runningSum += GetMaxSizeOf_fda87ba852c8412fab19e1cd7390a4eb(index1Value);
                     }
                     var index2Value = value.SSN;
 
                     if (!(index2Value is null))
                     {
-                        runningSum += GetMaxSizeOf_52f72ade1e564812bccd487f0f6f0c15(index2Value);
+                        runningSum += GetMaxSizeOf_fda87ba852c8412fab19e1cd7390a4eb(index2Value);
                     }
                     return runningSum;
 
                 }
             }
 
-            private static global::Samples.SortedVectors.Fbs.User Read_5628e6061ef046d8a757eff60087bd82<TInputBuffer>(
+            private static global::Samples.SortedVectors.Fbs.User Read_0c9a16e166f14721bbd6a4c4b646619b<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return tableReader_11f1e1cf9d664dd4870a355a6ac61652<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
+                    return tableReader_732139d29b784fe9bc796ab45f2410cf<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
                 }
             }
 
-            private sealed class tableReader_11f1e1cf9d664dd4870a355a6ac61652<TInputBuffer>
+            private sealed class tableReader_732139d29b784fe9bc796ab45f2410cf<TInputBuffer>
                 : global::Samples.SortedVectors.Fbs.User
                 , global::FlatSharp.IFlatBufferDeserializedObject
                 where TInputBuffer : IInputBuffer
@@ -637,18 +637,18 @@ namespace Samples.SortedVectors.Fbs
                 private System.String? __index1Value;
                 private System.String __index2Value;
 
-                public static tableReader_11f1e1cf9d664dd4870a355a6ac61652<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
+                public static tableReader_732139d29b784fe9bc796ab45f2410cf<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
                 {
                     checked
                     {
 
-                        var item = new tableReader_11f1e1cf9d664dd4870a355a6ac61652<TInputBuffer>(buffer, offset);
+                        var item = new tableReader_732139d29b784fe9bc796ab45f2410cf<TInputBuffer>(buffer, offset);
                         return item;
 
                     }
                 }
 
-                private tableReader_11f1e1cf9d664dd4870a355a6ac61652(TInputBuffer buffer, int offset) : base(__CtorContext)
+                private tableReader_732139d29b784fe9bc796ab45f2410cf(TInputBuffer buffer, int offset) : base(__CtorContext)
                 {
                     checked
                     {
@@ -744,7 +744,7 @@ namespace Samples.SortedVectors.Fbs
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_52f72ade1e564812bccd487f0f6f0c15(buffer, absoluteLocation);
+                        return Read_fda87ba852c8412fab19e1cd7390a4eb(buffer, absoluteLocation);
                     }
                 }
 
@@ -769,7 +769,7 @@ namespace Samples.SortedVectors.Fbs
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_52f72ade1e564812bccd487f0f6f0c15(buffer, absoluteLocation);
+                        return Read_fda87ba852c8412fab19e1cd7390a4eb(buffer, absoluteLocation);
                     }
                 }
 
@@ -794,14 +794,14 @@ namespace Samples.SortedVectors.Fbs
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_52f72ade1e564812bccd487f0f6f0c15(buffer, absoluteLocation);
+                        return Read_fda87ba852c8412fab19e1cd7390a4eb(buffer, absoluteLocation);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_5628e6061ef046d8a757eff60087bd82<TSpanWriter>(
+            private static void WriteInlineValueOf_0c9a16e166f14721bbd6a4c4b646619b<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.SortedVectors.Fbs.User value,
@@ -876,7 +876,7 @@ namespace Samples.SortedVectors.Fbs
                     {
 
 
-                        WriteInlineValueOf_52f72ade1e564812bccd487f0f6f0c15(spanWriter, span, index2Value!, index2Offset, context, tableMetadata_a4b608ac1d9f434aa7b5ba269a9bbaf9.SSN);
+                        WriteInlineValueOf_fda87ba852c8412fab19e1cd7390a4eb(spanWriter, span, index2Value!, index2Offset, context, tableMetadata_3f0452532c024f7ca9b53c1ab8e44855.SSN);
 
                     }
 
@@ -885,7 +885,7 @@ namespace Samples.SortedVectors.Fbs
                     {
 
 
-                        WriteInlineValueOf_52f72ade1e564812bccd487f0f6f0c15(spanWriter, span, index1Value!, index1Offset, context, tableMetadata_a4b608ac1d9f434aa7b5ba269a9bbaf9.LastName);
+                        WriteInlineValueOf_fda87ba852c8412fab19e1cd7390a4eb(spanWriter, span, index1Value!, index1Offset, context, tableMetadata_3f0452532c024f7ca9b53c1ab8e44855.LastName);
 
                     }
 
@@ -894,14 +894,14 @@ namespace Samples.SortedVectors.Fbs
                     {
 
 
-                        WriteInlineValueOf_52f72ade1e564812bccd487f0f6f0c15(spanWriter, span, index0Value!, index0Offset, context, tableMetadata_a4b608ac1d9f434aa7b5ba269a9bbaf9.FirstName);
+                        WriteInlineValueOf_fda87ba852c8412fab19e1cd7390a4eb(spanWriter, span, index0Value!, index0Offset, context, tableMetadata_3f0452532c024f7ca9b53c1ab8e44855.FirstName);
 
                     }
 
                 }
             }
 
-            private static class tableMetadata_a4b608ac1d9f434aa7b5ba269a9bbaf9
+            private static class tableMetadata_3f0452532c024f7ca9b53c1ab8e44855
             {
 
                 public static readonly TableFieldContext FirstName = new TableFieldContext(
@@ -922,7 +922,7 @@ namespace Samples.SortedVectors.Fbs
 
 
 
-            private static int GetMaxSizeOf_52f72ade1e564812bccd487f0f6f0c15(global::System.String value)
+            private static int GetMaxSizeOf_fda87ba852c8412fab19e1cd7390a4eb(global::System.String value)
             {
                 checked
                 {
@@ -930,7 +930,7 @@ namespace Samples.SortedVectors.Fbs
                 }
             }
 
-            private static global::System.String Read_52f72ade1e564812bccd487f0f6f0c15<TInputBuffer>(
+            private static global::System.String Read_fda87ba852c8412fab19e1cd7390a4eb<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
@@ -941,7 +941,7 @@ namespace Samples.SortedVectors.Fbs
                 }
             }
 
-            private static void WriteInlineValueOf_52f72ade1e564812bccd487f0f6f0c15<TSpanWriter>(
+            private static void WriteInlineValueOf_fda87ba852c8412fab19e1cd7390a4eb<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.String value,

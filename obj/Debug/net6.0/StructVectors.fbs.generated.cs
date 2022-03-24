@@ -21,7 +21,7 @@ using FlatSharp.Internal;
 #nullable enable
 namespace FlatSharp.Compiler.Generated
 {
-    internal static class CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389
+    internal static class CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82
     {
         [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
         public static global::Samples.StructVectors.Sha256_FastValue Clone(global::Samples.StructVectors.Sha256_FastValue item)
@@ -97,7 +97,7 @@ namespace FlatSharp.Compiler.Generated
 
                 if (item.HasValue)
                 {
-                    return FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(item.Value);
+                    return FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(item.Value);
                 }
 
                 return null;
@@ -113,7 +113,7 @@ namespace FlatSharp.Compiler.Generated
 
                 if (item.HasValue)
                 {
-                    return FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(item.Value);
+                    return FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(item.Value);
                 }
 
                 return null;
@@ -319,38 +319,38 @@ namespace Samples.StructVectors
         {
             checked
             {
-                this.__flatsharp__Value_0 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_0);
-                this.__flatsharp__Value_1 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_1);
-                this.__flatsharp__Value_2 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_2);
-                this.__flatsharp__Value_3 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_3);
-                this.__flatsharp__Value_4 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_4);
-                this.__flatsharp__Value_5 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_5);
-                this.__flatsharp__Value_6 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_6);
-                this.__flatsharp__Value_7 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_7);
-                this.__flatsharp__Value_8 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_8);
-                this.__flatsharp__Value_9 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_9);
-                this.__flatsharp__Value_10 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_10);
-                this.__flatsharp__Value_11 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_11);
-                this.__flatsharp__Value_12 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_12);
-                this.__flatsharp__Value_13 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_13);
-                this.__flatsharp__Value_14 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_14);
-                this.__flatsharp__Value_15 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_15);
-                this.__flatsharp__Value_16 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_16);
-                this.__flatsharp__Value_17 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_17);
-                this.__flatsharp__Value_18 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_18);
-                this.__flatsharp__Value_19 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_19);
-                this.__flatsharp__Value_20 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_20);
-                this.__flatsharp__Value_21 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_21);
-                this.__flatsharp__Value_22 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_22);
-                this.__flatsharp__Value_23 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_23);
-                this.__flatsharp__Value_24 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_24);
-                this.__flatsharp__Value_25 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_25);
-                this.__flatsharp__Value_26 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_26);
-                this.__flatsharp__Value_27 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_27);
-                this.__flatsharp__Value_28 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_28);
-                this.__flatsharp__Value_29 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_29);
-                this.__flatsharp__Value_30 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_30);
-                this.__flatsharp__Value_31 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.__flatsharp__Value_31);
+                this.__flatsharp__Value_0 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_0);
+                this.__flatsharp__Value_1 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_1);
+                this.__flatsharp__Value_2 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_2);
+                this.__flatsharp__Value_3 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_3);
+                this.__flatsharp__Value_4 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_4);
+                this.__flatsharp__Value_5 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_5);
+                this.__flatsharp__Value_6 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_6);
+                this.__flatsharp__Value_7 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_7);
+                this.__flatsharp__Value_8 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_8);
+                this.__flatsharp__Value_9 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_9);
+                this.__flatsharp__Value_10 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_10);
+                this.__flatsharp__Value_11 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_11);
+                this.__flatsharp__Value_12 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_12);
+                this.__flatsharp__Value_13 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_13);
+                this.__flatsharp__Value_14 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_14);
+                this.__flatsharp__Value_15 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_15);
+                this.__flatsharp__Value_16 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_16);
+                this.__flatsharp__Value_17 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_17);
+                this.__flatsharp__Value_18 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_18);
+                this.__flatsharp__Value_19 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_19);
+                this.__flatsharp__Value_20 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_20);
+                this.__flatsharp__Value_21 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_21);
+                this.__flatsharp__Value_22 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_22);
+                this.__flatsharp__Value_23 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_23);
+                this.__flatsharp__Value_24 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_24);
+                this.__flatsharp__Value_25 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_25);
+                this.__flatsharp__Value_26 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_26);
+                this.__flatsharp__Value_27 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_27);
+                this.__flatsharp__Value_28 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_28);
+                this.__flatsharp__Value_29 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_29);
+                this.__flatsharp__Value_30 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_30);
+                this.__flatsharp__Value_31 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.__flatsharp__Value_31);
                 this.OnInitialized(null);
             }
         }
@@ -648,38 +648,38 @@ namespace Samples.StructVectors
                 {
                     var thisItem = this.item;
                     var s = source;
-                    thisItem.__flatsharp__Value_31 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[31]);
-                    thisItem.__flatsharp__Value_30 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[30]);
-                    thisItem.__flatsharp__Value_29 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[29]);
-                    thisItem.__flatsharp__Value_28 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[28]);
-                    thisItem.__flatsharp__Value_27 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[27]);
-                    thisItem.__flatsharp__Value_26 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[26]);
-                    thisItem.__flatsharp__Value_25 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[25]);
-                    thisItem.__flatsharp__Value_24 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[24]);
-                    thisItem.__flatsharp__Value_23 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[23]);
-                    thisItem.__flatsharp__Value_22 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[22]);
-                    thisItem.__flatsharp__Value_21 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[21]);
-                    thisItem.__flatsharp__Value_20 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[20]);
-                    thisItem.__flatsharp__Value_19 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[19]);
-                    thisItem.__flatsharp__Value_18 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[18]);
-                    thisItem.__flatsharp__Value_17 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[17]);
-                    thisItem.__flatsharp__Value_16 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[16]);
-                    thisItem.__flatsharp__Value_15 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[15]);
-                    thisItem.__flatsharp__Value_14 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[14]);
-                    thisItem.__flatsharp__Value_13 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[13]);
-                    thisItem.__flatsharp__Value_12 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[12]);
-                    thisItem.__flatsharp__Value_11 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[11]);
-                    thisItem.__flatsharp__Value_10 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[10]);
-                    thisItem.__flatsharp__Value_9 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[9]);
-                    thisItem.__flatsharp__Value_8 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[8]);
-                    thisItem.__flatsharp__Value_7 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[7]);
-                    thisItem.__flatsharp__Value_6 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[6]);
-                    thisItem.__flatsharp__Value_5 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[5]);
-                    thisItem.__flatsharp__Value_4 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[4]);
-                    thisItem.__flatsharp__Value_3 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[3]);
-                    thisItem.__flatsharp__Value_2 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[2]);
-                    thisItem.__flatsharp__Value_1 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[1]);
-                    thisItem.__flatsharp__Value_0 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[0]);
+                    thisItem.__flatsharp__Value_31 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[31]);
+                    thisItem.__flatsharp__Value_30 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[30]);
+                    thisItem.__flatsharp__Value_29 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[29]);
+                    thisItem.__flatsharp__Value_28 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[28]);
+                    thisItem.__flatsharp__Value_27 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[27]);
+                    thisItem.__flatsharp__Value_26 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[26]);
+                    thisItem.__flatsharp__Value_25 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[25]);
+                    thisItem.__flatsharp__Value_24 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[24]);
+                    thisItem.__flatsharp__Value_23 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[23]);
+                    thisItem.__flatsharp__Value_22 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[22]);
+                    thisItem.__flatsharp__Value_21 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[21]);
+                    thisItem.__flatsharp__Value_20 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[20]);
+                    thisItem.__flatsharp__Value_19 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[19]);
+                    thisItem.__flatsharp__Value_18 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[18]);
+                    thisItem.__flatsharp__Value_17 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[17]);
+                    thisItem.__flatsharp__Value_16 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[16]);
+                    thisItem.__flatsharp__Value_15 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[15]);
+                    thisItem.__flatsharp__Value_14 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[14]);
+                    thisItem.__flatsharp__Value_13 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[13]);
+                    thisItem.__flatsharp__Value_12 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[12]);
+                    thisItem.__flatsharp__Value_11 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[11]);
+                    thisItem.__flatsharp__Value_10 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[10]);
+                    thisItem.__flatsharp__Value_9 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[9]);
+                    thisItem.__flatsharp__Value_8 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[8]);
+                    thisItem.__flatsharp__Value_7 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[7]);
+                    thisItem.__flatsharp__Value_6 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[6]);
+                    thisItem.__flatsharp__Value_5 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[5]);
+                    thisItem.__flatsharp__Value_4 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[4]);
+                    thisItem.__flatsharp__Value_3 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[3]);
+                    thisItem.__flatsharp__Value_2 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[2]);
+                    thisItem.__flatsharp__Value_1 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[1]);
+                    thisItem.__flatsharp__Value_0 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[0]);
                 }
             }
 
@@ -692,38 +692,38 @@ namespace Samples.StructVectors
                 {
                     var thisItem = this.item;
                     var s = source;
-                    thisItem.__flatsharp__Value_31 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[31]);
-                    thisItem.__flatsharp__Value_30 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[30]);
-                    thisItem.__flatsharp__Value_29 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[29]);
-                    thisItem.__flatsharp__Value_28 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[28]);
-                    thisItem.__flatsharp__Value_27 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[27]);
-                    thisItem.__flatsharp__Value_26 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[26]);
-                    thisItem.__flatsharp__Value_25 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[25]);
-                    thisItem.__flatsharp__Value_24 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[24]);
-                    thisItem.__flatsharp__Value_23 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[23]);
-                    thisItem.__flatsharp__Value_22 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[22]);
-                    thisItem.__flatsharp__Value_21 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[21]);
-                    thisItem.__flatsharp__Value_20 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[20]);
-                    thisItem.__flatsharp__Value_19 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[19]);
-                    thisItem.__flatsharp__Value_18 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[18]);
-                    thisItem.__flatsharp__Value_17 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[17]);
-                    thisItem.__flatsharp__Value_16 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[16]);
-                    thisItem.__flatsharp__Value_15 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[15]);
-                    thisItem.__flatsharp__Value_14 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[14]);
-                    thisItem.__flatsharp__Value_13 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[13]);
-                    thisItem.__flatsharp__Value_12 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[12]);
-                    thisItem.__flatsharp__Value_11 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[11]);
-                    thisItem.__flatsharp__Value_10 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[10]);
-                    thisItem.__flatsharp__Value_9 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[9]);
-                    thisItem.__flatsharp__Value_8 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[8]);
-                    thisItem.__flatsharp__Value_7 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[7]);
-                    thisItem.__flatsharp__Value_6 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[6]);
-                    thisItem.__flatsharp__Value_5 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[5]);
-                    thisItem.__flatsharp__Value_4 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[4]);
-                    thisItem.__flatsharp__Value_3 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[3]);
-                    thisItem.__flatsharp__Value_2 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[2]);
-                    thisItem.__flatsharp__Value_1 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[1]);
-                    thisItem.__flatsharp__Value_0 = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(s[0]);
+                    thisItem.__flatsharp__Value_31 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[31]);
+                    thisItem.__flatsharp__Value_30 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[30]);
+                    thisItem.__flatsharp__Value_29 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[29]);
+                    thisItem.__flatsharp__Value_28 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[28]);
+                    thisItem.__flatsharp__Value_27 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[27]);
+                    thisItem.__flatsharp__Value_26 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[26]);
+                    thisItem.__flatsharp__Value_25 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[25]);
+                    thisItem.__flatsharp__Value_24 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[24]);
+                    thisItem.__flatsharp__Value_23 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[23]);
+                    thisItem.__flatsharp__Value_22 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[22]);
+                    thisItem.__flatsharp__Value_21 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[21]);
+                    thisItem.__flatsharp__Value_20 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[20]);
+                    thisItem.__flatsharp__Value_19 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[19]);
+                    thisItem.__flatsharp__Value_18 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[18]);
+                    thisItem.__flatsharp__Value_17 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[17]);
+                    thisItem.__flatsharp__Value_16 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[16]);
+                    thisItem.__flatsharp__Value_15 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[15]);
+                    thisItem.__flatsharp__Value_14 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[14]);
+                    thisItem.__flatsharp__Value_13 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[13]);
+                    thisItem.__flatsharp__Value_12 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[12]);
+                    thisItem.__flatsharp__Value_11 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[11]);
+                    thisItem.__flatsharp__Value_10 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[10]);
+                    thisItem.__flatsharp__Value_9 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[9]);
+                    thisItem.__flatsharp__Value_8 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[8]);
+                    thisItem.__flatsharp__Value_7 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[7]);
+                    thisItem.__flatsharp__Value_6 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[6]);
+                    thisItem.__flatsharp__Value_5 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[5]);
+                    thisItem.__flatsharp__Value_4 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[4]);
+                    thisItem.__flatsharp__Value_3 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[3]);
+                    thisItem.__flatsharp__Value_2 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[2]);
+                    thisItem.__flatsharp__Value_1 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[1]);
+                    thisItem.__flatsharp__Value_0 = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(s[0]);
                 }
             }
         }
@@ -966,12 +966,12 @@ namespace Samples.StructVectors
         {
             checked
             {
-                this.Amount = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.Amount);
-                this.Sender = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.Sender);
-                this.Receiver = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.Receiver);
-                this.Hash_Reference = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.Hash_Reference);
-                this.Hash_Value = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.Hash_Value);
-                this.Hash_FastValue = FlatSharp.Compiler.Generated.CloneHelpers_36369acd571a4c7aa62e4cc4cb35b389.Clone(source.Hash_FastValue);
+                this.Amount = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.Amount);
+                this.Sender = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.Sender);
+                this.Receiver = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.Receiver);
+                this.Hash_Reference = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.Hash_Reference);
+                this.Hash_Value = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.Hash_Value);
+                this.Hash_FastValue = FlatSharp.Compiler.Generated.CloneHelpers_97caa7dccedf424a8054ff80a9d0fd82.Clone(source.Hash_FastValue);
                 this.OnInitialized(null);
             }
         }
@@ -1052,7 +1052,7 @@ namespace Samples.StructVectors
             {
                 checked
                 {
-                    WriteInlineValueOf_7acc88a1611a483199c2bdf149d8eddb(writer, target, root, offset, context);
+                    WriteInlineValueOf_a67ff918e6e749599bc84c08a048d1f1(writer, target, root, offset, context);
                 }
             }
 
@@ -1060,7 +1060,7 @@ namespace Samples.StructVectors
             {
                 checked
                 {
-                    return GetMaxSizeOf_7acc88a1611a483199c2bdf149d8eddb(root);
+                    return GetMaxSizeOf_a67ff918e6e749599bc84c08a048d1f1(root);
                 }
             }
 
@@ -1069,11 +1069,11 @@ namespace Samples.StructVectors
             {
                 checked
                 {
-                    return Read_7acc88a1611a483199c2bdf149d8eddb(buffer, offset);
+                    return Read_a67ff918e6e749599bc84c08a048d1f1(buffer, offset);
                 }
             }
 
-            private static int GetMaxSizeOf_7acc88a1611a483199c2bdf149d8eddb(global::Samples.StructVectors.Transaction value)
+            private static int GetMaxSizeOf_a67ff918e6e749599bc84c08a048d1f1(global::Samples.StructVectors.Transaction value)
             {
                 checked
                 {
@@ -1083,31 +1083,31 @@ namespace Samples.StructVectors
 
                     if (!(index1Value is null))
                     {
-                        runningSum += GetMaxSizeOf_22022cf267a24678ba0b35ee556f197f(index1Value);
+                        runningSum += GetMaxSizeOf_3f8739760ea246fea2a635dc98eada8c(index1Value);
                     }
                     var index2Value = value.Receiver;
 
                     if (!(index2Value is null))
                     {
-                        runningSum += GetMaxSizeOf_22022cf267a24678ba0b35ee556f197f(index2Value);
+                        runningSum += GetMaxSizeOf_3f8739760ea246fea2a635dc98eada8c(index2Value);
                     }
                     return runningSum;
 
                 }
             }
 
-            private static global::Samples.StructVectors.Transaction Read_7acc88a1611a483199c2bdf149d8eddb<TInputBuffer>(
+            private static global::Samples.StructVectors.Transaction Read_a67ff918e6e749599bc84c08a048d1f1<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return tableReader_7b6aca317531426e9d25973820f6b56e<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
+                    return tableReader_ddb86c068b48480789607a119b8aa959<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
                 }
             }
 
-            private sealed class tableReader_7b6aca317531426e9d25973820f6b56e<TInputBuffer>
+            private sealed class tableReader_ddb86c068b48480789607a119b8aa959<TInputBuffer>
                 : global::Samples.StructVectors.Transaction
                 , global::FlatSharp.IFlatBufferDeserializedObject
                 where TInputBuffer : IInputBuffer
@@ -1124,18 +1124,18 @@ namespace Samples.StructVectors
                 private System.Nullable<Samples.StructVectors.Sha256_Value> __index4Value;
                 private System.Nullable<Samples.StructVectors.Sha256_FastValue> __index5Value;
 
-                public static tableReader_7b6aca317531426e9d25973820f6b56e<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
+                public static tableReader_ddb86c068b48480789607a119b8aa959<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
                 {
                     checked
                     {
 
-                        var item = new tableReader_7b6aca317531426e9d25973820f6b56e<TInputBuffer>(buffer, offset);
+                        var item = new tableReader_ddb86c068b48480789607a119b8aa959<TInputBuffer>(buffer, offset);
                         return item;
 
                     }
                 }
 
-                private tableReader_7b6aca317531426e9d25973820f6b56e(TInputBuffer buffer, int offset) : base(__CtorContext)
+                private tableReader_ddb86c068b48480789607a119b8aa959(TInputBuffer buffer, int offset) : base(__CtorContext)
                 {
                     checked
                     {
@@ -1291,7 +1291,7 @@ namespace Samples.StructVectors
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_4348ff97ae9c4abd8d378ee805fd8d57(buffer, absoluteLocation);
+                        return Read_9dc199191e434bb180a27f386d15a409(buffer, absoluteLocation);
                     }
                 }
 
@@ -1316,7 +1316,7 @@ namespace Samples.StructVectors
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_22022cf267a24678ba0b35ee556f197f(buffer, absoluteLocation);
+                        return Read_3f8739760ea246fea2a635dc98eada8c(buffer, absoluteLocation);
                     }
                 }
 
@@ -1341,7 +1341,7 @@ namespace Samples.StructVectors
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_22022cf267a24678ba0b35ee556f197f(buffer, absoluteLocation);
+                        return Read_3f8739760ea246fea2a635dc98eada8c(buffer, absoluteLocation);
                     }
                 }
 
@@ -1366,7 +1366,7 @@ namespace Samples.StructVectors
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_e9661ae9b4ea44969c2ccb19db2e07c2(buffer, absoluteLocation);
+                        return Read_5067cf505af64d90a08a8a111a74b796(buffer, absoluteLocation);
                     }
                 }
 
@@ -1391,7 +1391,7 @@ namespace Samples.StructVectors
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_e65b9af82a1642de96e6fc8a6f0dc10c(buffer, absoluteLocation);
+                        return Read_3f790307d95c4eb9a9e40292fc7428c1(buffer, absoluteLocation);
                     }
                 }
 
@@ -1416,14 +1416,14 @@ namespace Samples.StructVectors
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_1895b7241f7846f1a335ddbb53df2ebf(buffer, absoluteLocation);
+                        return Read_5df607bfd856461aa153e9897417ff0e(buffer, absoluteLocation);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_7acc88a1611a483199c2bdf149d8eddb<TSpanWriter>(
+            private static void WriteInlineValueOf_a67ff918e6e749599bc84c08a048d1f1<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.StructVectors.Transaction value,
@@ -1457,7 +1457,7 @@ namespace Samples.StructVectors
                         currentOffset += 8;
 
 
-                        WriteInlineValueOf_4348ff97ae9c4abd8d378ee805fd8d57(spanWriter, span, index0Value, index0Offset);
+                        WriteInlineValueOf_9dc199191e434bb180a27f386d15a409(spanWriter, span, index0Value, index0Offset);
 
 
                         if (6 > vtableLength)
@@ -1511,7 +1511,7 @@ namespace Samples.StructVectors
                         currentOffset += 32;
 
 
-                        WriteInlineValueOf_1895b7241f7846f1a335ddbb53df2ebf(spanWriter, span, index5Value, index5Offset);
+                        WriteInlineValueOf_5df607bfd856461aa153e9897417ff0e(spanWriter, span, index5Value, index5Offset);
 
                         vtableLength = 16;
                     }
@@ -1527,7 +1527,7 @@ namespace Samples.StructVectors
                         currentOffset += 32;
 
 
-                        WriteInlineValueOf_e65b9af82a1642de96e6fc8a6f0dc10c(spanWriter, span, index4Value, index4Offset);
+                        WriteInlineValueOf_3f790307d95c4eb9a9e40292fc7428c1(spanWriter, span, index4Value, index4Offset);
 
 
                         if (14 > vtableLength)
@@ -1547,7 +1547,7 @@ namespace Samples.StructVectors
                         currentOffset += 32;
 
 
-                        WriteInlineValueOf_e9661ae9b4ea44969c2ccb19db2e07c2(spanWriter, span, index3Value!, index3Offset);
+                        WriteInlineValueOf_5067cf505af64d90a08a8a111a74b796(spanWriter, span, index3Value!, index3Offset);
 
 
                         if (12 > vtableLength)
@@ -1568,7 +1568,7 @@ namespace Samples.StructVectors
                     {
 
 
-                        WriteInlineValueOf_22022cf267a24678ba0b35ee556f197f(spanWriter, span, index2Value!, index2Offset, context, tableMetadata_5379e22130ec4159b7af397ce0f3648b.Receiver);
+                        WriteInlineValueOf_3f8739760ea246fea2a635dc98eada8c(spanWriter, span, index2Value!, index2Offset, context, tableMetadata_e5e773049c5c45ecb113608d26480b17.Receiver);
 
                     }
 
@@ -1577,14 +1577,14 @@ namespace Samples.StructVectors
                     {
 
 
-                        WriteInlineValueOf_22022cf267a24678ba0b35ee556f197f(spanWriter, span, index1Value!, index1Offset, context, tableMetadata_5379e22130ec4159b7af397ce0f3648b.Sender);
+                        WriteInlineValueOf_3f8739760ea246fea2a635dc98eada8c(spanWriter, span, index1Value!, index1Offset, context, tableMetadata_e5e773049c5c45ecb113608d26480b17.Sender);
 
                     }
 
                 }
             }
 
-            private static class tableMetadata_5379e22130ec4159b7af397ce0f3648b
+            private static class tableMetadata_e5e773049c5c45ecb113608d26480b17
             {
 
                 public static readonly TableFieldContext Amount = new TableFieldContext(
@@ -1620,7 +1620,7 @@ namespace Samples.StructVectors
 
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static int GetMaxSizeOf_4348ff97ae9c4abd8d378ee805fd8d57(global::System.Double value)
+            private static int GetMaxSizeOf_9dc199191e434bb180a27f386d15a409(global::System.Double value)
             {
                 checked
                 {
@@ -1629,7 +1629,7 @@ namespace Samples.StructVectors
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static global::System.Double Read_4348ff97ae9c4abd8d378ee805fd8d57<TInputBuffer>(
+            private static global::System.Double Read_9dc199191e434bb180a27f386d15a409<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
@@ -1641,7 +1641,7 @@ namespace Samples.StructVectors
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static void WriteInlineValueOf_4348ff97ae9c4abd8d378ee805fd8d57<TSpanWriter>(
+            private static void WriteInlineValueOf_9dc199191e434bb180a27f386d15a409<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.Double value,
@@ -1655,7 +1655,7 @@ namespace Samples.StructVectors
                 }
             }
 
-            private static int GetMaxSizeOf_22022cf267a24678ba0b35ee556f197f(global::System.String value)
+            private static int GetMaxSizeOf_3f8739760ea246fea2a635dc98eada8c(global::System.String value)
             {
                 checked
                 {
@@ -1663,7 +1663,7 @@ namespace Samples.StructVectors
                 }
             }
 
-            private static global::System.String Read_22022cf267a24678ba0b35ee556f197f<TInputBuffer>(
+            private static global::System.String Read_3f8739760ea246fea2a635dc98eada8c<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
@@ -1674,7 +1674,7 @@ namespace Samples.StructVectors
                 }
             }
 
-            private static void WriteInlineValueOf_22022cf267a24678ba0b35ee556f197f<TSpanWriter>(
+            private static void WriteInlineValueOf_3f8739760ea246fea2a635dc98eada8c<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.String value,
@@ -1695,7 +1695,7 @@ namespace Samples.StructVectors
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static int GetMaxSizeOf_e9661ae9b4ea44969c2ccb19db2e07c2(global::Samples.StructVectors.Sha256_Reference value)
+            private static int GetMaxSizeOf_5067cf505af64d90a08a8a111a74b796(global::Samples.StructVectors.Sha256_Reference value)
             {
                 checked
                 {
@@ -1703,18 +1703,18 @@ namespace Samples.StructVectors
                 }
             }
 
-            private static global::Samples.StructVectors.Sha256_Reference Read_e9661ae9b4ea44969c2ccb19db2e07c2<TInputBuffer>(
+            private static global::Samples.StructVectors.Sha256_Reference Read_5067cf505af64d90a08a8a111a74b796<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return structReader_137d001c3de74141b61ba0f96c96be0f<TInputBuffer>.GetOrCreate(buffer, offset);
+                    return structReader_73f03db0bdb243439387c266b5288690<TInputBuffer>.GetOrCreate(buffer, offset);
                 }
             }
 
-            private sealed class structReader_137d001c3de74141b61ba0f96c96be0f<TInputBuffer>
+            private sealed class structReader_73f03db0bdb243439387c266b5288690<TInputBuffer>
                 : global::Samples.StructVectors.Sha256_Reference
                 , global::FlatSharp.IFlatBufferDeserializedObject
                 where TInputBuffer : IInputBuffer
@@ -1726,18 +1726,18 @@ namespace Samples.StructVectors
 
 
 
-                public static structReader_137d001c3de74141b61ba0f96c96be0f<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
+                public static structReader_73f03db0bdb243439387c266b5288690<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
                 {
                     checked
                     {
 
-                        var item = new structReader_137d001c3de74141b61ba0f96c96be0f<TInputBuffer>(buffer, offset);
+                        var item = new structReader_73f03db0bdb243439387c266b5288690<TInputBuffer>(buffer, offset);
                         return item;
 
                     }
                 }
 
-                private structReader_137d001c3de74141b61ba0f96c96be0f(TInputBuffer buffer, int offset) : base(__CtorContext)
+                private structReader_73f03db0bdb243439387c266b5288690(TInputBuffer buffer, int offset) : base(__CtorContext)
                 {
                     checked
                     {
@@ -1792,7 +1792,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 0);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 0);
                     }
                 }
 
@@ -1804,7 +1804,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 1);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 1);
                     }
                 }
 
@@ -1816,7 +1816,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 2);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 2);
                     }
                 }
 
@@ -1828,7 +1828,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 3);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 3);
                     }
                 }
 
@@ -1840,7 +1840,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 4);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 4);
                     }
                 }
 
@@ -1852,7 +1852,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 5);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 5);
                     }
                 }
 
@@ -1864,7 +1864,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 6);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 6);
                     }
                 }
 
@@ -1876,7 +1876,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 7);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 7);
                     }
                 }
 
@@ -1888,7 +1888,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 8);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 8);
                     }
                 }
 
@@ -1900,7 +1900,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 9);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 9);
                     }
                 }
 
@@ -1912,7 +1912,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 10);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 10);
                     }
                 }
 
@@ -1924,7 +1924,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 11);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 11);
                     }
                 }
 
@@ -1936,7 +1936,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 12);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 12);
                     }
                 }
 
@@ -1948,7 +1948,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 13);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 13);
                     }
                 }
 
@@ -1960,7 +1960,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 14);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 14);
                     }
                 }
 
@@ -1972,7 +1972,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 15);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 15);
                     }
                 }
 
@@ -1984,7 +1984,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 16);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 16);
                     }
                 }
 
@@ -1996,7 +1996,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 17);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 17);
                     }
                 }
 
@@ -2008,7 +2008,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 18);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 18);
                     }
                 }
 
@@ -2020,7 +2020,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 19);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 19);
                     }
                 }
 
@@ -2032,7 +2032,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 20);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 20);
                     }
                 }
 
@@ -2044,7 +2044,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 21);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 21);
                     }
                 }
 
@@ -2056,7 +2056,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 22);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 22);
                     }
                 }
 
@@ -2068,7 +2068,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 23);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 23);
                     }
                 }
 
@@ -2080,7 +2080,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 24);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 24);
                     }
                 }
 
@@ -2092,7 +2092,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 25);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 25);
                     }
                 }
 
@@ -2104,7 +2104,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 26);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 26);
                     }
                 }
 
@@ -2116,7 +2116,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 27);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 27);
                     }
                 }
 
@@ -2128,7 +2128,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 28);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 28);
                     }
                 }
 
@@ -2140,7 +2140,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 29);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 29);
                     }
                 }
 
@@ -2152,7 +2152,7 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 30);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 30);
                     }
                 }
 
@@ -2164,14 +2164,14 @@ namespace Samples.StructVectors
                 {
                     checked
                     {
-                        return Read_7ded2e46910d45189f8d13d6e8f89e38(buffer, offset + 31);
+                        return Read_4e5918cf52f7422994a383f49fbce7c0(buffer, offset + 31);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_e9661ae9b4ea44969c2ccb19db2e07c2<TSpanWriter>(
+            private static void WriteInlineValueOf_5067cf505af64d90a08a8a111a74b796<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.StructVectors.Sha256_Reference value,
@@ -2189,43 +2189,43 @@ namespace Samples.StructVectors
                         return;
                     }
 
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[0], 0);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[1], 1);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[2], 2);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[3], 3);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[4], 4);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[5], 5);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[6], 6);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[7], 7);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[8], 8);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[9], 9);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[10], 10);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[11], 11);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[12], 12);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[13], 13);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[14], 14);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[15], 15);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[16], 16);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[17], 17);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[18], 18);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[19], 19);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[20], 20);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[21], 21);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[22], 22);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[23], 23);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[24], 24);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[25], 25);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[26], 26);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[27], 27);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[28], 28);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[29], 29);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[30], 30);
-                    WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, scopedSpan, value.Value[31], 31);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[0], 0);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[1], 1);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[2], 2);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[3], 3);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[4], 4);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[5], 5);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[6], 6);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[7], 7);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[8], 8);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[9], 9);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[10], 10);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[11], 11);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[12], 12);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[13], 13);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[14], 14);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[15], 15);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[16], 16);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[17], 17);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[18], 18);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[19], 19);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[20], 20);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[21], 21);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[22], 22);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[23], 23);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[24], 24);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[25], 25);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[26], 26);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[27], 27);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[28], 28);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[29], 29);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[30], 30);
+                    WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, scopedSpan, value.Value[31], 31);
                 }
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static int GetMaxSizeOf_7ded2e46910d45189f8d13d6e8f89e38(global::System.Byte value)
+            private static int GetMaxSizeOf_4e5918cf52f7422994a383f49fbce7c0(global::System.Byte value)
             {
                 checked
                 {
@@ -2234,7 +2234,7 @@ namespace Samples.StructVectors
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static global::System.Byte Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+            private static global::System.Byte Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
@@ -2246,7 +2246,7 @@ namespace Samples.StructVectors
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static void WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38<TSpanWriter>(
+            private static void WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.Byte value,
@@ -2261,14 +2261,14 @@ namespace Samples.StructVectors
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static int GetMaxSizeOf_e65b9af82a1642de96e6fc8a6f0dc10c(global::System.Nullable<Samples.StructVectors.Sha256_Value> value)
+            private static int GetMaxSizeOf_3f790307d95c4eb9a9e40292fc7428c1(global::System.Nullable<Samples.StructVectors.Sha256_Value> value)
             {
                 checked
                 {
 
                     if (value.HasValue)
                     {
-                        return GetMaxSizeOf_f424eed03f3247588f86600adc3b048c(value.Value);
+                        return GetMaxSizeOf_bb12f68684274b009493fb986f35f969(value.Value);
                     }
 
                     return 0;
@@ -2277,19 +2277,19 @@ namespace Samples.StructVectors
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static global::System.Nullable<Samples.StructVectors.Sha256_Value> Read_e65b9af82a1642de96e6fc8a6f0dc10c<TInputBuffer>(
+            private static global::System.Nullable<Samples.StructVectors.Sha256_Value> Read_3f790307d95c4eb9a9e40292fc7428c1<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return Read_f424eed03f3247588f86600adc3b048c(buffer, offset);
+                    return Read_bb12f68684274b009493fb986f35f969(buffer, offset);
                 }
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static void WriteInlineValueOf_e65b9af82a1642de96e6fc8a6f0dc10c<TSpanWriter>(
+            private static void WriteInlineValueOf_3f790307d95c4eb9a9e40292fc7428c1<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.Nullable<Samples.StructVectors.Sha256_Value> value,
@@ -2299,11 +2299,11 @@ namespace Samples.StructVectors
             {
                 checked
                 {
-                    WriteInlineValueOf_f424eed03f3247588f86600adc3b048c(spanWriter, span, value!.Value, offset);
+                    WriteInlineValueOf_bb12f68684274b009493fb986f35f969(spanWriter, span, value!.Value, offset);
                 }
             }
 
-            private static int GetMaxSizeOf_f424eed03f3247588f86600adc3b048c(global::Samples.StructVectors.Sha256_Value value)
+            private static int GetMaxSizeOf_bb12f68684274b009493fb986f35f969(global::Samples.StructVectors.Sha256_Value value)
             {
                 checked
                 {
@@ -2311,7 +2311,7 @@ namespace Samples.StructVectors
                 }
             }
 
-            private static global::Samples.StructVectors.Sha256_Value Read_f424eed03f3247588f86600adc3b048c<TInputBuffer>(
+            private static global::Samples.StructVectors.Sha256_Value Read_bb12f68684274b009493fb986f35f969<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
@@ -2329,131 +2329,131 @@ namespace Samples.StructVectors
 
                         var item = default(global::Samples.StructVectors.Sha256_Value);
 
-                        item.Value(0) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(0) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 0);
 
-                        item.Value(1) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(1) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 1);
 
-                        item.Value(2) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(2) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 2);
 
-                        item.Value(3) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(3) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 3);
 
-                        item.Value(4) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(4) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 4);
 
-                        item.Value(5) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(5) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 5);
 
-                        item.Value(6) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(6) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 6);
 
-                        item.Value(7) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(7) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 7);
 
-                        item.Value(8) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(8) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 8);
 
-                        item.Value(9) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(9) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 9);
 
-                        item.Value(10) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(10) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 10);
 
-                        item.Value(11) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(11) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 11);
 
-                        item.Value(12) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(12) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 12);
 
-                        item.Value(13) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(13) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 13);
 
-                        item.Value(14) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(14) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 14);
 
-                        item.Value(15) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(15) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 15);
 
-                        item.Value(16) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(16) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 16);
 
-                        item.Value(17) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(17) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 17);
 
-                        item.Value(18) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(18) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 18);
 
-                        item.Value(19) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(19) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 19);
 
-                        item.Value(20) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(20) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 20);
 
-                        item.Value(21) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(21) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 21);
 
-                        item.Value(22) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(22) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 22);
 
-                        item.Value(23) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(23) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 23);
 
-                        item.Value(24) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(24) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 24);
 
-                        item.Value(25) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(25) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 25);
 
-                        item.Value(26) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(26) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 26);
 
-                        item.Value(27) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(27) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 27);
 
-                        item.Value(28) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(28) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 28);
 
-                        item.Value(29) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(29) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 29);
 
-                        item.Value(30) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(30) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 30);
 
-                        item.Value(31) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(31) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 31);
                         return item;
@@ -2463,7 +2463,7 @@ namespace Samples.StructVectors
                 }
             }
 
-            private static void WriteInlineValueOf_f424eed03f3247588f86600adc3b048c<TSpanWriter>(
+            private static void WriteInlineValueOf_bb12f68684274b009493fb986f35f969<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.StructVectors.Sha256_Value value,
@@ -2482,52 +2482,52 @@ namespace Samples.StructVectors
                     }
                     else
                     {
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(0), 0);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(1), 1);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(2), 2);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(3), 3);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(4), 4);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(5), 5);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(6), 6);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(7), 7);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(8), 8);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(9), 9);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(10), 10);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(11), 11);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(12), 12);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(13), 13);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(14), 14);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(15), 15);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(16), 16);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(17), 17);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(18), 18);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(19), 19);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(20), 20);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(21), 21);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(22), 22);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(23), 23);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(24), 24);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(25), 25);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(26), 26);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(27), 27);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(28), 28);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(29), 29);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(30), 30);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(31), 31);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(0), 0);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(1), 1);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(2), 2);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(3), 3);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(4), 4);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(5), 5);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(6), 6);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(7), 7);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(8), 8);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(9), 9);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(10), 10);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(11), 11);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(12), 12);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(13), 13);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(14), 14);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(15), 15);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(16), 16);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(17), 17);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(18), 18);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(19), 19);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(20), 20);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(21), 21);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(22), 22);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(23), 23);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(24), 24);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(25), 25);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(26), 26);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(27), 27);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(28), 28);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(29), 29);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(30), 30);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(31), 31);
                     }
 
                 }
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static int GetMaxSizeOf_1895b7241f7846f1a335ddbb53df2ebf(global::System.Nullable<Samples.StructVectors.Sha256_FastValue> value)
+            private static int GetMaxSizeOf_5df607bfd856461aa153e9897417ff0e(global::System.Nullable<Samples.StructVectors.Sha256_FastValue> value)
             {
                 checked
                 {
 
                     if (value.HasValue)
                     {
-                        return GetMaxSizeOf_ed0aacd6ee4b499b8bebbf5ab510069e(value.Value);
+                        return GetMaxSizeOf_1b9c9b085cdc42df99555868833524ce(value.Value);
                     }
 
                     return 0;
@@ -2536,19 +2536,19 @@ namespace Samples.StructVectors
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static global::System.Nullable<Samples.StructVectors.Sha256_FastValue> Read_1895b7241f7846f1a335ddbb53df2ebf<TInputBuffer>(
+            private static global::System.Nullable<Samples.StructVectors.Sha256_FastValue> Read_5df607bfd856461aa153e9897417ff0e<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return Read_ed0aacd6ee4b499b8bebbf5ab510069e(buffer, offset);
+                    return Read_1b9c9b085cdc42df99555868833524ce(buffer, offset);
                 }
             }
 
             [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-            private static void WriteInlineValueOf_1895b7241f7846f1a335ddbb53df2ebf<TSpanWriter>(
+            private static void WriteInlineValueOf_5df607bfd856461aa153e9897417ff0e<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.Nullable<Samples.StructVectors.Sha256_FastValue> value,
@@ -2558,11 +2558,11 @@ namespace Samples.StructVectors
             {
                 checked
                 {
-                    WriteInlineValueOf_ed0aacd6ee4b499b8bebbf5ab510069e(spanWriter, span, value!.Value, offset);
+                    WriteInlineValueOf_1b9c9b085cdc42df99555868833524ce(spanWriter, span, value!.Value, offset);
                 }
             }
 
-            private static int GetMaxSizeOf_ed0aacd6ee4b499b8bebbf5ab510069e(global::Samples.StructVectors.Sha256_FastValue value)
+            private static int GetMaxSizeOf_1b9c9b085cdc42df99555868833524ce(global::Samples.StructVectors.Sha256_FastValue value)
             {
                 checked
                 {
@@ -2570,7 +2570,7 @@ namespace Samples.StructVectors
                 }
             }
 
-            private static global::Samples.StructVectors.Sha256_FastValue Read_ed0aacd6ee4b499b8bebbf5ab510069e<TInputBuffer>(
+            private static global::Samples.StructVectors.Sha256_FastValue Read_1b9c9b085cdc42df99555868833524ce<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
@@ -2588,131 +2588,131 @@ namespace Samples.StructVectors
 
                         var item = default(global::Samples.StructVectors.Sha256_FastValue);
 
-                        item.Value(0) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(0) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 0);
 
-                        item.Value(1) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(1) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 1);
 
-                        item.Value(2) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(2) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 2);
 
-                        item.Value(3) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(3) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 3);
 
-                        item.Value(4) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(4) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 4);
 
-                        item.Value(5) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(5) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 5);
 
-                        item.Value(6) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(6) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 6);
 
-                        item.Value(7) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(7) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 7);
 
-                        item.Value(8) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(8) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 8);
 
-                        item.Value(9) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(9) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 9);
 
-                        item.Value(10) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(10) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 10);
 
-                        item.Value(11) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(11) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 11);
 
-                        item.Value(12) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(12) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 12);
 
-                        item.Value(13) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(13) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 13);
 
-                        item.Value(14) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(14) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 14);
 
-                        item.Value(15) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(15) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 15);
 
-                        item.Value(16) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(16) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 16);
 
-                        item.Value(17) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(17) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 17);
 
-                        item.Value(18) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(18) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 18);
 
-                        item.Value(19) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(19) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 19);
 
-                        item.Value(20) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(20) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 20);
 
-                        item.Value(21) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(21) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 21);
 
-                        item.Value(22) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(22) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 22);
 
-                        item.Value(23) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(23) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 23);
 
-                        item.Value(24) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(24) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 24);
 
-                        item.Value(25) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(25) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 25);
 
-                        item.Value(26) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(26) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 26);
 
-                        item.Value(27) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(27) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 27);
 
-                        item.Value(28) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(28) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 28);
 
-                        item.Value(29) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(29) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 29);
 
-                        item.Value(30) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(30) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 30);
 
-                        item.Value(31) = Read_7ded2e46910d45189f8d13d6e8f89e38<TInputBuffer>(
+                        item.Value(31) = Read_4e5918cf52f7422994a383f49fbce7c0<TInputBuffer>(
                             buffer,
                             offset + 31);
                         return item;
@@ -2722,7 +2722,7 @@ namespace Samples.StructVectors
                 }
             }
 
-            private static void WriteInlineValueOf_ed0aacd6ee4b499b8bebbf5ab510069e<TSpanWriter>(
+            private static void WriteInlineValueOf_1b9c9b085cdc42df99555868833524ce<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.StructVectors.Sha256_FastValue value,
@@ -2741,38 +2741,38 @@ namespace Samples.StructVectors
                     }
                     else
                     {
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(0), 0);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(1), 1);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(2), 2);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(3), 3);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(4), 4);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(5), 5);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(6), 6);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(7), 7);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(8), 8);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(9), 9);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(10), 10);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(11), 11);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(12), 12);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(13), 13);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(14), 14);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(15), 15);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(16), 16);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(17), 17);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(18), 18);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(19), 19);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(20), 20);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(21), 21);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(22), 22);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(23), 23);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(24), 24);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(25), 25);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(26), 26);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(27), 27);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(28), 28);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(29), 29);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(30), 30);
-                        WriteInlineValueOf_7ded2e46910d45189f8d13d6e8f89e38(spanWriter, sizedSpan, value.Value(31), 31);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(0), 0);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(1), 1);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(2), 2);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(3), 3);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(4), 4);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(5), 5);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(6), 6);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(7), 7);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(8), 8);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(9), 9);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(10), 10);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(11), 11);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(12), 12);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(13), 13);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(14), 14);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(15), 15);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(16), 16);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(17), 17);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(18), 18);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(19), 19);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(20), 20);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(21), 21);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(22), 22);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(23), 23);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(24), 24);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(25), 25);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(26), 26);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(27), 27);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(28), 28);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(29), 29);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(30), 30);
+                        WriteInlineValueOf_4e5918cf52f7422994a383f49fbce7c0(spanWriter, sizedSpan, value.Value(31), 31);
                     }
 
                 }

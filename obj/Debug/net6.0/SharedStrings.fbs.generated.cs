@@ -21,7 +21,7 @@ using FlatSharp.Internal;
 #nullable enable
 namespace FlatSharp.Compiler.Generated
 {
-    internal static class CloneHelpers_e594b71b59904c1eb01a96f3b449477c
+    internal static class CloneHelpers_bdade0c319654296b1817bb0a8c210a7
     {
         [return: System.Diagnostics.CodeAnalysis.NotNullIfNotNull("item")]
         [global::System.Runtime.CompilerServices.MethodImplAttribute(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
@@ -49,7 +49,7 @@ namespace FlatSharp.Compiler.Generated
         {
             checked
             {
-                return VectorCloneHelpers.Clone<System.String>(item, FlatSharp.Compiler.Generated.CloneHelpers_e594b71b59904c1eb01a96f3b449477c.Clone);
+                return VectorCloneHelpers.Clone<System.String>(item, FlatSharp.Compiler.Generated.CloneHelpers_bdade0c319654296b1817bb0a8c210a7.Clone);
             }
         }
 
@@ -69,7 +69,7 @@ namespace FlatSharp.Compiler.Generated
         {
             checked
             {
-                return VectorCloneHelpers.Clone<Samples.SharedStrings.Row>(item, FlatSharp.Compiler.Generated.CloneHelpers_e594b71b59904c1eb01a96f3b449477c.Clone);
+                return VectorCloneHelpers.Clone<Samples.SharedStrings.Row>(item, FlatSharp.Compiler.Generated.CloneHelpers_bdade0c319654296b1817bb0a8c210a7.Clone);
             }
         }
 
@@ -89,7 +89,7 @@ namespace FlatSharp.Compiler.Generated
         {
             checked
             {
-                return VectorCloneHelpers.Clone<Samples.SharedStrings.Cell>(item, FlatSharp.Compiler.Generated.CloneHelpers_e594b71b59904c1eb01a96f3b449477c.Clone);
+                return VectorCloneHelpers.Clone<Samples.SharedStrings.Cell>(item, FlatSharp.Compiler.Generated.CloneHelpers_bdade0c319654296b1817bb0a8c210a7.Clone);
             }
         }
     }
@@ -129,9 +129,9 @@ namespace Samples.SharedStrings
         {
             checked
             {
-                this.ColumnName = FlatSharp.Compiler.Generated.CloneHelpers_e594b71b59904c1eb01a96f3b449477c.Clone(source.ColumnName);
-                this.Value = FlatSharp.Compiler.Generated.CloneHelpers_e594b71b59904c1eb01a96f3b449477c.Clone(source.Value);
-                this.Vector = FlatSharp.Compiler.Generated.CloneHelpers_e594b71b59904c1eb01a96f3b449477c.Clone(source.Vector);
+                this.ColumnName = FlatSharp.Compiler.Generated.CloneHelpers_bdade0c319654296b1817bb0a8c210a7.Clone(source.ColumnName);
+                this.Value = FlatSharp.Compiler.Generated.CloneHelpers_bdade0c319654296b1817bb0a8c210a7.Clone(source.Value);
+                this.Vector = FlatSharp.Compiler.Generated.CloneHelpers_bdade0c319654296b1817bb0a8c210a7.Clone(source.Vector);
                 this.OnInitialized(null);
             }
         }
@@ -184,7 +184,7 @@ namespace Samples.SharedStrings
         {
             checked
             {
-                this.Rows = FlatSharp.Compiler.Generated.CloneHelpers_e594b71b59904c1eb01a96f3b449477c.Clone(source.Rows);
+                this.Rows = FlatSharp.Compiler.Generated.CloneHelpers_bdade0c319654296b1817bb0a8c210a7.Clone(source.Rows);
                 this.OnInitialized(null);
             }
         }
@@ -250,7 +250,7 @@ namespace Samples.SharedStrings
             {
                 checked
                 {
-                    WriteInlineValueOf_86deeeed17d84eb297f04b86372760cc(writer, target, root, offset, context);
+                    WriteInlineValueOf_32d957d0f266417ebebdc34926c73cd3(writer, target, root, offset, context);
                 }
             }
 
@@ -258,7 +258,7 @@ namespace Samples.SharedStrings
             {
                 checked
                 {
-                    return GetMaxSizeOf_86deeeed17d84eb297f04b86372760cc(root);
+                    return GetMaxSizeOf_32d957d0f266417ebebdc34926c73cd3(root);
                 }
             }
 
@@ -267,11 +267,11 @@ namespace Samples.SharedStrings
             {
                 checked
                 {
-                    return Read_86deeeed17d84eb297f04b86372760cc(buffer, offset);
+                    return Read_32d957d0f266417ebebdc34926c73cd3(buffer, offset);
                 }
             }
 
-            private static int GetMaxSizeOf_86deeeed17d84eb297f04b86372760cc(global::Samples.SharedStrings.Matrix value)
+            private static int GetMaxSizeOf_32d957d0f266417ebebdc34926c73cd3(global::Samples.SharedStrings.Matrix value)
             {
                 checked
                 {
@@ -281,25 +281,25 @@ namespace Samples.SharedStrings
 
                     if (!(index0Value is null))
                     {
-                        runningSum += GetMaxSizeOf_dbc125e9701b439f80d350aed3358295(index0Value);
+                        runningSum += GetMaxSizeOf_da6b9652912448bc91d32e6e8304466b(index0Value);
                     }
                     return runningSum;
 
                 }
             }
 
-            private static global::Samples.SharedStrings.Matrix Read_86deeeed17d84eb297f04b86372760cc<TInputBuffer>(
+            private static global::Samples.SharedStrings.Matrix Read_32d957d0f266417ebebdc34926c73cd3<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return tableReader_a10715ba75b74500ae4dc2217bf231ed<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
+                    return tableReader_9921a40eaaf64ca38f83cc0e82b5df8d<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
                 }
             }
 
-            private sealed class tableReader_a10715ba75b74500ae4dc2217bf231ed<TInputBuffer>
+            private sealed class tableReader_9921a40eaaf64ca38f83cc0e82b5df8d<TInputBuffer>
                 : global::Samples.SharedStrings.Matrix
                 , global::FlatSharp.IFlatBufferDeserializedObject
                 where TInputBuffer : IInputBuffer
@@ -311,18 +311,18 @@ namespace Samples.SharedStrings
 
                 private System.Collections.Generic.IList<Samples.SharedStrings.Row>? __index0Value;
 
-                public static tableReader_a10715ba75b74500ae4dc2217bf231ed<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
+                public static tableReader_9921a40eaaf64ca38f83cc0e82b5df8d<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
                 {
                     checked
                     {
 
-                        var item = new tableReader_a10715ba75b74500ae4dc2217bf231ed<TInputBuffer>(buffer, offset);
+                        var item = new tableReader_9921a40eaaf64ca38f83cc0e82b5df8d<TInputBuffer>(buffer, offset);
                         return item;
 
                     }
                 }
 
-                private tableReader_a10715ba75b74500ae4dc2217bf231ed(TInputBuffer buffer, int offset) : base(__CtorContext)
+                private tableReader_9921a40eaaf64ca38f83cc0e82b5df8d(TInputBuffer buffer, int offset) : base(__CtorContext)
                 {
                     checked
                     {
@@ -378,14 +378,14 @@ namespace Samples.SharedStrings
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_dbc125e9701b439f80d350aed3358295(buffer, absoluteLocation, tableMetadata_b20fd4b01730496897b2cec01079d400.Rows);
+                        return Read_da6b9652912448bc91d32e6e8304466b(buffer, absoluteLocation, tableMetadata_17a0bc663fe146169c9083a3c9871cf3.Rows);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_86deeeed17d84eb297f04b86372760cc<TSpanWriter>(
+            private static void WriteInlineValueOf_32d957d0f266417ebebdc34926c73cd3<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.SharedStrings.Matrix value,
@@ -428,14 +428,14 @@ namespace Samples.SharedStrings
                     {
 
 
-                        WriteInlineValueOf_dbc125e9701b439f80d350aed3358295(spanWriter, span, index0Value!, index0Offset, context);
+                        WriteInlineValueOf_da6b9652912448bc91d32e6e8304466b(spanWriter, span, index0Value!, index0Offset, context);
 
                     }
 
                 }
             }
 
-            private static class tableMetadata_b20fd4b01730496897b2cec01079d400
+            private static class tableMetadata_17a0bc663fe146169c9083a3c9871cf3
             {
 
                 public static readonly TableFieldContext Rows = new TableFieldContext(
@@ -446,7 +446,7 @@ namespace Samples.SharedStrings
 
 
 
-            private static int GetMaxSizeOf_dbc125e9701b439f80d350aed3358295(global::System.Collections.Generic.IList<Samples.SharedStrings.Row> value)
+            private static int GetMaxSizeOf_da6b9652912448bc91d32e6e8304466b(global::System.Collections.Generic.IList<Samples.SharedStrings.Row> value)
             {
                 checked
                 {
@@ -462,7 +462,7 @@ namespace Samples.SharedStrings
                             var current = array[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            runningSum += GetMaxSizeOf_ede2eb8b0b6941ff86e8e54c690d6481(current);
+                            runningSum += GetMaxSizeOf_9d6d18bc7ef844b1b57dd975c7bf6fae(current);
                         }
                     }
                     else if (value is List<Samples.SharedStrings.Row> realList)
@@ -474,7 +474,7 @@ namespace Samples.SharedStrings
                             var current = realList[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            runningSum += GetMaxSizeOf_ede2eb8b0b6941ff86e8e54c690d6481(current);
+                            runningSum += GetMaxSizeOf_9d6d18bc7ef844b1b57dd975c7bf6fae(current);
                         }
                     }
                     else
@@ -486,7 +486,7 @@ namespace Samples.SharedStrings
                             var current = value[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            runningSum += GetMaxSizeOf_ede2eb8b0b6941ff86e8e54c690d6481(current);
+                            runningSum += GetMaxSizeOf_9d6d18bc7ef844b1b57dd975c7bf6fae(current);
                         }
                     }
 
@@ -494,14 +494,14 @@ namespace Samples.SharedStrings
                 }
             }
 
-            private static global::System.Collections.Generic.IList<Samples.SharedStrings.Row> Read_dbc125e9701b439f80d350aed3358295<TInputBuffer>(
+            private static global::System.Collections.Generic.IList<Samples.SharedStrings.Row> Read_da6b9652912448bc91d32e6e8304466b<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 , TableFieldContext fieldContext) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return (new FlatBufferVector_3d4da747252340cda2ca6d3346451dbf<TInputBuffer>(
+                    return (new FlatBufferVector_a48a712e558e4196b92b002b19b94d3b<TInputBuffer>(
                     buffer,
                     offset + buffer.ReadUOffset(offset),
                     4,
@@ -509,10 +509,10 @@ namespace Samples.SharedStrings
                 }
             }
 
-            public sealed class FlatBufferVector_3d4da747252340cda2ca6d3346451dbf<TInputBuffer> : FlatBufferVector<global::Samples.SharedStrings.Row, TInputBuffer>
+            public sealed class FlatBufferVector_a48a712e558e4196b92b002b19b94d3b<TInputBuffer> : FlatBufferVector<global::Samples.SharedStrings.Row, TInputBuffer>
                 where TInputBuffer : IInputBuffer
             {
-                public FlatBufferVector_3d4da747252340cda2ca6d3346451dbf(
+                public FlatBufferVector_a48a712e558e4196b92b002b19b94d3b(
                     TInputBuffer memory,
                     int offset,
                     int itemSize,
@@ -531,7 +531,7 @@ namespace Samples.SharedStrings
                 {
                     checked
                     {
-                        item = Read_ede2eb8b0b6941ff86e8e54c690d6481(memory, offset);
+                        item = Read_9d6d18bc7ef844b1b57dd975c7bf6fae(memory, offset);
                     }
                 }
 
@@ -546,7 +546,7 @@ namespace Samples.SharedStrings
 
 
 
-            private static void WriteInlineValueOf_dbc125e9701b439f80d350aed3358295<TSpanWriter>(
+            private static void WriteInlineValueOf_da6b9652912448bc91d32e6e8304466b<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.Collections.Generic.IList<Samples.SharedStrings.Row> value,
@@ -572,7 +572,7 @@ namespace Samples.SharedStrings
                             var current = array[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            WriteInlineValueOf_ede2eb8b0b6941ff86e8e54c690d6481(spanWriter, span, current, vectorOffset, context);
+                            WriteInlineValueOf_9d6d18bc7ef844b1b57dd975c7bf6fae(spanWriter, span, current, vectorOffset, context);
                             vectorOffset += 4;
                         }
                     }
@@ -585,7 +585,7 @@ namespace Samples.SharedStrings
                             var current = realList[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            WriteInlineValueOf_ede2eb8b0b6941ff86e8e54c690d6481(spanWriter, span, current, vectorOffset, context);
+                            WriteInlineValueOf_9d6d18bc7ef844b1b57dd975c7bf6fae(spanWriter, span, current, vectorOffset, context);
                             vectorOffset += 4;
                         }
                     }
@@ -598,14 +598,14 @@ namespace Samples.SharedStrings
                             var current = value[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            WriteInlineValueOf_ede2eb8b0b6941ff86e8e54c690d6481(spanWriter, span, current, vectorOffset, context);
+                            WriteInlineValueOf_9d6d18bc7ef844b1b57dd975c7bf6fae(spanWriter, span, current, vectorOffset, context);
                             vectorOffset += 4;
                         }
                     }
                 }
             }
 
-            private static int GetMaxSizeOf_ede2eb8b0b6941ff86e8e54c690d6481(global::Samples.SharedStrings.Row value)
+            private static int GetMaxSizeOf_9d6d18bc7ef844b1b57dd975c7bf6fae(global::Samples.SharedStrings.Row value)
             {
                 checked
                 {
@@ -615,25 +615,25 @@ namespace Samples.SharedStrings
 
                     if (!(index0Value is null))
                     {
-                        runningSum += GetMaxSizeOf_352fcab473f5444785000f3bb67bf0fd(index0Value);
+                        runningSum += GetMaxSizeOf_d36e0d00e1044d3e958dc16a65c61b9e(index0Value);
                     }
                     return runningSum;
 
                 }
             }
 
-            private static global::Samples.SharedStrings.Row Read_ede2eb8b0b6941ff86e8e54c690d6481<TInputBuffer>(
+            private static global::Samples.SharedStrings.Row Read_9d6d18bc7ef844b1b57dd975c7bf6fae<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return tableReader_3ce0a7b612454ad8871de712328461d6<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
+                    return tableReader_3ef2e3e0a02a46eeacebc9e55c945879<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
                 }
             }
 
-            private sealed class tableReader_3ce0a7b612454ad8871de712328461d6<TInputBuffer>
+            private sealed class tableReader_3ef2e3e0a02a46eeacebc9e55c945879<TInputBuffer>
                 : global::Samples.SharedStrings.Row
                 , global::FlatSharp.IFlatBufferDeserializedObject
                 where TInputBuffer : IInputBuffer
@@ -645,18 +645,18 @@ namespace Samples.SharedStrings
 
                 private System.Collections.Generic.IList<Samples.SharedStrings.Cell>? __index0Value;
 
-                public static tableReader_3ce0a7b612454ad8871de712328461d6<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
+                public static tableReader_3ef2e3e0a02a46eeacebc9e55c945879<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
                 {
                     checked
                     {
 
-                        var item = new tableReader_3ce0a7b612454ad8871de712328461d6<TInputBuffer>(buffer, offset);
+                        var item = new tableReader_3ef2e3e0a02a46eeacebc9e55c945879<TInputBuffer>(buffer, offset);
                         return item;
 
                     }
                 }
 
-                private tableReader_3ce0a7b612454ad8871de712328461d6(TInputBuffer buffer, int offset) : base(__CtorContext)
+                private tableReader_3ef2e3e0a02a46eeacebc9e55c945879(TInputBuffer buffer, int offset) : base(__CtorContext)
                 {
                     checked
                     {
@@ -712,14 +712,14 @@ namespace Samples.SharedStrings
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_352fcab473f5444785000f3bb67bf0fd(buffer, absoluteLocation, tableMetadata_7ad04f5f4fea4058b37bc4715ef86d99.Values);
+                        return Read_d36e0d00e1044d3e958dc16a65c61b9e(buffer, absoluteLocation, tableMetadata_54c618c9035548049ccedb94010cd2b7.Values);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_ede2eb8b0b6941ff86e8e54c690d6481<TSpanWriter>(
+            private static void WriteInlineValueOf_9d6d18bc7ef844b1b57dd975c7bf6fae<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.SharedStrings.Row value,
@@ -762,14 +762,14 @@ namespace Samples.SharedStrings
                     {
 
 
-                        WriteInlineValueOf_352fcab473f5444785000f3bb67bf0fd(spanWriter, span, index0Value!, index0Offset, context);
+                        WriteInlineValueOf_d36e0d00e1044d3e958dc16a65c61b9e(spanWriter, span, index0Value!, index0Offset, context);
 
                     }
 
                 }
             }
 
-            private static class tableMetadata_7ad04f5f4fea4058b37bc4715ef86d99
+            private static class tableMetadata_54c618c9035548049ccedb94010cd2b7
             {
 
                 public static readonly TableFieldContext Values = new TableFieldContext(
@@ -780,7 +780,7 @@ namespace Samples.SharedStrings
 
 
 
-            private static int GetMaxSizeOf_352fcab473f5444785000f3bb67bf0fd(global::System.Collections.Generic.IList<Samples.SharedStrings.Cell> value)
+            private static int GetMaxSizeOf_d36e0d00e1044d3e958dc16a65c61b9e(global::System.Collections.Generic.IList<Samples.SharedStrings.Cell> value)
             {
                 checked
                 {
@@ -796,7 +796,7 @@ namespace Samples.SharedStrings
                             var current = array[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            runningSum += GetMaxSizeOf_958c13e4bfe34f9680bc69141f04e920(current);
+                            runningSum += GetMaxSizeOf_0361f2564a4d4680a930a01f452a7608(current);
                         }
                     }
                     else if (value is List<Samples.SharedStrings.Cell> realList)
@@ -808,7 +808,7 @@ namespace Samples.SharedStrings
                             var current = realList[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            runningSum += GetMaxSizeOf_958c13e4bfe34f9680bc69141f04e920(current);
+                            runningSum += GetMaxSizeOf_0361f2564a4d4680a930a01f452a7608(current);
                         }
                     }
                     else
@@ -820,7 +820,7 @@ namespace Samples.SharedStrings
                             var current = value[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            runningSum += GetMaxSizeOf_958c13e4bfe34f9680bc69141f04e920(current);
+                            runningSum += GetMaxSizeOf_0361f2564a4d4680a930a01f452a7608(current);
                         }
                     }
 
@@ -828,14 +828,14 @@ namespace Samples.SharedStrings
                 }
             }
 
-            private static global::System.Collections.Generic.IList<Samples.SharedStrings.Cell> Read_352fcab473f5444785000f3bb67bf0fd<TInputBuffer>(
+            private static global::System.Collections.Generic.IList<Samples.SharedStrings.Cell> Read_d36e0d00e1044d3e958dc16a65c61b9e<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 , TableFieldContext fieldContext) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return (new FlatBufferVector_54f65656fa0d4d62ade80478caa48b96<TInputBuffer>(
+                    return (new FlatBufferVector_b468743ce682413087cb0ccd9a664878<TInputBuffer>(
                     buffer,
                     offset + buffer.ReadUOffset(offset),
                     4,
@@ -843,10 +843,10 @@ namespace Samples.SharedStrings
                 }
             }
 
-            public sealed class FlatBufferVector_54f65656fa0d4d62ade80478caa48b96<TInputBuffer> : FlatBufferVector<global::Samples.SharedStrings.Cell, TInputBuffer>
+            public sealed class FlatBufferVector_b468743ce682413087cb0ccd9a664878<TInputBuffer> : FlatBufferVector<global::Samples.SharedStrings.Cell, TInputBuffer>
                 where TInputBuffer : IInputBuffer
             {
-                public FlatBufferVector_54f65656fa0d4d62ade80478caa48b96(
+                public FlatBufferVector_b468743ce682413087cb0ccd9a664878(
                     TInputBuffer memory,
                     int offset,
                     int itemSize,
@@ -865,7 +865,7 @@ namespace Samples.SharedStrings
                 {
                     checked
                     {
-                        item = Read_958c13e4bfe34f9680bc69141f04e920(memory, offset);
+                        item = Read_0361f2564a4d4680a930a01f452a7608(memory, offset);
                     }
                 }
 
@@ -880,7 +880,7 @@ namespace Samples.SharedStrings
 
 
 
-            private static void WriteInlineValueOf_352fcab473f5444785000f3bb67bf0fd<TSpanWriter>(
+            private static void WriteInlineValueOf_d36e0d00e1044d3e958dc16a65c61b9e<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.Collections.Generic.IList<Samples.SharedStrings.Cell> value,
@@ -906,7 +906,7 @@ namespace Samples.SharedStrings
                             var current = array[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            WriteInlineValueOf_958c13e4bfe34f9680bc69141f04e920(spanWriter, span, current, vectorOffset, context);
+                            WriteInlineValueOf_0361f2564a4d4680a930a01f452a7608(spanWriter, span, current, vectorOffset, context);
                             vectorOffset += 4;
                         }
                     }
@@ -919,7 +919,7 @@ namespace Samples.SharedStrings
                             var current = realList[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            WriteInlineValueOf_958c13e4bfe34f9680bc69141f04e920(spanWriter, span, current, vectorOffset, context);
+                            WriteInlineValueOf_0361f2564a4d4680a930a01f452a7608(spanWriter, span, current, vectorOffset, context);
                             vectorOffset += 4;
                         }
                     }
@@ -932,14 +932,14 @@ namespace Samples.SharedStrings
                             var current = value[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            WriteInlineValueOf_958c13e4bfe34f9680bc69141f04e920(spanWriter, span, current, vectorOffset, context);
+                            WriteInlineValueOf_0361f2564a4d4680a930a01f452a7608(spanWriter, span, current, vectorOffset, context);
                             vectorOffset += 4;
                         }
                     }
                 }
             }
 
-            private static int GetMaxSizeOf_958c13e4bfe34f9680bc69141f04e920(global::Samples.SharedStrings.Cell value)
+            private static int GetMaxSizeOf_0361f2564a4d4680a930a01f452a7608(global::Samples.SharedStrings.Cell value)
             {
                 checked
                 {
@@ -949,37 +949,37 @@ namespace Samples.SharedStrings
 
                     if (!(index0Value is null))
                     {
-                        runningSum += GetMaxSizeOf_22ce92efc81e43bdbffda98fdb751407(index0Value);
+                        runningSum += GetMaxSizeOf_68ee785ba8db416f8683c4a76f6a9be8(index0Value);
                     }
                     var index1Value = value.Value;
 
                     if (!(index1Value is null))
                     {
-                        runningSum += GetMaxSizeOf_22ce92efc81e43bdbffda98fdb751407(index1Value);
+                        runningSum += GetMaxSizeOf_68ee785ba8db416f8683c4a76f6a9be8(index1Value);
                     }
                     var index2Value = value.Vector;
 
                     if (!(index2Value is null))
                     {
-                        runningSum += GetMaxSizeOf_5d3e78307a1543e48ef42fa7cb8b69a7(index2Value);
+                        runningSum += GetMaxSizeOf_e68246c849d94c9bb4bd280ef8186fbe(index2Value);
                     }
                     return runningSum;
 
                 }
             }
 
-            private static global::Samples.SharedStrings.Cell Read_958c13e4bfe34f9680bc69141f04e920<TInputBuffer>(
+            private static global::Samples.SharedStrings.Cell Read_0361f2564a4d4680a930a01f452a7608<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return tableReader_e898f82950244a0ea91340a018364f13<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
+                    return tableReader_a63f3918d9fa4b0ab80aaabb6de9d672<TInputBuffer>.GetOrCreate(buffer, offset + buffer.ReadUOffset(offset));
                 }
             }
 
-            private sealed class tableReader_e898f82950244a0ea91340a018364f13<TInputBuffer>
+            private sealed class tableReader_a63f3918d9fa4b0ab80aaabb6de9d672<TInputBuffer>
                 : global::Samples.SharedStrings.Cell
                 , global::FlatSharp.IFlatBufferDeserializedObject
                 where TInputBuffer : IInputBuffer
@@ -993,18 +993,18 @@ namespace Samples.SharedStrings
                 private System.String? __index1Value;
                 private System.Collections.Generic.IList<System.String>? __index2Value;
 
-                public static tableReader_e898f82950244a0ea91340a018364f13<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
+                public static tableReader_a63f3918d9fa4b0ab80aaabb6de9d672<TInputBuffer> GetOrCreate(TInputBuffer buffer, int offset)
                 {
                     checked
                     {
 
-                        var item = new tableReader_e898f82950244a0ea91340a018364f13<TInputBuffer>(buffer, offset);
+                        var item = new tableReader_a63f3918d9fa4b0ab80aaabb6de9d672<TInputBuffer>(buffer, offset);
                         return item;
 
                     }
                 }
 
-                private tableReader_e898f82950244a0ea91340a018364f13(TInputBuffer buffer, int offset) : base(__CtorContext)
+                private tableReader_a63f3918d9fa4b0ab80aaabb6de9d672(TInputBuffer buffer, int offset) : base(__CtorContext)
                 {
                     checked
                     {
@@ -1100,7 +1100,7 @@ namespace Samples.SharedStrings
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_22ce92efc81e43bdbffda98fdb751407(buffer, absoluteLocation);
+                        return Read_68ee785ba8db416f8683c4a76f6a9be8(buffer, absoluteLocation);
                     }
                 }
 
@@ -1125,7 +1125,7 @@ namespace Samples.SharedStrings
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_22ce92efc81e43bdbffda98fdb751407(buffer, absoluteLocation);
+                        return Read_68ee785ba8db416f8683c4a76f6a9be8(buffer, absoluteLocation);
                     }
                 }
 
@@ -1150,14 +1150,14 @@ namespace Samples.SharedStrings
                             absoluteLocation = offset + relativeOffset;
                         }
 
-                        return Read_5d3e78307a1543e48ef42fa7cb8b69a7(buffer, absoluteLocation, tableMetadata_8466c5414b1e49b8b86b59c6a2ca1685.Vector);
+                        return Read_e68246c849d94c9bb4bd280ef8186fbe(buffer, absoluteLocation, tableMetadata_e3d200be451d4d76a27b894bab060ac4.Vector);
                     }
                 }
             }
 
 
 
-            private static void WriteInlineValueOf_958c13e4bfe34f9680bc69141f04e920<TSpanWriter>(
+            private static void WriteInlineValueOf_0361f2564a4d4680a930a01f452a7608<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::Samples.SharedStrings.Cell value,
@@ -1236,7 +1236,7 @@ namespace Samples.SharedStrings
                     {
 
 
-                        WriteInlineValueOf_5d3e78307a1543e48ef42fa7cb8b69a7(spanWriter, span, index2Value!, index2Offset, context, tableMetadata_8466c5414b1e49b8b86b59c6a2ca1685.Vector);
+                        WriteInlineValueOf_e68246c849d94c9bb4bd280ef8186fbe(spanWriter, span, index2Value!, index2Offset, context, tableMetadata_e3d200be451d4d76a27b894bab060ac4.Vector);
 
                     }
 
@@ -1245,7 +1245,7 @@ namespace Samples.SharedStrings
                     {
 
 
-                        WriteInlineValueOf_22ce92efc81e43bdbffda98fdb751407(spanWriter, span, index1Value!, index1Offset, context, tableMetadata_8466c5414b1e49b8b86b59c6a2ca1685.Value);
+                        WriteInlineValueOf_68ee785ba8db416f8683c4a76f6a9be8(spanWriter, span, index1Value!, index1Offset, context, tableMetadata_e3d200be451d4d76a27b894bab060ac4.Value);
 
                     }
 
@@ -1254,14 +1254,14 @@ namespace Samples.SharedStrings
                     {
 
 
-                        WriteInlineValueOf_22ce92efc81e43bdbffda98fdb751407(spanWriter, span, index0Value!, index0Offset, context, tableMetadata_8466c5414b1e49b8b86b59c6a2ca1685.ColumnName);
+                        WriteInlineValueOf_68ee785ba8db416f8683c4a76f6a9be8(spanWriter, span, index0Value!, index0Offset, context, tableMetadata_e3d200be451d4d76a27b894bab060ac4.ColumnName);
 
                     }
 
                 }
             }
 
-            private static class tableMetadata_8466c5414b1e49b8b86b59c6a2ca1685
+            private static class tableMetadata_e3d200be451d4d76a27b894bab060ac4
             {
 
                 public static readonly TableFieldContext ColumnName = new TableFieldContext(
@@ -1282,7 +1282,7 @@ namespace Samples.SharedStrings
 
 
 
-            private static int GetMaxSizeOf_22ce92efc81e43bdbffda98fdb751407(global::System.String value)
+            private static int GetMaxSizeOf_68ee785ba8db416f8683c4a76f6a9be8(global::System.String value)
             {
                 checked
                 {
@@ -1290,7 +1290,7 @@ namespace Samples.SharedStrings
                 }
             }
 
-            private static global::System.String Read_22ce92efc81e43bdbffda98fdb751407<TInputBuffer>(
+            private static global::System.String Read_68ee785ba8db416f8683c4a76f6a9be8<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 ) where TInputBuffer : IInputBuffer
@@ -1301,7 +1301,7 @@ namespace Samples.SharedStrings
                 }
             }
 
-            private static void WriteInlineValueOf_22ce92efc81e43bdbffda98fdb751407<TSpanWriter>(
+            private static void WriteInlineValueOf_68ee785ba8db416f8683c4a76f6a9be8<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.String value,
@@ -1337,7 +1337,7 @@ namespace Samples.SharedStrings
                 }
             }
 
-            private static int GetMaxSizeOf_5d3e78307a1543e48ef42fa7cb8b69a7(global::System.Collections.Generic.IList<System.String> value)
+            private static int GetMaxSizeOf_e68246c849d94c9bb4bd280ef8186fbe(global::System.Collections.Generic.IList<System.String> value)
             {
                 checked
                 {
@@ -1353,7 +1353,7 @@ namespace Samples.SharedStrings
                             var current = array[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            runningSum += GetMaxSizeOf_22ce92efc81e43bdbffda98fdb751407(current);
+                            runningSum += GetMaxSizeOf_68ee785ba8db416f8683c4a76f6a9be8(current);
                         }
                     }
                     else if (value is List<System.String> realList)
@@ -1365,7 +1365,7 @@ namespace Samples.SharedStrings
                             var current = realList[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            runningSum += GetMaxSizeOf_22ce92efc81e43bdbffda98fdb751407(current);
+                            runningSum += GetMaxSizeOf_68ee785ba8db416f8683c4a76f6a9be8(current);
                         }
                     }
                     else
@@ -1377,7 +1377,7 @@ namespace Samples.SharedStrings
                             var current = value[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            runningSum += GetMaxSizeOf_22ce92efc81e43bdbffda98fdb751407(current);
+                            runningSum += GetMaxSizeOf_68ee785ba8db416f8683c4a76f6a9be8(current);
                         }
                     }
 
@@ -1385,14 +1385,14 @@ namespace Samples.SharedStrings
                 }
             }
 
-            private static global::System.Collections.Generic.IList<System.String> Read_5d3e78307a1543e48ef42fa7cb8b69a7<TInputBuffer>(
+            private static global::System.Collections.Generic.IList<System.String> Read_e68246c849d94c9bb4bd280ef8186fbe<TInputBuffer>(
                 TInputBuffer buffer,
                 int offset
                 , TableFieldContext fieldContext) where TInputBuffer : IInputBuffer
             {
                 checked
                 {
-                    return (new FlatBufferVector_d918bbb6da27437db5699178c43c1da2<TInputBuffer>(
+                    return (new FlatBufferVector_7e968283b1d74ef88f3eeaa539c1bd41<TInputBuffer>(
                     buffer,
                     offset + buffer.ReadUOffset(offset),
                     4,
@@ -1400,10 +1400,10 @@ namespace Samples.SharedStrings
                 }
             }
 
-            public sealed class FlatBufferVector_d918bbb6da27437db5699178c43c1da2<TInputBuffer> : FlatBufferVector<global::System.String, TInputBuffer>
+            public sealed class FlatBufferVector_7e968283b1d74ef88f3eeaa539c1bd41<TInputBuffer> : FlatBufferVector<global::System.String, TInputBuffer>
                 where TInputBuffer : IInputBuffer
             {
-                public FlatBufferVector_d918bbb6da27437db5699178c43c1da2(
+                public FlatBufferVector_7e968283b1d74ef88f3eeaa539c1bd41(
                     TInputBuffer memory,
                     int offset,
                     int itemSize,
@@ -1422,7 +1422,7 @@ namespace Samples.SharedStrings
                 {
                     checked
                     {
-                        item = Read_22ce92efc81e43bdbffda98fdb751407(memory, offset);
+                        item = Read_68ee785ba8db416f8683c4a76f6a9be8(memory, offset);
                     }
                 }
 
@@ -1437,7 +1437,7 @@ namespace Samples.SharedStrings
 
 
 
-            private static void WriteInlineValueOf_5d3e78307a1543e48ef42fa7cb8b69a7<TSpanWriter>(
+            private static void WriteInlineValueOf_e68246c849d94c9bb4bd280ef8186fbe<TSpanWriter>(
                 TSpanWriter spanWriter,
                 Span<byte> span,
                 global::System.Collections.Generic.IList<System.String> value,
@@ -1463,7 +1463,7 @@ namespace Samples.SharedStrings
                             var current = array[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            WriteInlineValueOf_22ce92efc81e43bdbffda98fdb751407(spanWriter, span, current, vectorOffset, context, fieldContext);
+                            WriteInlineValueOf_68ee785ba8db416f8683c4a76f6a9be8(spanWriter, span, current, vectorOffset, context, fieldContext);
                             vectorOffset += 4;
                         }
                     }
@@ -1476,7 +1476,7 @@ namespace Samples.SharedStrings
                             var current = realList[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            WriteInlineValueOf_22ce92efc81e43bdbffda98fdb751407(spanWriter, span, current, vectorOffset, context, fieldContext);
+                            WriteInlineValueOf_68ee785ba8db416f8683c4a76f6a9be8(spanWriter, span, current, vectorOffset, context, fieldContext);
                             vectorOffset += 4;
                         }
                     }
@@ -1489,7 +1489,7 @@ namespace Samples.SharedStrings
                             var current = value[i];
 
                             SerializationHelpers.EnsureNonNull(current);
-                            WriteInlineValueOf_22ce92efc81e43bdbffda98fdb751407(spanWriter, span, current, vectorOffset, context, fieldContext);
+                            WriteInlineValueOf_68ee785ba8db416f8683c4a76f6a9be8(spanWriter, span, current, vectorOffset, context, fieldContext);
                             vectorOffset += 4;
                         }
                     }
@@ -1533,7 +1533,7 @@ namespace Samples.SharedStrings
         {
             checked
             {
-                this.Values = FlatSharp.Compiler.Generated.CloneHelpers_e594b71b59904c1eb01a96f3b449477c.Clone(source.Values);
+                this.Values = FlatSharp.Compiler.Generated.CloneHelpers_bdade0c319654296b1817bb0a8c210a7.Clone(source.Values);
                 this.OnInitialized(null);
             }
         }

@@ -19,45 +19,41 @@ namespace Samples.SchemaFilesExample2;
 attribute "fs_serializer";
 attribute "fs_vector";
 
-enum Fruit : byte { Apples, Pears, Bananas }
+enum CatBreed : int { Ragdoll, EuropeanShorthair, NorwegianForestCat, BritishShorthair }
 
-// FooBarContainer's serializer is generated at build time here, which means we don't need
+// CatsAndOwnersContainer's serializer is generated at build time here, which means we don't need
 // to use FlatBufferSerializer to make one for us at runtime. It also means we don't need
 // a reference to the "FlatSharp" nuget package. Only "FlatSharp.Runtime" is required.
 // Runtime vs build-time generated serializers perform equally well.
 
 /// This comment is injected into C# because of the '///'
-table FooBarContainer (fs_serializer:"greedymutable") // Valid values are: "greedy", "greedymutable", "progressive", and "lazy"
+table CatsAndOwnersContainer (fs_serializer:"greedymutable") // Valid values are: "greedy", "greedymutable", "progressive", and "lazy"
 {
-  list:[FooBar] (fs_vector:"IList");  // Can also be IReadOnlyList,Array,Memory,ReadOnlyMemory
-  initialized:bool;
-  fruit:Fruit;
-  location:string;
+  cats:[Cat] (fs_vector:"Array");  // Can also be IReadOnlyList,Array,Memory,ReadOnlyMemory
+  owners:[Owner] (fs_vector:"IList");
 }
 
-table FooBar (fs_serializer) { // default options used when none are specified.
-  sibling:Bar;
-  name:string;
-  rating:double;
-  postfix:ubyte; 
+table Cat (fs_serializer) { // default options used when none are specified.
+  UniqueIdentfier:string;
+  AgeInYears:uint;
+  IsFluffy:bool;
+  Name:string;
+  Breed:CatBreed;
+  Whatever:long;
+  GramsOfFoodPerDay:double;
+  Children:[Cat] (fs_vector:"Array");
 }
 
-table OtherTable (fs_serializer:"lazy") {
-  name:string;
+table Owner (fs_serializer) {
+  Name:string;
+  Cats:[Cat] (fs_vector:"IList");
 }
 
-struct Foo {
-  id:ulong;
-  count:short; 
-  prefix:byte;
-  length:uint;
-}
+///struct Bar {
+///  parent:Foo;
+///  time:int;
+///  ratio:float;
+///  size:ushort;
+///}
 
-struct Bar {
-  parent:Foo;
-  time:int;
-  ratio:float;
-  size:ushort;
-}
-
-root_type FooBarContainer;
+root_type CatsAndOwnersContainer;
