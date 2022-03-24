@@ -1,0 +1,707 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "dnlib/3.3.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection.Emit": "4.7.0",
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/dnlib.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/dnlib.dll": {}
+        }
+      },
+      "FlatSharp.Compiler/6.2.1": {
+        "type": "package",
+        "build": {
+          "build/FlatSharp.Compiler.targets": {}
+        }
+      },
+      "Grpc/2.38.1": {
+        "type": "package",
+        "dependencies": {
+          "Grpc.Core": "2.38.1"
+        }
+      },
+      "Grpc.Core/2.38.1": {
+        "type": "package",
+        "dependencies": {
+          "Grpc.Core.Api": "2.38.1",
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Grpc.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libgrpc_csharp_ext.arm64.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/native/libgrpc_csharp_ext.x64.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/libgrpc_csharp_ext.x64.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/grpc_csharp_ext.x64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/grpc_csharp_ext.x86.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Grpc.Core.Api/2.38.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {}
+        }
+      },
+      "SharpFuzz/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "SharpFuzz.Common": "2.2.0",
+          "System.Memory": "4.5.4",
+          "dnlib": "3.3.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/SharpFuzz.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpFuzz.dll": {}
+        }
+      },
+      "SharpFuzz.Common/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SharpFuzz.Common.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpFuzz.Common.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Reflection.Emit/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dnlib/3.3.1": {
+      "sha512": "ftzzrLUGXMut6/Pi5+wHn1FT7racH+dvW2zvXED1SLxilc69WIhP2IQ9wE33+2Ag3O2S/CkQMES9iRPIZwyIXQ==",
+      "type": "package",
+      "path": "dnlib/3.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "dnlib.3.3.1.nupkg.sha512",
+        "dnlib.nuspec",
+        "lib/net35/dnlib.dll",
+        "lib/net35/dnlib.xml",
+        "lib/net45/dnlib.dll",
+        "lib/net45/dnlib.xml",
+        "lib/netstandard2.0/dnlib.dll",
+        "lib/netstandard2.0/dnlib.xml"
+      ]
+    },
+    "FlatSharp.Compiler/6.2.1": {
+      "sha512": "MdxfF6qdLCttkawXe3kWi4+TTutBS6m7hYDegOeqpKzIBpPiEp2U82amWj3bqQ6c6js0XgPj6S65VcfgMYVEeQ==",
+      "type": "package",
+      "path": "flatsharp.compiler/6.2.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/FlatSharp.Compiler.targets",
+        "flatsharp.compiler.6.2.1.nupkg.sha512",
+        "flatsharp.compiler.nuspec",
+        "tools/FlatSharp.Compiler.targets",
+        "tools/net5.0/CommandLine.dll",
+        "tools/net5.0/FlatSharp.Compiler.deps.json",
+        "tools/net5.0/FlatSharp.Compiler.dll",
+        "tools/net5.0/FlatSharp.Compiler.exe",
+        "tools/net5.0/FlatSharp.Compiler.pdb",
+        "tools/net5.0/FlatSharp.Compiler.runtimeconfig.dev.json",
+        "tools/net5.0/FlatSharp.Compiler.runtimeconfig.json",
+        "tools/net5.0/FlatSharp.Runtime.dll",
+        "tools/net5.0/FlatSharp.Runtime.pdb",
+        "tools/net5.0/FlatSharp.dll",
+        "tools/net5.0/FlatSharp.pdb",
+        "tools/net5.0/Humanizer.dll",
+        "tools/net5.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "tools/net5.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
+        "tools/net5.0/Microsoft.CodeAnalysis.CSharp.dll",
+        "tools/net5.0/Microsoft.CodeAnalysis.Workspaces.dll",
+        "tools/net5.0/Microsoft.CodeAnalysis.dll",
+        "tools/net5.0/System.Composition.AttributedModel.dll",
+        "tools/net5.0/System.Composition.Convention.dll",
+        "tools/net5.0/System.Composition.Hosting.dll",
+        "tools/net5.0/System.Composition.Runtime.dll",
+        "tools/net5.0/System.Composition.TypedParts.dll",
+        "tools/net5.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net5.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net5.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net5.0/cs/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net5.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net5.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net5.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net5.0/de/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net5.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net5.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net5.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net5.0/es/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net5.0/flatc/LICENSE.txt",
+        "tools/net5.0/flatc/flatc.version.txt",
+        "tools/net5.0/flatc/linux/flatc",
+        "tools/net5.0/flatc/macos/flatc",
+        "tools/net5.0/flatc/windows/flatc.exe",
+        "tools/net5.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net5.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net5.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net5.0/fr/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net5.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net5.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net5.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net5.0/it/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net5.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net5.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net5.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net5.0/ja/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net5.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net5.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net5.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net5.0/ko/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net5.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net5.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net5.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net5.0/pl/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net5.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net5.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net5.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net5.0/pt-BR/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net5.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net5.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net5.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net5.0/ru/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net5.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net5.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net5.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net5.0/tr/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net5.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net5.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net5.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net5.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net5.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net5.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net5.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net5.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net6.0/CommandLine.dll",
+        "tools/net6.0/FlatSharp.Compiler.deps.json",
+        "tools/net6.0/FlatSharp.Compiler.dll",
+        "tools/net6.0/FlatSharp.Compiler.exe",
+        "tools/net6.0/FlatSharp.Compiler.pdb",
+        "tools/net6.0/FlatSharp.Compiler.runtimeconfig.json",
+        "tools/net6.0/FlatSharp.Runtime.dll",
+        "tools/net6.0/FlatSharp.Runtime.pdb",
+        "tools/net6.0/FlatSharp.dll",
+        "tools/net6.0/FlatSharp.pdb",
+        "tools/net6.0/Humanizer.dll",
+        "tools/net6.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "tools/net6.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
+        "tools/net6.0/Microsoft.CodeAnalysis.CSharp.dll",
+        "tools/net6.0/Microsoft.CodeAnalysis.Workspaces.dll",
+        "tools/net6.0/Microsoft.CodeAnalysis.dll",
+        "tools/net6.0/System.Composition.AttributedModel.dll",
+        "tools/net6.0/System.Composition.Convention.dll",
+        "tools/net6.0/System.Composition.Hosting.dll",
+        "tools/net6.0/System.Composition.Runtime.dll",
+        "tools/net6.0/System.Composition.TypedParts.dll",
+        "tools/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net6.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net6.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net6.0/cs/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net6.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net6.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net6.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net6.0/de/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net6.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net6.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net6.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net6.0/es/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net6.0/flatc/LICENSE.txt",
+        "tools/net6.0/flatc/flatc.version.txt",
+        "tools/net6.0/flatc/linux/flatc",
+        "tools/net6.0/flatc/macos/flatc",
+        "tools/net6.0/flatc/windows/flatc.exe",
+        "tools/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net6.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net6.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net6.0/fr/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net6.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net6.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net6.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net6.0/it/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net6.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net6.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net6.0/ja/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net6.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net6.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net6.0/ko/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net6.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net6.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net6.0/pl/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net6.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net6.0/pt-BR/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net6.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net6.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net6.0/ru/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net6.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net6.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net6.0/tr/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net6.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net6.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
+        "tools/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/net6.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/net6.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.1/CommandLine.dll",
+        "tools/netcoreapp3.1/FlatSharp.Compiler.deps.json",
+        "tools/netcoreapp3.1/FlatSharp.Compiler.dll",
+        "tools/netcoreapp3.1/FlatSharp.Compiler.exe",
+        "tools/netcoreapp3.1/FlatSharp.Compiler.pdb",
+        "tools/netcoreapp3.1/FlatSharp.Compiler.runtimeconfig.dev.json",
+        "tools/netcoreapp3.1/FlatSharp.Compiler.runtimeconfig.json",
+        "tools/netcoreapp3.1/FlatSharp.Runtime.dll",
+        "tools/netcoreapp3.1/FlatSharp.Runtime.pdb",
+        "tools/netcoreapp3.1/FlatSharp.dll",
+        "tools/netcoreapp3.1/FlatSharp.pdb",
+        "tools/netcoreapp3.1/Humanizer.dll",
+        "tools/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "tools/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
+        "tools/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll",
+        "tools/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll",
+        "tools/netcoreapp3.1/Microsoft.CodeAnalysis.dll",
+        "tools/netcoreapp3.1/System.Collections.Immutable.dll",
+        "tools/netcoreapp3.1/System.Composition.AttributedModel.dll",
+        "tools/netcoreapp3.1/System.Composition.Convention.dll",
+        "tools/netcoreapp3.1/System.Composition.Hosting.dll",
+        "tools/netcoreapp3.1/System.Composition.Runtime.dll",
+        "tools/netcoreapp3.1/System.Composition.TypedParts.dll",
+        "tools/netcoreapp3.1/System.Reflection.Metadata.dll",
+        "tools/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.1/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/cs/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.1/de/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/de/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.1/es/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/es/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.1/flatc/LICENSE.txt",
+        "tools/netcoreapp3.1/flatc/flatc.version.txt",
+        "tools/netcoreapp3.1/flatc/linux/flatc",
+        "tools/netcoreapp3.1/flatc/macos/flatc",
+        "tools/netcoreapp3.1/flatc/windows/flatc.exe",
+        "tools/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.1/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/fr/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.1/it/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/it/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.1/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/ja/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.1/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/ko/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.1/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/pl/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.1/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/ru/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.1/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/tr/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.resources.dll"
+      ]
+    },
+    "Grpc/2.38.1": {
+      "sha512": "VY82vQG7apE3DSQ7qBeuyg5UpfkcrPdoAK7cV9Dxd5GefFnv3jHA+tkmG52gp7KsOSP7AmA6E88js1fZ7xBl4A==",
+      "type": "package",
+      "path": "grpc/2.38.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "grpc.2.38.1.nupkg.sha512",
+        "grpc.nuspec"
+      ]
+    },
+    "Grpc.Core/2.38.1": {
+      "sha512": "dFgCYVMNaOYiagWJZ7X/1MkGzS7+fnirvqh+0DPw+rPvcEa5UFU7O747wWz+QTKzuZ9Sii7DjfSbgZj65/lWxw==",
+      "type": "package",
+      "path": "grpc.core/2.38.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net45/Grpc.Core.targets",
+        "buildTransitive/net45/Grpc.Core.targets",
+        "grpc.core.2.38.1.nupkg.sha512",
+        "grpc.core.nuspec",
+        "lib/net45/Grpc.Core.dll",
+        "lib/net45/Grpc.Core.pdb",
+        "lib/net45/Grpc.Core.xml",
+        "lib/netstandard1.5/Grpc.Core.dll",
+        "lib/netstandard1.5/Grpc.Core.pdb",
+        "lib/netstandard1.5/Grpc.Core.xml",
+        "lib/netstandard2.0/Grpc.Core.dll",
+        "lib/netstandard2.0/Grpc.Core.pdb",
+        "lib/netstandard2.0/Grpc.Core.xml",
+        "runtimes/linux-arm64/native/libgrpc_csharp_ext.arm64.so",
+        "runtimes/linux-x64/native/libgrpc_csharp_ext.x64.so",
+        "runtimes/osx-x64/native/libgrpc_csharp_ext.x64.dylib",
+        "runtimes/win-x64/native/grpc_csharp_ext.x64.dll",
+        "runtimes/win-x86/native/grpc_csharp_ext.x86.dll"
+      ]
+    },
+    "Grpc.Core.Api/2.38.1": {
+      "sha512": "Z7e+LEXDCr2C0qUvyydShgLkuMChdT4biZsCg8xUaENZpO+y5VN4pUzcfj9jYVS8DOi8c/oqjx4WOlBuBKVhEg==",
+      "type": "package",
+      "path": "grpc.core.api/2.38.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "grpc.core.api.2.38.1.nupkg.sha512",
+        "grpc.core.api.nuspec",
+        "lib/net45/Grpc.Core.Api.dll",
+        "lib/net45/Grpc.Core.Api.pdb",
+        "lib/net45/Grpc.Core.Api.xml",
+        "lib/netstandard1.5/Grpc.Core.Api.dll",
+        "lib/netstandard1.5/Grpc.Core.Api.pdb",
+        "lib/netstandard1.5/Grpc.Core.Api.xml",
+        "lib/netstandard2.0/Grpc.Core.Api.dll",
+        "lib/netstandard2.0/Grpc.Core.Api.pdb",
+        "lib/netstandard2.0/Grpc.Core.Api.xml"
+      ]
+    },
+    "SharpFuzz/1.6.2": {
+      "sha512": "8JIeZouZgwo2L3Qmx5blrF/m385Nu7m4mXeYenHI08WZg+SMPIijgLEvqGNAQXvPy48Nk4l41SEqwfAQ6k27+g==",
+      "type": "package",
+      "path": "sharpfuzz/1.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SharpFuzz.dll",
+        "lib/netstandard2.0/SharpFuzz.pdb",
+        "lib/netstandard2.0/SharpFuzz.xml",
+        "sharpfuzz.1.6.2.nupkg.sha512",
+        "sharpfuzz.nuspec"
+      ]
+    },
+    "SharpFuzz.Common/2.2.0": {
+      "sha512": "biITWpwnMR7HUp43lAGU97DWq/4LfyXqqhuOK0Z4IuRP97KjQMOe/GKq3wE1KY21gNrc7OPO9HbAtQUvMKTImA==",
+      "type": "package",
+      "path": "sharpfuzz.common/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SharpFuzz.Common.dll",
+        "sharpfuzz.common.2.2.0.nupkg.sha512",
+        "sharpfuzz.common.nuspec"
+      ]
+    },
+    "System.Memory/4.5.4": {
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "type": "package",
+      "path": "system.memory/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "sha512": "VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "type": "package",
+      "path": "system.reflection.emit/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Reflection.Emit.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Reflection.Emit.dll",
+        "lib/netstandard1.1/System.Reflection.Emit.xml",
+        "lib/netstandard1.3/System.Reflection.Emit.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.xml",
+        "lib/netstandard2.1/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Reflection.Emit.dll",
+        "ref/netstandard1.1/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/de/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/es/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/fr/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/it/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ja/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ko/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ru/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/zh-hans/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/zh-hant/System.Reflection.Emit.xml",
+        "ref/netstandard2.0/System.Reflection.Emit.dll",
+        "ref/netstandard2.0/System.Reflection.Emit.xml",
+        "ref/netstandard2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.dll",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.xml",
+        "system.reflection.emit.4.7.0.nupkg.sha512",
+        "system.reflection.emit.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "sha512": "a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "type": "package",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Reflection.Emit.Lightweight.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Reflection.Emit.Lightweight.dll",
+        "lib/netstandard1.0/System.Reflection.Emit.Lightweight.xml",
+        "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.Lightweight.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.Lightweight.xml",
+        "lib/netstandard2.1/_._",
+        "lib/portable-net45+wp8/_._",
+        "lib/wp80/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll",
+        "ref/netstandard1.0/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/de/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/es/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/fr/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/it/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/ja/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/ko/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/ru/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/zh-hans/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/zh-hant/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard2.0/System.Reflection.Emit.Lightweight.dll",
+        "ref/netstandard2.0/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard2.1/_._",
+        "ref/portable-net45+wp8/_._",
+        "ref/wp80/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.Lightweight.dll",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.Lightweight.xml",
+        "system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+        "system.reflection.emit.lightweight.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "FlatSharp.Compiler >= 6.2.1",
+      "Grpc >= 2.38.1",
+      "SharpFuzz >= 1.6.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pamelego\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\src\\fuzzing\\Fuzzing2\\Samples.csproj",
+      "projectName": "Samples",
+      "projectPath": "C:\\src\\fuzzing\\Fuzzing2\\Samples.csproj",
+      "packagesPath": "C:\\Users\\pamelego\\.nuget\\packages\\",
+      "outputPath": "C:\\src\\fuzzing\\Fuzzing2\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\pamelego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://skype.pkgs.visualstudio.com/_packaging/csc/nuget/v3/index.json": {},
+        "https://skype.pkgs.visualstudio.com/_packaging/tps/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "FlatSharp.Compiler": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[6.2.1, )"
+          },
+          "Grpc": {
+            "target": "Package",
+            "version": "[2.38.1, )"
+          },
+          "SharpFuzz": {
+            "target": "Package",
+            "version": "[1.6.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

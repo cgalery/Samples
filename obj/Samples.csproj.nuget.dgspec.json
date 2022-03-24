@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\src\\fuzzing\\Fuzzing2\\Samples.csproj": {}
+  },
+  "projects": {
+    "C:\\src\\fuzzing\\Fuzzing2\\Samples.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\fuzzing\\Fuzzing2\\Samples.csproj",
+        "projectName": "Samples",
+        "projectPath": "C:\\src\\fuzzing\\Fuzzing2\\Samples.csproj",
+        "packagesPath": "C:\\Users\\pamelego\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\fuzzing\\Fuzzing2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pamelego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://skype.pkgs.visualstudio.com/_packaging/csc/nuget/v3/index.json": {},
+          "https://skype.pkgs.visualstudio.com/_packaging/tps/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FlatSharp.Compiler": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.1, )"
+            },
+            "Grpc": {
+              "target": "Package",
+              "version": "[2.38.1, )"
+            },
+            "SharpFuzz": {
+              "target": "Package",
+              "version": "[1.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
